@@ -55,11 +55,38 @@ export function ExploreContent({
     }
   }
 
+  // Build filter summary text
+  const summaryParts: string[] = []
+  if (departureCity) summaryParts.push(`from ${departureCity}`)
+  if (filterState.continents.length > 0) summaryParts.push(filterState.continents.join(', '))
+  if (filterState.budgetTiers.length > 0) summaryParts.push(filterState.budgetTiers.map(t => '$'.repeat(t)).join('/'))
+  if (filterState.vibes.length > 0) summaryParts.push(filterState.vibes.join(', '))
+
   return (
     <>
-      {/* Toolbar: departure + search + sort */}
+      {/* Header */}
+      <div className="border-b border-stone-200/40 bg-warm-50">
+        <div className="max-w-7xl mx-auto px-6 pt-8 pb-4">
+          <div className="flex items-start justify-between">
+            <div>
+              <h1 className="font-serif text-3xl md:text-4xl text-stone-900 tracking-tight">
+                {departureCity
+                  ? `Destinations from ${departureCity}`
+                  : "What's Next?"
+                }
+              </h1>
+              <p className="font-sans text-sm text-stone-400 mt-1">
+                {filtered.length} of {destinations.length} destinations
+                {summaryParts.length > 0 && ` · ${summaryParts.join(' · ')}`}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Controls: departure + search + sort */}
       <div className="border-b border-stone-100 bg-warm-50">
-        <div className="max-w-7xl mx-auto px-6 py-3 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-5">
+        <div className="max-w-7xl mx-auto px-6 py-3 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
           <DeparturePicker value={departureCity} onChange={setDepartureCity} />
           <div className="flex-1" />
           <SearchInput
@@ -105,10 +132,7 @@ export function ExploreContent({
 
       {/* Grid */}
       <div className="max-w-7xl mx-auto px-6 py-8">
-        <DestinationGrid
-          destinations={filtered}
-          totalCount={destinations.length}
-        />
+        <DestinationGrid destinations={filtered} totalCount={destinations.length} />
       </div>
     </>
   )
