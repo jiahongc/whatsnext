@@ -167,7 +167,44 @@
       "waterSafety": "safe",
       "plugType": "Type A/B (same as US)",
       "timeZone": "JST (UTC+9)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Shinjuku",
+        "vibe": "Central hub, nightlife, convenience",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Shibuya",
+        "vibe": "Trendy, youthful energy, great transit",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Asakusa",
+        "vibe": "Traditional, temple district, budget-friendly",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Shimokitazawa",
+        "vibe": "Indie cafes, vintage shops, local feel",
+        "bestFor": "Creatives and culture seekers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "First-time Asia travelers",
+      "Foodies on any budget",
+      "Culture + nightlife seekers"
+    ],
+    "commonMistakes": [
+      "Not getting a Suica/Pasmo card on arrival — you'll waste time buying individual tickets at every station",
+      "Trying to tip at restaurants — it's considered rude in Japan and staff may chase you to return the money",
+      "Only visiting Shibuya and Shinjuku — explore Shimokitazawa, Yanaka, and Koenji for the real Tokyo",
+      "Booking a hotel without checking proximity to a JR Yamanote Line or Tokyo Metro station — taxis are prohibitively expensive"
+    ]
   },
   {
     "slug": "bangkok",
@@ -333,7 +370,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B/C (US and European plugs work)",
       "timeZone": "ICT (UTC+7)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Sukhumvit (Nana to Phrom Phong)",
+        "vibe": "Modern, international dining, BTS accessible",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Khao San Road area",
+        "vibe": "Backpacker central, chaotic nightlife",
+        "bestFor": "Budget travelers",
+        "priceRange": "$"
+      },
+      {
+        "neighborhood": "Silom/Sathorn",
+        "vibe": "Business district, rooftop bars, upscale dining",
+        "bestFor": "Business travelers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Ari",
+        "vibe": "Local hipster neighborhood, brunch spots, quiet streets",
+        "bestFor": "Foodies",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Budget travelers who love street food",
+      "Nightlife enthusiasts",
+      "Temple and culture explorers"
+    ],
+    "commonMistakes": [
+      "Taking tuk-tuks that offer 'free tours' — they'll take you to gem scam shops and tailor shops for kickbacks",
+      "Only eating on Khao San Road — the best pad thai is at Thip Samai on Mahachai Road, and the best som tum is at Som Tam Nua on Soi Ari",
+      "Not using the BTS Skytrain and MRT — taxis in Bangkok traffic can turn a 3km trip into a 90-minute nightmare",
+      "Visiting the Grand Palace in shorts or sleeveless tops — you'll be turned away and forced to rent unflattering cover-ups at the gate"
+    ]
   },
   {
     "slug": "bali",
@@ -506,7 +580,44 @@
       "waterSafety": "bottled",
       "plugType": "Type C/F (European)",
       "timeZone": "WITA (UTC+8)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Seminyak",
+        "vibe": "Beach clubs, boutique shops, upscale dining",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Ubud",
+        "vibe": "Rice terraces, yoga retreats, arts scene",
+        "bestFor": "Wellness seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Canggu",
+        "vibe": "Surf culture, digital nomads, trendy cafes",
+        "bestFor": "Digital nomads and surfers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Uluwatu",
+        "vibe": "Clifftop views, world-class surf breaks, quiet luxury",
+        "bestFor": "Couples and luxury seekers",
+        "priceRange": "$$$-$$$$"
+      }
+    ],
+    "bestFor": [
+      "Digital nomads and remote workers",
+      "Wellness and yoga enthusiasts",
+      "Couples seeking affordable luxury"
+    ],
+    "commonMistakes": [
+      "Renting a scooter without an international driving permit — Bali police set up roadblocks and will fine you 500k-1M IDR on the spot",
+      "Staying only in Seminyak/Kuta and thinking that's Bali — Sidemen, Munduk, and Amed are where the real magic is",
+      "Drinking tap water or getting ice from street vendors — stick to sealed bottles and ice from reputable restaurants",
+      "Not negotiating taxi prices before getting in — always use the Grab app or agree on a price first, the meter 'doesn't work' conveniently often"
+    ]
   },
   {
     "slug": "seoul",
@@ -671,7 +782,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/F (European)",
       "timeZone": "KST (UTC+9)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Myeongdong",
+        "vibe": "Shopping, street food, central location",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Hongdae",
+        "vibe": "University district, indie music, nightlife",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Gangnam",
+        "vibe": "Upscale, K-pop culture, modern dining",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Ikseon-dong",
+        "vibe": "Hanok alleyways, trendy cafes, photogenic",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "K-culture fanatics",
+      "Foodies who love street food and BBQ",
+      "Nightlife lovers who want to party until sunrise"
+    ],
+    "commonMistakes": [
+      "Not getting a T-money card at the airport — it works on all subways, buses, and even convenience stores",
+      "Going to a Korean BBQ restaurant and not knowing the etiquette — the youngest person pours drinks, and you should use two hands when receiving from elders",
+      "Skipping Gwangjang Market for touristy Myeongdong food stalls — the bindaetteok and mayak gimbap at Gwangjang are legendary",
+      "Trying to visit Bukchon Hanok Village on weekends — it's a residential area and residents are fed up with crowds; go at 7am on a weekday"
+    ]
   },
   {
     "slug": "hanoi",
@@ -836,7 +984,38 @@
       "waterSafety": "bottled",
       "plugType": "Type A/C (US and European plugs work)",
       "timeZone": "ICT (UTC+7)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Old Quarter (Hoan Kiem)",
+        "vibe": "Chaotic charm, street food, walking distance to everything",
+        "bestFor": "First-time visitors",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "West Lake (Tay Ho)",
+        "vibe": "Expat area, lakeside cafes, quieter pace",
+        "bestFor": "Digital nomads",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "French Quarter",
+        "vibe": "Colonial architecture, upscale hotels, opera house",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$"
+      }
+    ],
+    "bestFor": [
+      "Street food obsessives",
+      "Budget travelers wanting maximum cultural immersion",
+      "History buffs and war history enthusiasts"
+    ],
+    "commonMistakes": [
+      "Being too hesitant to cross the street — traffic never stops in Hanoi; walk slowly and steadily and motorbikes will flow around you",
+      "Eating pho only at tourist restaurants — the best bowl is at Pho Thin on Lo Duc Street or Pho Gia Truyen on Bat Dan Street",
+      "Not drinking egg coffee (ca phe trung) at Giang Cafe on Nguyen Huu Huan Street — it's a Hanoi original you can't get anywhere else",
+      "Booking Ha Long Bay tours from random street agencies — you'll end up on a packed junk boat; book through reputable operators like Bhaya or Heritage Line"
+    ]
   },
   {
     "slug": "singapore",
@@ -1008,7 +1187,44 @@
       "waterSafety": "safe",
       "plugType": "Type G (UK)",
       "timeZone": "SGT (UTC+8)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Marina Bay",
+        "vibe": "Iconic skyline, luxury hotels, Gardens by the Bay",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$$"
+      },
+      {
+        "neighborhood": "Chinatown",
+        "vibe": "Heritage shophouses, hawker centers, budget stays",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Kampong Glam",
+        "vibe": "Arab Quarter, boutique hotels, Haji Lane street art",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Tiong Bahru",
+        "vibe": "Art deco architecture, specialty coffee, local bakeries",
+        "bestFor": "Foodies",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Foodies chasing hawker culture",
+      "Families wanting a clean, safe Asian city",
+      "Stopover travelers with 2-3 days to kill"
+    ],
+    "commonMistakes": [
+      "Eating at the Marina Bay Sands food court instead of hawker centers — Maxwell Food Centre's Tian Tian chicken rice costs S$5 and is better than most S$50 restaurant meals",
+      "Not knowing that chewing gum is technically illegal to sell — don't try to bring packs in through customs",
+      "Underestimating how expensive alcohol is — a beer at a bar costs S$12-18; pre-game at 7-Eleven if you're on a budget",
+      "Only visiting Sentosa and Marina Bay — explore Joo Chiat/Katong for Peranakan culture and Tiong Bahru for the best local cafe scene"
+    ]
   },
   {
     "slug": "kyoto",
@@ -1172,7 +1388,44 @@
       "waterSafety": "safe",
       "plugType": "Type A/B (same as US)",
       "timeZone": "JST (UTC+9)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Gion",
+        "vibe": "Geisha district, traditional machiya, atmospheric evenings",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Downtown (Kawaramachi/Shijo)",
+        "vibe": "Central shopping, Nishiki Market, nightlife",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Arashiyama",
+        "vibe": "Bamboo groves, scenic riverside, quieter stays",
+        "bestFor": "Nature lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Higashiyama",
+        "vibe": "Temple-lined streets, traditional teahouses",
+        "bestFor": "Couples",
+        "priceRange": "$$$"
+      }
+    ],
+    "bestFor": [
+      "Temple and shrine enthusiasts",
+      "Travelers seeking traditional Japanese culture",
+      "Photographers chasing iconic shots"
+    ],
+    "commonMistakes": [
+      "Visiting Fushimi Inari Taisha after 9am — arrive at dawn to photograph the torii gates without crowds; by 10am it's a traffic jam",
+      "Not reserving Kinkaku-ji (Golden Pavilion) time slots in advance during peak cherry blossom season — you might wait 2+ hours",
+      "Trying to photograph geiko/maiko in Gion without permission — it's disrespectful and the district has banned paparazzi-style photography",
+      "Renting a car in Kyoto — the city is best explored by bus and bicycle; parking is scarce and expensive, and many streets are too narrow for cars"
+    ]
   },
   {
     "slug": "taipei",
@@ -1336,7 +1589,44 @@
       "waterSafety": "boil",
       "plugType": "Type A/B (same as US)",
       "timeZone": "CST (UTC+8)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Zhongshan",
+        "vibe": "Boutique hotels, galleries, trendy cafes",
+        "bestFor": "Foodies",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Ximending",
+        "vibe": "Neon lights, street performers, youth culture",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Da'an",
+        "vibe": "Tree-lined streets, upscale dining, near Yongkang Street",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Xinyi",
+        "vibe": "Taipei 101, department stores, modern luxury",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      }
+    ],
+    "bestFor": [
+      "Night market fanatics",
+      "Foodies wanting the best value in Asia",
+      "Travelers who love Chinese culture without mainland crowds"
+    ],
+    "commonMistakes": [
+      "Skipping Yongkang Street — Din Tai Fung's original location is here, plus the best mango shaved ice at Smoothie House",
+      "Not getting an EasyCard at the MRT station — it saves money on transit and works at convenience stores and YouBike stations",
+      "Only visiting Shilin Night Market — Raohe Street Night Market has better food (the pepper pork buns at the entrance are iconic) with fewer tourists",
+      "Going to Jiufen on weekends — the narrow Old Street becomes a sardine can; visit on a weekday morning for the atmospheric fog and empty alleyways"
+    ]
   },
   {
     "slug": "chiang-mai",
@@ -1500,7 +1790,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B/C (US and European plugs work)",
       "timeZone": "ICT (UTC+7)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Old City (inside the moat)",
+        "vibe": "Temples, guesthouses, walkable",
+        "bestFor": "First-time visitors",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Nimman (Nimmanhaemin)",
+        "vibe": "Hipster cafes, coworking, boutique shops",
+        "bestFor": "Digital nomads",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Santitham",
+        "vibe": "Local neighborhood, authentic restaurants, quiet",
+        "bestFor": "Budget travelers",
+        "priceRange": "$"
+      },
+      {
+        "neighborhood": "Riverside (Charoen Rat area)",
+        "vibe": "Boutique resorts, sunset views, upscale dining",
+        "bestFor": "Couples",
+        "priceRange": "$$$"
+      }
+    ],
+    "bestFor": [
+      "Digital nomads seeking affordable living",
+      "Temple lovers and meditation seekers",
+      "Foodies who love Northern Thai cuisine"
+    ],
+    "commonMistakes": [
+      "Visiting an unethical elephant camp — avoid any place that offers riding; go to Elephant Nature Park or Elephant Jungle Sanctuary instead",
+      "Not attending the Sunday Walking Street Market on Ratchadamnoen Road — it's the best night market in Thailand and only happens once a week",
+      "Skipping khao soi — this Northern Thai coconut curry noodle soup is Chiang Mai's signature dish; try it at Khao Soi Khun Yai on Charoen Rat Road",
+      "Going to Doi Suthep temple by tuk-tuk without agreeing on a round-trip price first — drivers will quote you 3x the price for the return trip if you don't negotiate"
+    ]
   },
   {
     "slug": "jaipur",
@@ -1665,7 +1992,44 @@
       "waterSafety": "bottled",
       "plugType": "Type C/D/M (European Type C works, Indian round pins)",
       "timeZone": "IST (UTC+5:30)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "C-Scheme",
+        "vibe": "Central, modern amenities, easy access to sights",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Old City (Pink City)",
+        "vibe": "Historic haveli hotels, bazaar walking distance",
+        "bestFor": "Culture seekers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Civil Lines",
+        "vibe": "Heritage hotels, quiet tree-lined avenues",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Bani Park",
+        "vibe": "Budget guesthouses, residential area, close to station",
+        "bestFor": "Budget travelers",
+        "priceRange": "$"
+      }
+    ],
+    "bestFor": [
+      "History and architecture enthusiasts",
+      "Photographers seeking vibrant colors",
+      "Travelers exploring the Golden Triangle circuit"
+    ],
+    "commonMistakes": [
+      "Not booking Amber Fort tickets online in advance — the ticket line can be 45+ minutes in peak season",
+      "Accepting 'free' tours from touts near Hawa Mahal — they'll pressure you into overpriced gem or textile shops for commission",
+      "Skipping Nahargarh Fort at sunset — most tourists only do Amber Fort, but the panoramic view of the Pink City at golden hour from Nahargarh is unbeatable",
+      "Drinking tap water or eating raw salads from street vendors — stick to bottled water (check the seal) and cooked food until your stomach adjusts"
+    ]
   },
   {
     "slug": "maldives",
@@ -1839,7 +2203,44 @@
       "waterSafety": "bottled",
       "plugType": "Type G (UK) at resorts, Type C/D on local islands",
       "timeZone": "MVT (UTC+5)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "North Malé Atoll",
+        "vibe": "Closest to airport, luxury resorts, easy transfers",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$$"
+      },
+      {
+        "neighborhood": "Maafushi (local island)",
+        "vibe": "Budget guesthouses, local culture, accessible",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Baa Atoll",
+        "vibe": "UNESCO biosphere, manta rays, exclusive resorts",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$$"
+      },
+      {
+        "neighborhood": "Ari Atoll",
+        "vibe": "Whale shark encounters, diving paradise",
+        "bestFor": "Divers and snorkelers",
+        "priceRange": "$$$-$$$$"
+      }
+    ],
+    "bestFor": [
+      "Honeymooners and couples seeking seclusion",
+      "Divers and snorkeling enthusiasts",
+      "Luxury travelers wanting overwater villas"
+    ],
+    "commonMistakes": [
+      "Not realizing that resort islands are all-inclusive ecosystems — once you're there, you eat and drink at resort prices (expect $50+ per meal) unless you booked a meal plan",
+      "Booking a resort without checking the seaplane transfer cost — it can add $500-800 per person round trip on top of your room rate",
+      "Visiting local islands and wearing bikinis on non-designated beaches — the Maldives is a Muslim country with strict dress codes outside resort islands",
+      "Going during monsoon season (May-October) without knowing the western atolls get the worst weather — eastern atolls like Ari have better conditions during this period"
+    ]
   },
   {
     "slug": "colombo",
@@ -2004,7 +2405,44 @@
       "waterSafety": "bottled",
       "plugType": "Type D/G (UK Type G and Indian Type D)",
       "timeZone": "SLST (UTC+5:30)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Colombo 3 (Kollupitiya)",
+        "vibe": "Central, Galle Road shopping, beachside",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Colombo 7 (Cinnamon Gardens)",
+        "vibe": "Tree-lined avenues, museums, upscale dining",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Pettah",
+        "vibe": "Chaotic bazaars, street food, budget lodging",
+        "bestFor": "Budget travelers",
+        "priceRange": "$"
+      },
+      {
+        "neighborhood": "Mount Lavinia",
+        "vibe": "Beach suburb, colonial hotel, seafood restaurants",
+        "bestFor": "Beach lovers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Foodies wanting to explore Sri Lankan cuisine",
+      "Budget travelers exploring South Asia",
+      "History buffs interested in colonial and Buddhist heritage"
+    ],
+    "commonMistakes": [
+      "Spending too many days in Colombo — it's best as a 1-2 day stop; the real Sri Lanka is in Kandy, Ella, Galle, and Sigiriya",
+      "Not trying kottu roti — the chopped roti stir-fry is Sri Lanka's national street food; Hotel de Pilawoos on Galle Road is the iconic spot",
+      "Taking tuk-tuks without using the PickMe app — unmetered tuk-tuks will charge tourists 3-5x the local rate",
+      "Not visiting Gangaramaya Temple during Poya (full moon) days — temples are most atmospheric and active during these monthly Buddhist holidays"
+    ]
   },
   {
     "slug": "paris",
@@ -2175,7 +2613,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/E (European)",
       "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Le Marais (3rd/4th arr.)",
+        "vibe": "Historic, trendy boutiques, LGBTQ+ friendly",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Saint-Germain-des-Prés (6th arr.)",
+        "vibe": "Literary cafes, galleries, classic Paris",
+        "bestFor": "Couples",
+        "priceRange": "$$$$"
+      },
+      {
+        "neighborhood": "Montmartre (18th arr.)",
+        "vibe": "Bohemian, Sacré-Cœur views, village feel",
+        "bestFor": "Creatives and romantics",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Canal Saint-Martin (10th arr.)",
+        "vibe": "Hip cafes, local scene, less touristy",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Romantics and couples",
+      "Art and museum lovers",
+      "Food and wine connoisseurs"
+    ],
+    "commonMistakes": [
+      "Not booking Eiffel Tower tickets online 60 days in advance — the walk-up line can be 3+ hours and often sells out completely",
+      "Eating at restaurants directly facing major landmarks — the cafes on Rue Cler, Rue Montorgueil, and Rue des Martyrs are where Parisians actually eat",
+      "Only visiting the Louvre and Musée d'Orsay — the Musée de l'Orangerie (Monet's Water Lilies) and Rodin Museum garden are less crowded and equally stunning",
+      "Not validating your Navigo card or metro ticket — controllers do check and the fine is €50 on the spot"
+    ]
   },
   {
     "slug": "barcelona",
@@ -2341,7 +2816,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/F (European)",
       "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Gothic Quarter (Barri Gòtic)",
+        "vibe": "Medieval streets, tapas bars, cathedral district",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Eixample",
+        "vibe": "Modernist architecture, Sagrada Família, wide boulevards",
+        "bestFor": "Architecture lovers",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Gràcia",
+        "vibe": "Village feel, local plazas, indie shops",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Barceloneta",
+        "vibe": "Beachfront, seafood restaurants, lively bars",
+        "bestFor": "Beach lovers",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Architecture and Gaudí enthusiasts",
+      "Beach + city combo seekers",
+      "Tapas and wine lovers"
+    ],
+    "commonMistakes": [
+      "Not booking Sagrada Família tickets weeks in advance — they sell out and you cannot buy at the door",
+      "Eating paella on La Rambla — it's tourist-trap frozen paella; go to Barceloneta and eat at Can Paixano or La Mar Salada instead",
+      "Not watching for pickpockets on La Rambla and the metro — Barcelona has Europe's highest pickpocket rate; use a front crossbody bag",
+      "Skipping Park Güell's free zone — the paid monumental zone is ticketed, but the park's upper terraces have the best city views and are free"
+    ]
   },
   {
     "slug": "lisbon",
@@ -2506,7 +3018,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/F (European)",
       "timeZone": "WET (UTC+0) / WEST (UTC+1) summer"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Baixa/Chiado",
+        "vibe": "Central, elegant squares, easy tram access",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Alfama",
+        "vibe": "Oldest neighborhood, fado music, narrow alleys",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Príncipe Real",
+        "vibe": "Trendy, LGBTQ+ friendly, garden views",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Bairro Alto",
+        "vibe": "Nightlife district, rooftop bars, funicular rides",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Budget-conscious European travelers",
+      "Pastry and seafood lovers",
+      "Digital nomads seeking a European base"
+    ],
+    "commonMistakes": [
+      "Waiting in the massive line at the original Pastéis de Belém — it's great, but Manteigaria in Chiado makes equally delicious pastéis de nata with no wait",
+      "Taking the Tram 28 during peak hours — it's a pickpocket hotspot crammed with tourists; ride it at 8am or just walk the same route through Alfama",
+      "Not wearing proper shoes for the cobblestone hills — Lisbon's calçada portuguesa is beautiful but genuinely treacherous when wet, especially in Alfama",
+      "Skipping the LX Factory — this converted industrial complex in Alcântara has the best brunch spots, bookshops, and weekend markets in the city"
+    ]
   },
   {
     "slug": "prague",
@@ -2671,7 +3220,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/E (European)",
       "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Staré Město (Old Town)",
+        "vibe": "Astronomical clock, Charles Bridge, central",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Vinohrady",
+        "vibe": "Residential, wine bars, parks, LGBTQ+ friendly",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Malá Strana",
+        "vibe": "Baroque architecture, embassy district, quiet charm",
+        "bestFor": "Couples",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Žižkov",
+        "vibe": "Dive bars, locals-only feel, TV tower views",
+        "bestFor": "Budget travelers",
+        "priceRange": "$"
+      }
+    ],
+    "bestFor": [
+      "Beer enthusiasts",
+      "Budget travelers wanting a beautiful European city",
+      "History and architecture lovers"
+    ],
+    "commonMistakes": [
+      "Exchanging money at the airport or Old Town Square booths — they charge 10-15% commissions; use ATMs from major banks like Česká spořitelna or KB",
+      "Eating at restaurants on Old Town Square — tourist traps with inflated prices; walk 5 minutes to Lokál Dlouháá for authentic Czech food at local prices",
+      "Not visiting the Žižkov neighborhood — the TV Tower, countless dive bars, and zero tourists make it the real Prague experience",
+      "Crossing Charles Bridge at midday — it's shoulder-to-shoulder; cross at sunrise for the iconic misty photo with Prague Castle in the background"
+    ]
   },
   {
     "slug": "dubrovnik",
@@ -2834,7 +3420,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/F (European)",
       "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Old Town (inside walls)",
+        "vibe": "Historic, car-free, Game of Thrones scenery",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Lapad",
+        "vibe": "Beach peninsula, resort hotels, local restaurants",
+        "bestFor": "Families",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Ploče",
+        "vibe": "East of Old Town, Banje Beach, luxury hotels",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$$"
+      },
+      {
+        "neighborhood": "Gruž",
+        "vibe": "Harbor area, local market, ferry terminal",
+        "bestFor": "Budget travelers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Game of Thrones fans",
+      "History and architecture enthusiasts",
+      "Mediterranean cruise stopover travelers"
+    ],
+    "commonMistakes": [
+      "Visiting in July/August when cruise ships dock daily — the Old Town walls walk becomes unbearable; come in May, June, or September instead",
+      "Not buying the Dubrovnik Card — it includes Old Town walls, museums, and bus transport; you'll save 30%+ over buying individually",
+      "Eating at restaurants on Stradun (the main street) — walk 30 seconds into any side alley for half the price and better food; try Konoba Dalmatino",
+      "Not taking the cable car to Mount Srđ — the sunset views of the walled city and Adriatic are the best photo opportunity in all of Croatia"
+    ]
   },
   {
     "slug": "santorini",
@@ -2997,7 +3620,44 @@
       "waterSafety": "bottled",
       "plugType": "Type C/F (European)",
       "timeZone": "EET (UTC+2) / EEST (UTC+3) summer"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Oia",
+        "vibe": "Iconic sunsets, blue domes, luxury suites",
+        "bestFor": "Couples and honeymooners",
+        "priceRange": "$$$$"
+      },
+      {
+        "neighborhood": "Fira",
+        "vibe": "Central town, caldera views, nightlife",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Imerovigli",
+        "vibe": "Quietest caldera village, Skaros Rock hike",
+        "bestFor": "Peaceful retreats",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Perissa/Kamari",
+        "vibe": "Black sand beaches, tavernas, budget stays",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      }
+    ],
+    "bestFor": [
+      "Honeymooners and couples",
+      "Photographers chasing the perfect sunset",
+      "Wine lovers exploring volcanic terroir"
+    ],
+    "commonMistakes": [
+      "Watching sunset at the Oia castle — it's so overcrowded you'll be pressed against strangers; watch from a restaurant terrace or from the Fira-Oia hiking trail instead",
+      "Not booking caldera-view hotels 3-6 months in advance for summer — the best cave hotels sell out fast and prices triple last-minute",
+      "Renting an ATV without experience — Santorini's roads are narrow, steep, and full of tour buses; accidents are the #1 tourist injury on the island",
+      "Skipping the local wineries — Santo Wines and Venetsanos have caldera-view tastings of Assyrtiko and Nykteri that rival any European wine region"
+    ]
   },
   {
     "slug": "amsterdam",
@@ -3162,7 +3822,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/F (European)",
       "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Jordaan",
+        "vibe": "Canal houses, indie shops, cozy brown cafes",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "De Pijp",
+        "vibe": "Albert Cuyp Market, multicultural food, vibrant",
+        "bestFor": "Foodies",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Oud-West",
+        "vibe": "Vondelpark adjacent, local restaurants, residential",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Noord",
+        "vibe": "Industrial-chic, NDSM wharf, creative spaces",
+        "bestFor": "Creatives and nightlife lovers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Art and museum enthusiasts",
+      "Cycling culture lovers",
+      "Liberal-minded travelers seeking open culture"
+    ],
+    "commonMistakes": [
+      "Not booking Rijksmuseum and Anne Frank House tickets weeks in advance — they sell out daily and there are no walk-up tickets for Anne Frank",
+      "Walking in the bike lanes — the red-painted lanes are for cyclists and they will hit you; Amsterdammers don't slow down for pedestrians in their lane",
+      "Only visiting the Red Light District and coffee shops — Amsterdam's real charm is in the Jordaan canals, Vondelpark, and the Nine Streets shopping area",
+      "Taking a taxi from Schiphol to the city center — the train takes 15 minutes and costs €5.40 vs €40+ for a cab"
+    ]
   },
   {
     "slug": "rome",
@@ -3333,7 +4030,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/F/L (European, Type L is Italian three-pin)",
       "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Trastevere",
+        "vibe": "Cobblestone charm, trattorias, nightlife",
+        "bestFor": "Foodies and nightlife lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Centro Storico (near Navona)",
+        "vibe": "Walking distance to Pantheon, Piazza Navona",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Monti",
+        "vibe": "Bohemian, vintage shops, wine bars",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Testaccio",
+        "vibe": "Working-class food district, authentic Roman cuisine",
+        "bestFor": "Foodies",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "History buffs and ancient civilization enthusiasts",
+      "Foodies who live for pasta and pizza",
+      "Art lovers wanting to see Renaissance masterpieces"
+    ],
+    "commonMistakes": [
+      "Not booking Vatican Museums/Sistine Chapel tickets online — the walk-up line can be 4+ hours; book the early morning entry for a nearly empty Sistine Chapel",
+      "Ordering cappuccino after 11am — Italians only drink milk-based coffee in the morning; order an espresso or caffè macchiato after lunch",
+      "Eating near the Colosseum or Trevi Fountain — tourist trap territory; walk to Testaccio for cacio e pepe at Felice a Testaccio or supplì at Trapizzino",
+      "Tossing coins into Trevi Fountain during the day — go at 6am for photos without 500 people and selfie sticks blocking the view"
+    ]
   },
   {
     "slug": "edinburgh",
@@ -3496,7 +4230,44 @@
       "waterSafety": "safe",
       "plugType": "Type G (UK)",
       "timeZone": "GMT (UTC+0) / BST (UTC+1) summer"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Old Town (Royal Mile area)",
+        "vibe": "Medieval architecture, castle views, central",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "New Town",
+        "vibe": "Georgian elegance, Princes Street shopping, refined dining",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Stockbridge",
+        "vibe": "Village feel, Sunday market, riverside walks",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Leith",
+        "vibe": "Waterfront dining, craft beer, Michelin-starred restaurants",
+        "bestFor": "Foodies",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Harry Potter fans and literary travelers",
+      "Whisky enthusiasts",
+      "Hikers who want a city base near highlands"
+    ],
+    "commonMistakes": [
+      "Visiting during the August Fringe Festival without booking accommodation months ahead — prices triple and everything within 30 miles sells out",
+      "Not climbing Arthur's Seat — it's a 45-minute hike from the Royal Mile to a 251m summit with panoramic views of the entire city and coast",
+      "Only visiting the Royal Mile tourist shops — duck into the hidden closes (alleyways) like Advocate's Close and Riddle's Court for the real medieval Edinburgh",
+      "Skipping the Scotch Whisky Experience on the Royal Mile — the barrel ride is cheesy but the collection and tastings are world-class"
+    ]
   },
   {
     "slug": "budapest",
@@ -3661,7 +4432,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/F (European)",
       "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "District VII (Jewish Quarter)",
+        "vibe": "Ruin bars, street art, vibrant nightlife",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "District V (Belváros)",
+        "vibe": "Parliament views, Danube promenade, central",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "District I (Castle District)",
+        "vibe": "Hilltop Buda, Fisherman's Bastion, quiet evenings",
+        "bestFor": "Couples",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "District VI (Terézváros)",
+        "vibe": "Andrássy Avenue, Opera House, classic cafes",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Thermal bath enthusiasts",
+      "Budget travelers wanting a beautiful European capital",
+      "Nightlife seekers who love ruin bars"
+    ],
+    "commonMistakes": [
+      "Only visiting Széchenyi Baths — Gellért Baths has better Art Nouveau architecture and fewer selfie sticks; Rudas Baths has a rooftop pool overlooking the Danube",
+      "Not buying a Budapest Card for 72 hours — it covers unlimited transit, baths, and museum entries; pays for itself in one day",
+      "Staying only on the Pest side — cross the Chain Bridge to Buda for the Fisherman's Bastion sunrise, Castle District, and the hidden Hospital in the Rock museum",
+      "Exchanging money at the airport — the worst rates in Hungary; withdraw from ATMs or exchange at the Magyar Posta offices"
+    ]
   },
   {
     "slug": "mexico-city",
@@ -3827,7 +4635,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B (same as US)",
       "timeZone": "CST (UTC-6)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Roma Norte",
+        "vibe": "Art deco buildings, hip restaurants, tree-lined streets",
+        "bestFor": "Foodies",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Condesa",
+        "vibe": "Parks, cafes, Parque México, expat-friendly",
+        "bestFor": "Digital nomads",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Coyoacán",
+        "vibe": "Frida Kahlo's neighborhood, markets, colonial charm",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Polanco",
+        "vibe": "Upscale dining, luxury shopping, museum district",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      }
+    ],
+    "bestFor": [
+      "Foodies wanting world-class cuisine at low prices",
+      "Art and museum lovers",
+      "History enthusiasts from Aztec to modern"
+    ],
+    "commonMistakes": [
+      "Drinking tap water or using ice from street vendors — Mexico City's water is not potable; stick to bottled or ask for 'agua purificada' with sealed ice",
+      "Skipping the Anthropology Museum — it's one of the world's best museums and requires at least 3-4 hours; don't try to rush it in an hour",
+      "Only eating tacos in Roma/Condesa — the best tacos are at street stands in neighborhoods like Coyoacán (El Jarocho for coffee + tacos) and Mercado de Jamaica",
+      "Using Uber without checking 'Uber Flash' — regular Uber can surge 3x during rain or rush hour; the Flash option is cheaper and uses regular taxis through the app"
+    ]
   },
   {
     "slug": "tulum",
@@ -3993,7 +4838,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B (same as US)",
       "timeZone": "EST (UTC-5)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Beach Zone (Zona Hotelera)",
+        "vibe": "Bohemian beach clubs, jungle lodges, Instagram heaven",
+        "bestFor": "Couples and influencers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Tulum Pueblo (Town Center)",
+        "vibe": "Authentic tacos, budget stays, local markets",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Aldea Zamá",
+        "vibe": "New development, condos, residential, quiet",
+        "bestFor": "Digital nomads",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Sian Ka'an Biosphere Edge",
+        "vibe": "Remote, eco-lodges, wildlife",
+        "bestFor": "Nature lovers",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Wellness and yoga retreat seekers",
+      "Cenote and nature explorers",
+      "Couples wanting a boho-chic beach escape"
+    ],
+    "commonMistakes": [
+      "Staying in the Hotel Zone without a bicycle — everything is spread along a single road with no sidewalks; rent a bike or you'll spend $200+ on taxis per day",
+      "Not visiting cenotes early in the morning — Gran Cenote and Cenote Calavera get overcrowded by 11am; arrive when they open at 8am",
+      "Expecting reliable WiFi in beach hotels — most jungle/beach properties have terrible internet; if you need to work, stay in Pueblo or Aldea Zamá",
+      "Paying in US dollars instead of Mexican pesos — vendors accept USD but at a terrible exchange rate; withdraw pesos from ATMs in Pueblo"
+    ]
   },
   {
     "slug": "vancouver",
@@ -4156,7 +5038,44 @@
       "waterSafety": "safe",
       "plugType": "Type A/B (same as US)",
       "timeZone": "PST (UTC-8)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Downtown/West End",
+        "vibe": "Stanley Park adjacent, beach access, walkable",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Gastown",
+        "vibe": "Historic, exposed brick, craft cocktail bars",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Kitsilano",
+        "vibe": "Beach vibes, yoga studios, organic restaurants",
+        "bestFor": "Wellness seekers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Main Street/Mount Pleasant",
+        "vibe": "Craft breweries, indie shops, local food scene",
+        "bestFor": "Foodies",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Nature lovers who want a city base",
+      "Foodies into Asian-fusion and seafood",
+      "Outdoor enthusiasts combining city + mountains"
+    ],
+    "commonMistakes": [
+      "Not bringing layers even in summer — Vancouver can swing from 25°C sunshine to 15°C fog in a single afternoon",
+      "Skipping the Seabus to North Vancouver — the 12-minute ride to Lonsdale Quay Market is a free scenic cruise with your transit pass and has the best mountain views",
+      "Only eating sushi on Robson Street — the best sushi in North America is on Alexandra Road in Richmond; take the Canada Line and explore the Golden Village",
+      "Renting a car for downtown exploring — parking is $6-10/hour; use the SkyTrain and cycling infrastructure instead"
+    ]
   },
   {
     "slug": "banff",
@@ -4315,7 +5234,44 @@
       "waterSafety": "safe",
       "plugType": "Type A/B (same as US)",
       "timeZone": "MST (UTC-7)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Banff Avenue (Town Center)",
+        "vibe": "Walkable main strip, shops, restaurants",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Lake Louise Village",
+        "vibe": "Iconic turquoise lake, hiking trailheads",
+        "bestFor": "Nature lovers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Canmore",
+        "vibe": "Locals' town, less crowded, better prices",
+        "bestFor": "Budget travelers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Sunshine Village area",
+        "vibe": "Ski-in/ski-out, winter paradise",
+        "bestFor": "Skiers and winter travelers",
+        "priceRange": "$$$"
+      }
+    ],
+    "bestFor": [
+      "Hikers and outdoor adventurers",
+      "Photographers chasing mountain landscapes",
+      "Wildlife enthusiasts hoping to spot bears and elk"
+    ],
+    "commonMistakes": [
+      "Not booking Lake Louise and Moraine Lake shuttle reservations in advance (required June-October) — private vehicles are banned during peak hours and you can't just drive up",
+      "Underestimating wildlife — carry bear spray on hikes (rent from Wilson Mountain Sports in town) and never approach elk on Banff Avenue, especially during fall rut season",
+      "Visiting Moraine Lake expecting the iconic shot and not knowing the road is closed until late May/early June — the lake is still frozen and inaccessible in early spring",
+      "Not buying a Parks Canada Discovery Pass if staying 3+ days — daily entry is $11 and the pass is $72 for the year"
+    ]
   },
   {
     "slug": "havana",
@@ -4481,7 +5437,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B (same as US)",
       "timeZone": "CST (UTC-5)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Habana Vieja (Old Havana)",
+        "vibe": "Colonial plazas, live music, crumbling grandeur",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Vedado",
+        "vibe": "Art deco, Malecón sunsets, university district",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Centro Habana",
+        "vibe": "Raw, authentic, street food, local life",
+        "bestFor": "Budget travelers",
+        "priceRange": "$"
+      },
+      {
+        "neighborhood": "Miramar",
+        "vibe": "Embassy district, quieter, upscale paladares",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$"
+      }
+    ],
+    "bestFor": [
+      "History buffs fascinated by Cold War and revolution",
+      "Live music and salsa lovers",
+      "Travelers seeking a destination unlike anywhere else"
+    ],
+    "commonMistakes": [
+      "Not bringing enough cash in euros or USD — Cuba has very limited ATM access and US debit/credit cards rarely work; bring physical cash for your entire trip",
+      "Only eating at government-run restaurants — seek out paladares (private restaurants); La Guarida in Centro Habana and El Del Frente in Old Havana are standouts",
+      "Thinking WiFi is readily available — you need to buy ETECSA WiFi cards and connect at designated hotspots in parks and hotel lobbies",
+      "Riding in classic car taxis without negotiating the price first — they'll charge tourists 10x; agree on CUP price before getting in or use the yellow coco-taxis"
+    ]
   },
   {
     "slug": "san-juan",
@@ -4646,7 +5639,44 @@
       "waterSafety": "safe",
       "plugType": "Type A/B (same as US)",
       "timeZone": "AST (UTC-4)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Old San Juan",
+        "vibe": "Colorful colonial streets, forts, historic charm",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Condado",
+        "vibe": "Beach strip, casino hotels, restaurant row",
+        "bestFor": "Beach lovers",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Santurce",
+        "vibe": "Street art, local food scene, nightlife",
+        "bestFor": "Foodies and nightlife lovers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Isla Verde",
+        "vibe": "Best beach, resort hotels, airport proximity",
+        "bestFor": "Families",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Americans wanting a Caribbean trip without a passport",
+      "History lovers exploring Spanish colonial forts",
+      "Rum and cocktail enthusiasts"
+    ],
+    "commonMistakes": [
+      "Only staying in Condado resort hotels — Old San Juan and Santurce have far more character, better food, and more affordable lodging",
+      "Skipping the bioluminescent bay tour in nearby Fajardo or Vieques — it's one of the rarest natural phenomena on Earth and only 90 minutes from San Juan",
+      "Not trying mofongo beyond hotel restaurants — La Alcapurria Quemá in Piñones and Restaurante Raíces in Old San Juan make the real deal",
+      "Driving in Old San Juan — the streets are narrow, one-way, and parking is nearly impossible; walk or take the free trolley"
+    ]
   },
   {
     "slug": "buenos-aires",
@@ -4812,7 +5842,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/I",
       "timeZone": "ART (UTC-3)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Palermo Soho",
+        "vibe": "Boutique shops, craft cocktail bars, street art",
+        "bestFor": "Foodies and nightlife lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "San Telmo",
+        "vibe": "Sunday antique market, tango bars, bohemian",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Recoleta",
+        "vibe": "Elegant, Parisian architecture, cemetery walks",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Villa Crespo",
+        "vibe": "Up-and-coming, steakhouses, local scene",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      }
+    ],
+    "bestFor": [
+      "Steak and wine lovers",
+      "Tango and nightlife enthusiasts",
+      "Budget travelers exploiting favorable exchange rates"
+    ],
+    "commonMistakes": [
+      "Exchanging money at banks at the official rate — use the 'blue dollar' parallel exchange rate at Western Union or crypto-friendly ATMs for nearly 2x the value",
+      "Going to a tango show in La Boca without seeing a real milonga — tourist shows are theatrical but milongas like La Catedral in Almagro are where real porteños dance",
+      "Not eating dinner before 9:30pm — restaurants are empty before then; Buenos Aires doesn't really start eating until 10pm and nightclubs open after 2am",
+      "Taking taxis that 'don't have change' — always carry small bills (500-1000 peso notes) or use the BA Taxi app to avoid the common tourist overcharge scam"
+    ]
   },
   {
     "slug": "cartagena",
@@ -4977,7 +6044,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B (same as US)",
       "timeZone": "COT (UTC-5)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Old City (Ciudad Amurallada)",
+        "vibe": "Colonial walls, plazas, boutique hotels",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Getsemaní",
+        "vibe": "Street art, local nightlife, affordable hostels",
+        "bestFor": "Budget travelers and nightlife lovers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Bocagrande",
+        "vibe": "Beach strip, high-rises, resort hotels",
+        "bestFor": "Beach lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "San Diego",
+        "vibe": "Quiet corner of old city, local restaurants, residential feel",
+        "bestFor": "Couples",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "History lovers exploring colonial South America",
+      "Beach + culture combo seekers",
+      "Couples wanting a romantic Caribbean city"
+    ],
+    "commonMistakes": [
+      "Buying emeralds from street vendors — only buy from certified dealers; the street 'gems' are often glass or low-quality stones",
+      "Not taking a day trip to Rosario Islands or Playa Blanca — Cartagena's city beaches are mediocre; the real Caribbean water is 45 minutes by boat",
+      "Eating only in the Walled City — Getsemaní has better and cheaper food; try La Cocina de Pepina for authentic Caribbean home cooking",
+      "Walking in the Old City midday without water — temperatures hit 35°C+ with brutal humidity; schedule sightseeing for early morning and late afternoon"
+    ]
   },
   {
     "slug": "cusco",
@@ -5153,7 +6257,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B/C",
       "timeZone": "PET (UTC-5)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Plaza de Armas area",
+        "vibe": "Central square, colonial architecture, tourist services",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "San Blas",
+        "vibe": "Artisan quarter, steep cobblestone streets, bohemian cafes",
+        "bestFor": "Creatives and culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "San Cristóbal",
+        "vibe": "Hilltop views, quieter, local neighborhood",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Sacsayhuamán area",
+        "vibe": "Near ruins, countryside feel, retreat centers",
+        "bestFor": "Wellness seekers",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Machu Picchu trekkers",
+      "History buffs fascinated by Inca civilization",
+      "Altitude-brave adventurers seeking Andean culture"
+    ],
+    "commonMistakes": [
+      "Not spending at least 2 days in Cusco to acclimatize before trekking — altitude sickness at 3,400m is no joke; drink coca tea and rest on arrival",
+      "Booking the Inca Trail last minute — permits sell out 3-6 months in advance, especially for peak season (May-September); book through a licensed operator immediately",
+      "Eating at the restaurants on Plaza de Armas — overpriced tourist fare; walk to San Blas for Pachapapa's alpaca steak or the Mercado de San Pedro for a 10-sol lunch",
+      "Not buying the Boleto Turístico — this tourist pass covers 16 ruins and museums around Cusco and the Sacred Valley; it's required for sites like Sacsayhuamán and Ollantaytambo"
+    ]
   },
   {
     "slug": "rio-de-janeiro",
@@ -5319,7 +6460,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/N",
       "timeZone": "BRT (UTC-3)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Ipanema",
+        "vibe": "Upscale beach, trendy restaurants, safe neighborhood",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Copacabana",
+        "vibe": "Iconic beach, buzzing nightlife, mixed crowd",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Santa Teresa",
+        "vibe": "Hilltop bohemian quarter, art studios, colonial mansions",
+        "bestFor": "Creatives",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Leblon",
+        "vibe": "Rio's most upscale neighborhood, excellent dining",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$$"
+      }
+    ],
+    "bestFor": [
+      "Beach and outdoor culture lovers",
+      "Carnival and samba enthusiasts",
+      "Nature lovers wanting mountains meets ocean"
+    ],
+    "commonMistakes": [
+      "Wearing flashy jewelry or carrying expensive cameras on the beach — petty theft is common on Copacabana and Ipanema; bring only what you can afford to lose",
+      "Taking Christ the Redeemer's cog train without booking online — lines can be 3+ hours; buy timed tickets at paineirasrj.com.br or take a van from Largo do Machado",
+      "Not trying a proper feijoada on Saturday — it's a Brazilian tradition; Casa da Feijoada in Ipanema or Bar do Mineiro in Santa Teresa are the spots",
+      "Avoiding favelas entirely — guided community tours in Rocinha or Vidigal with local operators are safe, educational, and support the community economically"
+    ]
   },
   {
     "slug": "medellin",
@@ -5485,7 +6663,44 @@
       "waterSafety": "safe",
       "plugType": "Type A/B (same as US)",
       "timeZone": "COT (UTC-5)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "El Poblado",
+        "vibe": "Tree-lined streets, expat hub, restaurants and nightlife",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Laureles/Estadio",
+        "vibe": "Local neighborhood, food scene, walkable grid",
+        "bestFor": "Repeat visitors and digital nomads",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Envigado",
+        "vibe": "Quiet suburb, authentic restaurants, local parks",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Centro",
+        "vibe": "Gritty downtown, Botero Plaza, markets",
+        "bestFor": "Culture seekers (daytime only)",
+        "priceRange": "$"
+      }
+    ],
+    "bestFor": [
+      "Digital nomads seeking perfect weather year-round",
+      "Travelers interested in Colombia's transformation story",
+      "Nightlife enthusiasts who love salsa dancing"
+    ],
+    "commonMistakes": [
+      "Only staying in El Poblado's Parque Lleras area — it's become a tourist bubble; Laureles has better food, more locals, and a more authentic Medellín experience",
+      "Not riding the Metro and Metrocable system — the cable cars to Santo Domingo and Arví Park are both transportation and a cultural experience showing Medellín's innovation",
+      "Taking out your phone carelessly on the street — phone snatching is common; be discreet and avoid texting while walking in crowded areas",
+      "Skipping the Guatapé day trip — El Peñol rock (740 steps) and the colorful lakeside town are 2 hours away and one of Colombia's most iconic sights"
+    ]
   },
   {
     "slug": "marrakech",
@@ -5650,7 +6865,44 @@
       "waterSafety": "bottled",
       "plugType": "Type C/E",
       "timeZone": "WET (UTC+1)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Medina (near Jemaa el-Fnaa)",
+        "vibe": "Riad hotels, souks, sensory overload",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Kasbah",
+        "vibe": "Near Saadian Tombs, quieter medina edge",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Gueliz (Ville Nouvelle)",
+        "vibe": "Modern, French-influenced, rooftop bars",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Palmeraie",
+        "vibe": "Palm grove, resort hotels, pool villas",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$$"
+      }
+    ],
+    "bestFor": [
+      "Sensory-overload seekers",
+      "Shoppers who love bargaining in souks",
+      "Travelers wanting an accessible intro to North Africa"
+    ],
+    "commonMistakes": [
+      "Not negotiating prices in the souks — vendors start at 3-5x the real price; counter at 30% and meet somewhere in the middle; it's expected and part of the culture",
+      "Accepting 'help' from strangers offering to guide you through the medina — they'll demand payment and lead you to their friend's shop; use Google Maps offline or hire an official guide",
+      "Eating at restaurants on Jemaa el-Fnaa square — the food stalls are an experience but the sit-down restaurants are tourist traps; eat at Naima on Rue de la Kasbah or Café Clock for camel burger",
+      "Not visiting Jardin Majorelle early morning — by 10am the Yves Saint Laurent garden is packed; arrive at opening (8am) to actually enjoy the blue villa and bamboo groves"
+    ]
   },
   {
     "slug": "cape-town",
@@ -5818,7 +7070,44 @@
       "waterSafety": "safe",
       "plugType": "Type M/N",
       "timeZone": "SAST (UTC+2)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "City Bowl (Gardens/Tamboerskloof)",
+        "vibe": "Table Mountain views, walkable, restaurant row",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Sea Point",
+        "vibe": "Atlantic promenade, sunsets, diverse dining",
+        "bestFor": "Families",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Camps Bay",
+        "vibe": "Glamorous beach strip, Twelve Apostles backdrop",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Woodstock",
+        "vibe": "Street art, Biscuit Mill market, creative hub",
+        "bestFor": "Foodies and creatives",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Nature lovers wanting diverse landscapes",
+      "Wine enthusiasts exploring Stellenbosch and Franschhoek",
+      "Adventure travelers seeking affordable adrenaline"
+    ],
+    "commonMistakes": [
+      "Not booking Table Mountain Cableway tickets online — cloud cover (the 'tablecloth') can shut it down for days; book a flexible ticket and go the first clear morning",
+      "Skipping the Cape Winelands — Stellenbosch and Franschhoek are 45 minutes away and offer world-class wine tastings at a fraction of Napa Valley prices",
+      "Renting a car and not knowing about the N1/N2 highway carjacking risk — avoid driving through certain areas at night; use Uber for nighttime travel and rent a car for daytime exploration only",
+      "Not visiting Kirstenbosch Botanical Gardens — the tree canopy walkway and summer sunset concerts are among the best experiences in the city"
+    ]
   },
   {
     "slug": "zanzibar",
@@ -5985,7 +7274,44 @@
       "waterSafety": "bottled",
       "plugType": "Type D/G",
       "timeZone": "EAT (UTC+3)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Stone Town",
+        "vibe": "UNESCO heritage, carved doors, rooftop restaurants",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Nungwi",
+        "vibe": "Northern tip, best beaches, lively beach bars",
+        "bestFor": "Beach lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Paje",
+        "vibe": "Kitesurfing, backpacker vibes, low tide walks",
+        "bestFor": "Adventurers and budget travelers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Matemwe",
+        "vibe": "Quiet, pristine reef, boutique lodges",
+        "bestFor": "Couples seeking seclusion",
+        "priceRange": "$$$"
+      }
+    ],
+    "bestFor": [
+      "Beach lovers wanting culture alongside coast",
+      "Spice and food explorers",
+      "Travelers combining Tanzania safari with beach time"
+    ],
+    "commonMistakes": [
+      "Not checking tide schedules — many east coast beaches like Paje completely disappear at high tide and you'll be swimming in knee-deep water a kilometer offshore at low tide",
+      "Wearing revealing clothing in Stone Town — Zanzibar is predominantly Muslim; cover shoulders and knees when walking through town out of respect",
+      "Booking spice tours through hotel touts — you'll pay 3x; book directly at the Zanzibar Tourism office in Stone Town or through local operators like Mr. Mitu's Spice Tour",
+      "Not taking a dhow sunset cruise from Stone Town — it costs $10-15 per person and is the most magical way to see the waterfront at golden hour"
+    ]
   },
   {
     "slug": "nairobi",
@@ -6150,7 +7476,44 @@
       "waterSafety": "bottled",
       "plugType": "Type G (UK-style)",
       "timeZone": "EAT (UTC+3)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Karen",
+        "vibe": "Leafy suburb, Giraffe Centre, Out of Africa heritage",
+        "bestFor": "Families",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Westlands",
+        "vibe": "Modern restaurants, nightlife, shopping malls",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Kilimani/Hurlingham",
+        "vibe": "Central, safe, expat-friendly, walkable",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "CBD/Downtown",
+        "vibe": "Markets, museums, gritty urban energy",
+        "bestFor": "Budget travelers (daytime only)",
+        "priceRange": "$"
+      }
+    ],
+    "bestFor": [
+      "Safari enthusiasts using Nairobi as a launch pad",
+      "Wildlife lovers wanting in-city animal encounters",
+      "East African culture and food explorers"
+    ],
+    "commonMistakes": [
+      "Skipping Nairobi National Park — it's the only national park inside a major city; you can see lions with the city skyline in the background, 20 minutes from downtown",
+      "Not visiting the Giraffe Centre in Karen before 11am — afternoon crowds ruin the experience; arrive at 9am to hand-feed Rothschild's giraffes without the rush",
+      "Walking around downtown with your phone out — Nairobi has a phone-snatching problem; keep valuables concealed and use ride-hailing apps (Bolt or Uber) instead of walking at night",
+      "Booking safari from overseas tour companies at premium prices — local operators like Gamewatchers or Pollman's offer the same Masai Mara experience for 30-50% less"
+    ]
   },
   {
     "slug": "sydney",
@@ -6316,7 +7679,44 @@
       "waterSafety": "safe",
       "plugType": "Type I",
       "timeZone": "AEST (UTC+10)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "The Rocks",
+        "vibe": "Historic harbor area, Opera House proximity, weekend markets",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Surry Hills",
+        "vibe": "Trendy cafes, small bars, gallery scene",
+        "bestFor": "Foodies and nightlife lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Bondi Beach",
+        "vibe": "Iconic beach, surf culture, ocean pools",
+        "bestFor": "Beach lovers",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Newtown",
+        "vibe": "Counter-culture, Thai food row, vintage shops",
+        "bestFor": "Budget travelers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Beach and surf culture enthusiasts",
+      "Foodies into modern Australian cuisine",
+      "Outdoor lovers wanting harbor + coast + bushwalks"
+    ],
+    "commonMistakes": [
+      "Only visiting Bondi Beach — walk the Bondi to Coogee coastal trail (6km) for hidden beaches like Tamarama and Bronte that are far less crowded",
+      "Paying for the Sydney Opera House interior tour without seeing a performance — book a show (even a cheap matinee) for a far better experience of the acoustics and architecture",
+      "Not getting an Opal card or tapping with a credit card — single paper tickets don't exist anymore; use contactless payment on all trains, buses, and ferries",
+      "Eating at Circular Quay restaurants — tourist markup central; walk 10 minutes to Surry Hills for some of Australia's best restaurants at half the price"
+    ]
   },
   {
     "slug": "queenstown",
@@ -6482,7 +7882,44 @@
       "waterSafety": "safe",
       "plugType": "Type I",
       "timeZone": "NZST (UTC+12)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Town Centre",
+        "vibe": "Lakefront, restaurants, walkable to everything",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Fernhill/Sunshine Bay",
+        "vibe": "Residential, mountain views, quieter, affordable",
+        "bestFor": "Budget travelers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Arrowtown",
+        "vibe": "Gold rush village, autumn leaves, boutique stays",
+        "bestFor": "Couples",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Frankton",
+        "vibe": "Airport area, shopping, practical base",
+        "bestFor": "Families",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Adrenaline junkies seeking bungee and skydiving",
+      "Scenic landscape photographers",
+      "Lord of the Rings fans"
+    ],
+    "commonMistakes": [
+      "Not booking adventure activities 2-3 days ahead in peak season — bungee at Kawarau Bridge and Milford Sound cruises sell out daily in December-February",
+      "Driving to Milford Sound without checking road conditions — the road closes frequently for avalanche control in winter and floods in spring; always check milfordroad.co.nz",
+      "Only visiting in summer — autumn (March-May) turns Arrowtown and the Queenstown Trail into a golden wonderland with fewer tourists and better prices",
+      "Not taking the TSS Earnslaw steamship across Lake Wakatipu to Walter Peak — the vintage 1912 steamship and high country farm tour is quintessential Queenstown"
+    ]
   },
   {
     "slug": "fiji",
@@ -6648,7 +8085,44 @@
       "waterSafety": "bottled",
       "plugType": "Type I",
       "timeZone": "FJT (UTC+12)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Denarau Island",
+        "vibe": "Resort strip, pools, family-friendly, organized tours",
+        "bestFor": "Families",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Coral Coast (Viti Levu)",
+        "vibe": "Beachfront resorts, snorkeling, village culture",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Mamanuca Islands",
+        "vibe": "Postcard beaches, boutique resorts, diving",
+        "bestFor": "Couples",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Yasawa Islands",
+        "vibe": "Remote, barefoot luxury, backpacker-friendly",
+        "bestFor": "Adventure seekers",
+        "priceRange": "$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Honeymooners and couples seeking island paradise",
+      "Families wanting safe, friendly Pacific Island culture",
+      "Divers and snorkelers chasing soft coral reefs"
+    ],
+    "commonMistakes": [
+      "Staying only on Denarau Island — it's a manufactured resort area; the real Fiji is on the outer islands like the Yasawas and Mamanucas accessible by South Sea Cruises or Awesome Adventures Fiji",
+      "Not participating in a kava ceremony when invited — it's a sacred Fijian welcome ritual; clap once, drink the whole bilo (coconut shell cup), and clap three times",
+      "Booking a resort without checking boat transfer costs — inter-island transfers can add $100-300 per person each way on top of your accommodation",
+      "Visiting during cyclone season (November-April) without checking forecasts — storms can strand you on islands for days"
+    ]
   },
   {
     "slug": "beijing",
@@ -6822,7 +8296,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/C/I",
       "timeZone": "CST (UTC+8)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Dongcheng (near Forbidden City)",
+        "vibe": "Historic hutongs, imperial architecture, central",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Sanlitun",
+        "vibe": "Embassy district, nightlife, international dining",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Gulou/Drum Tower area",
+        "vibe": "Hutong alleyways, local bars, traditional Beijing",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Wangfujing",
+        "vibe": "Shopping street, Peking duck restaurants, tourist hub",
+        "bestFor": "Families",
+        "priceRange": "$$$"
+      }
+    ],
+    "bestFor": [
+      "History buffs wanting to walk through Chinese imperial history",
+      "Great Wall adventurers",
+      "Foodies chasing authentic Peking duck and street food"
+    ],
+    "commonMistakes": [
+      "Going to the Badaling section of the Great Wall — it's the most overcrowded section; take a private driver to Mutianyu (restored with cable car) or Jinshanling (wild, fewer tourists) instead",
+      "Not downloading a VPN before arriving — Google, WhatsApp, Instagram, and most Western apps are blocked in China; set up ExpressVPN or similar before landing",
+      "Visiting the Forbidden City without pre-booking timed tickets on the official WeChat mini-program — walk-up tickets don't exist anymore and daily capacity is capped",
+      "Not carrying cash for small vendors — while WeChat Pay and Alipay dominate, they require a Chinese bank account; some vendors won't accept foreign cards"
+    ]
   },
   {
     "slug": "shanghai",
@@ -6988,7 +8499,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/C/I",
       "timeZone": "CST (UTC+8)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "The Bund/Huangpu",
+        "vibe": "Colonial architecture, Pudong skyline views, luxury",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Former French Concession",
+        "vibe": "Plane tree-lined streets, cafes, boutiques",
+        "bestFor": "Foodies and culture seekers",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Jing'an",
+        "vibe": "Modern, temples, metro hub, business district",
+        "bestFor": "Business travelers",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Hongkou",
+        "vibe": "Jewish heritage, local markets, less touristy",
+        "bestFor": "Budget travelers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Travelers wanting to experience China's most cosmopolitan city",
+      "Architecture lovers mixing Art Deco and futuristic skylines",
+      "Foodies exploring soup dumplings and Shanghainese cuisine"
+    ],
+    "commonMistakes": [
+      "Not trying xiaolongbao (soup dumplings) beyond Din Tai Fung — Jia Jia Tang Bao on Huanghe Road has the best XLB in Shanghai at a fraction of the price",
+      "Taking taxis during rush hour — Shanghai traffic is brutal; use Metro Line 2 along the Bund or the Maglev train from Pudong Airport (430 km/h, 8 minutes to Longyang Road)",
+      "Forgetting to set up a VPN before arrival — same as Beijing, all Google services, social media, and messaging apps are blocked behind the Great Firewall",
+      "Skipping the Tianzifang alleys in the French Concession — these narrow shikumen laneways have the best independent galleries, craft shops, and hidden bars in the city"
+    ]
   },
   {
     "slug": "hong-kong",
@@ -7154,7 +8702,44 @@
       "waterSafety": "safe",
       "plugType": "Type G (UK-style)",
       "timeZone": "HKT (UTC+8)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Tsim Sha Tsui (TST)",
+        "vibe": "Harbor views, shopping, Star Ferry, museums",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Central/Sheung Wan",
+        "vibe": "Business district, escalator streets, rooftop bars",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Mong Kok",
+        "vibe": "Street markets, local food, dense urban energy",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Wan Chai",
+        "vibe": "Mixed local/expat, heritage temples, wet markets",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Dim sum and Cantonese food obsessives",
+      "City skyline photographers",
+      "Shoppers who love markets and malls"
+    ],
+    "commonMistakes": [
+      "Not getting an Octopus card immediately — it works on all MTR trains, buses, ferries, 7-Elevens, and even vending machines; it's essential for navigating the city",
+      "Taking the Peak Tram to Victoria Peak on weekends — the queue can be 2+ hours; take bus 15 from Central or the minibus from Causeway Bay for the same view without the wait",
+      "Only eating at tourist-friendly restaurants in TST — cross to Sham Shui Po for the best dai pai dong (street food stalls) and hole-in-wall congee shops at a third of the price",
+      "Skipping the outlying islands — Lamma Island has car-free fishing villages and seafood restaurants; a 25-minute ferry from Central pier 4"
+    ]
   },
   {
     "slug": "phuket",
@@ -7321,7 +8906,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B/C/O",
       "timeZone": "ICT (UTC+7)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Old Town Phuket",
+        "vibe": "Sino-Portuguese shophouses, street art, local food",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Kata/Kata Noi",
+        "vibe": "Family-friendly beach, snorkeling, relaxed pace",
+        "bestFor": "Families",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Patong Beach",
+        "vibe": "Party central, Bangla Road nightlife, water sports",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Bangtao/Laguna",
+        "vibe": "Luxury resorts, golf courses, beach clubs",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      }
+    ],
+    "bestFor": [
+      "Beach vacationers wanting resort infrastructure",
+      "Island-hopping enthusiasts using Phuket as a base",
+      "Nightlife seekers wanting a Thai beach party scene"
+    ],
+    "commonMistakes": [
+      "Staying in Patong thinking it represents Phuket — it's a neon-lit tourist strip; Old Town Phuket and the west coast beaches like Nai Harn offer the real experience",
+      "Not renting a car or scooter — Phuket is much larger than most people expect (same size as Singapore); taxis are expensive and there's no public transit between beaches",
+      "Booking island tours to Phi Phi from big tourist agencies — you'll be packed on a massive boat with 200 people; book a private longtail or speedboat for Maya Bay at sunrise before the crowds arrive",
+      "Swimming at beaches without checking the red flag warnings during monsoon season (May-October) — the west coast has dangerous riptides and drownings happen every year"
+    ]
   },
   {
     "slug": "siem-reap",
@@ -7487,7 +9109,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/C/G",
       "timeZone": "ICT (UTC+7)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Old Market (Psar Chas) area",
+        "vibe": "Walking distance to everything, restaurants, bars",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Wat Bo area",
+        "vibe": "Quieter, local guesthouses, residential",
+        "bestFor": "Budget travelers",
+        "priceRange": "$"
+      },
+      {
+        "neighborhood": "Charles de Gaulle Boulevard",
+        "vibe": "Luxury hotels, pool resorts, wide avenues",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Sala Kamreuk",
+        "vibe": "Village edge, boutique stays, rice paddies nearby",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Temple and archaeology enthusiasts",
+      "History buffs exploring Khmer civilization",
+      "Budget travelers getting luxury at developing-world prices"
+    ],
+    "commonMistakes": [
+      "Trying to see all of Angkor Wat in one day — buy the 3-day pass ($62) and spread visits across mornings; the complex is massive and heat exhaustion is real",
+      "Not arriving at Angkor Wat before 5am for sunrise — you need to be there in the dark to get a spot at the reflection pool; arrive at 5:30am and you'll see nothing but backs of heads",
+      "Only visiting Angkor Wat and Angkor Thom — Ta Prohm (the 'Tomb Raider' temple), Banteay Srei (the pink sandstone temple 30km away), and Beng Mealea (the jungle-consumed temple) are equally incredible",
+      "Hiring a tuk-tuk driver without agreeing on a full-day rate first — negotiate $15-20 for a full day temple circuit before you set off"
+    ]
   },
   {
     "slug": "luang-prabang",
@@ -7654,7 +9313,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B/C/E/F",
       "timeZone": "ICT (UTC+7)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Old Town Peninsula",
+        "vibe": "UNESCO heritage, temples, Mekong confluence",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Ban Wat Sene area",
+        "vibe": "Night market adjacent, guesthouses, central",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Ban Xieng Mouane",
+        "vibe": "Quiet temple area, riverside boutique hotels",
+        "bestFor": "Couples",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Across the Nam Khan River",
+        "vibe": "Bungalows, countryside feel, bamboo bridge access",
+        "bestFor": "Nature lovers",
+        "priceRange": "$-$$"
+      }
+    ],
+    "bestFor": [
+      "Travelers seeking Southeast Asia's most serene town",
+      "Temple and Buddhist culture enthusiasts",
+      "Slow travelers who want to unplug"
+    ],
+    "commonMistakes": [
+      "Using flash photography during the monk alms-giving ceremony at dawn — it's a sacred ritual, not a photo op; observe silently from a distance and never block the monks' path",
+      "Not visiting Kuang Si Falls early (before 10am) — the turquoise waterfalls get crowded by midday; also bring water shoes for the slippery limestone pools",
+      "Skipping the night market food stalls on Sisavangvong Road — the vegetarian buffet (all-you-can-fill for 15,000 kip / $0.75) is one of the best food deals in Southeast Asia",
+      "Only staying one night — Luang Prabang needs at least 3 days to properly experience the temples, waterfalls, Mekong river cruises, and cooking classes"
+    ]
   },
   {
     "slug": "kuala-lumpur",
@@ -7819,7 +9515,44 @@
       "waterSafety": "bottled",
       "plugType": "Type G (UK-style)",
       "timeZone": "MYT (UTC+8)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "KLCC (Petronas Towers area)",
+        "vibe": "Iconic skyline, luxury malls, convention center",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Bukit Bintang",
+        "vibe": "Shopping, Jalan Alor food street, nightlife",
+        "bestFor": "Foodies and nightlife lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Chinatown (Petaling Street)",
+        "vibe": "Heritage, street food, budget hostels",
+        "bestFor": "Budget travelers",
+        "priceRange": "$"
+      },
+      {
+        "neighborhood": "Bangsar",
+        "vibe": "Upscale suburb, brunch culture, expat bars",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Foodies wanting Malay, Chinese, and Indian cuisine in one city",
+      "Budget luxury travelers getting 5-star for 3-star prices",
+      "Travelers wanting a modern, efficient Asian city"
+    ],
+    "commonMistakes": [
+      "Not eating on Jalan Alor — this single street in Bukit Bintang has the best Chinese-Malay street food in the city; get the grilled chicken wings and hokkien mee",
+      "Taking taxis from KLIA airport without using the coupon counter — use the prepaid taxi counter or take the KLIA Ekspres train (28 minutes to KL Sentral) to avoid overcharging",
+      "Visiting Batu Caves in long pants during midday — the 272-step climb in Malaysian heat and humidity is brutal; go at 7am, wear shorts, and bring water",
+      "Not trying nasi lemak for breakfast — it's Malaysia's national dish and available at every mamak stall for RM2-5; the best is at Village Park Restaurant in Damansara"
+    ]
   },
   {
     "slug": "kathmandu",
@@ -7985,7 +9718,44 @@
       "waterSafety": "bottled",
       "plugType": "Type C/D/M",
       "timeZone": "NPT (UTC+5:45)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Thamel",
+        "vibe": "Backpacker hub, gear shops, restaurants, trekking agencies",
+        "bestFor": "First-time visitors",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Patan (Lalitpur)",
+        "vibe": "Artistic heritage, Durbar Square, traditional Newari architecture",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Boudhanath area",
+        "vibe": "Tibetan quarter, stupa circumambulation, monasteries",
+        "bestFor": "Spiritual travelers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Lazimpat",
+        "vibe": "Embassy area, boutique hotels, quieter streets",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$"
+      }
+    ],
+    "bestFor": [
+      "Trekkers heading to Everest or Annapurna",
+      "Spiritual seekers drawn to Hindu and Buddhist culture",
+      "Budget adventurers wanting jaw-dropping landscapes"
+    ],
+    "commonMistakes": [
+      "Not buying a local SIM card (NCell or Ncell) at the airport — WiFi is unreliable throughout Nepal and you'll need data for maps on treks and in the city",
+      "Booking treks without checking if your operator has TIMS (Trekker Information Management System) permits — unlicensed operators can get you turned back at checkpoints",
+      "Skipping Patan and Bhaktapur — most travelers stay in Thamel's tourist bubble, but these ancient Newari cities 30 minutes away have the best architecture and fewer crowds",
+      "Eating raw salad or unpeeled fruit from street stalls — Kathmandu belly is real; stick to cooked food and bottled water until your system adjusts"
+    ]
   },
   {
     "slug": "istanbul",
@@ -8167,7 +9937,44 @@
       "waterSafety": "bottled",
       "plugType": "Type C/F",
       "timeZone": "TRT (UTC+3)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Sultanahmet",
+        "vibe": "Hagia Sophia, Blue Mosque, Grand Bazaar, historic heart",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Beyoğlu/Galata",
+        "vibe": "Galata Tower, İstiklal Avenue, rooftop bars",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Karaköy",
+        "vibe": "Waterfront, trendy cafes, art galleries, Bosphorus ferries",
+        "bestFor": "Foodies and creatives",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Kadıköy (Asian side)",
+        "vibe": "Local market scene, seafood, authentic Turkish life",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "History enthusiasts at the crossroads of empires",
+      "Foodies wanting Turkish cuisine beyond kebabs",
+      "Travelers who love bazaars and haggling"
+    ],
+    "commonMistakes": [
+      "Paying Grand Bazaar prices without negotiating — start at 40% of the asking price; shopkeepers expect it and will be offended if you don't bargain",
+      "Not taking a ferry across the Bosphorus — the commuter ferry from Karaköy to Kadıköy is basically a scenic cruise for the price of transit fare (7 TL with Istanbulkart)",
+      "Visiting Hagia Sophia during Friday prayers — it's now a functioning mosque and closed to tourists during prayer times; check the schedule and visit early morning",
+      "Only eating tourist-oriented kebabs in Sultanahmet — cross to Kadıköy market for the best fish sandwiches, or eat çiğ köfte at Borsam Taş Fırın on İstiklal Avenue"
+    ]
   },
   {
     "slug": "vienna",
@@ -8333,7 +10140,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/F",
       "timeZone": "CET (UTC+1)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Innere Stadt (1st District)",
+        "vibe": "St. Stephen's, opera house, Ringstrasse, imperial grandeur",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Neubau (7th District)",
+        "vibe": "Hipster boutiques, coffee culture, MuseumsQuartier",
+        "bestFor": "Creatives and repeat visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Leopoldstadt (2nd District)",
+        "vibe": "Prater park, emerging food scene, multicultural",
+        "bestFor": "Families",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Mariahilf (6th District)",
+        "vibe": "Naschmarkt food market, shopping street, central",
+        "bestFor": "Foodies",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Classical music and opera lovers",
+      "Coffee house culture enthusiasts",
+      "History buffs interested in Habsburg and imperial Europe"
+    ],
+    "commonMistakes": [
+      "Not booking Vienna State Opera standing-room tickets — they're only €4-15 and go on sale 80 minutes before showtime; arrive early and tie a scarf to the railing to claim your spot",
+      "Skipping the Naschmarkt — this open-air market stretching along Wienzeile has the best Middle Eastern food, cheese stalls, and Saturday flea market in the city",
+      "Visiting Schönbrunn Palace without booking the Grand Tour online — walk-up wait times can hit 2 hours in summer; the Grand Tour (40 rooms) is worth the €6 upgrade over the Imperial Tour",
+      "Not sitting in a proper Kaffeehaus — order a Melange (Viennese cappuccino) and Sachertorte at Café Central or Café Sperl; rushing through coffee is anti-Viennese"
+    ]
   },
   {
     "slug": "copenhagen",
@@ -8498,7 +10342,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/K",
       "timeZone": "CET (UTC+1)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Indre By (City Center)",
+        "vibe": "Nyhavn, Strøget shopping, royal palaces",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Vesterbro",
+        "vibe": "Meatpacking District, craft beer, trendy dining",
+        "bestFor": "Foodies and nightlife lovers",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Nørrebro",
+        "vibe": "Multicultural, street food, local parks",
+        "bestFor": "Budget travelers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Christianshavn",
+        "vibe": "Canal-side, Freetown Christiania, houseboats",
+        "bestFor": "Alternative culture seekers",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Design and architecture enthusiasts",
+      "Foodies chasing New Nordic cuisine",
+      "Cycling culture lovers"
+    ],
+    "commonMistakes": [
+      "Not budgeting enough — Copenhagen is one of Europe's most expensive cities; a casual lunch costs $20-30 and a beer is $8-10; eat at Reffen street food market or Torvehallerne for better value",
+      "Waiting in line for Noma without a reservation — it books out months ahead; for similar New Nordic creativity try Amass, Barr, or Hart Bageri (from Noma's former head baker)",
+      "Skipping Freetown Christiania — this self-governing commune in Christianshavn is a unique social experiment with art studios, music venues, and organic restaurants",
+      "Not renting a bike — Copenhagen is the world's best cycling city; use Donkey Republic or Bycyklen bike-share to get around like a local; never walk in the bike lane"
+    ]
   },
   {
     "slug": "reykjavik",
@@ -8664,7 +10545,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/F",
       "timeZone": "GMT (UTC+0)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Downtown (101 Reykjavik)",
+        "vibe": "Hallgrímskirkja, Rainbow Street, bar scene",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Vesturbær",
+        "vibe": "Residential, Old Harbor, whale watching departure",
+        "bestFor": "Families",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Laugardalur",
+        "vibe": "Near geothermal pools, botanical garden, sports complex",
+        "bestFor": "Wellness seekers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Seltjarnarnes",
+        "vibe": "Quiet peninsula, Grótta lighthouse, local suburb",
+        "bestFor": "Nature lovers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Northern Lights chasers (September-March)",
+      "Geology and nature nerds",
+      "Road trip enthusiasts planning Ring Road adventures"
+    ],
+    "commonMistakes": [
+      "Booking the Blue Lagoon without reservations weeks in advance — it sells out daily; also consider the less-crowded Sky Lagoon or the secret local pool Kvika on Seltjarnarnes",
+      "Renting a non-4WD car for the F-roads — highland interior roads (F-roads) are gravel, river-crossing routes that destroy regular cars; get a proper 4x4 if leaving the Ring Road",
+      "Not downloading the Veður app for weather — Icelandic weather changes every 15 minutes; you can literally experience all four seasons in one day on the Golden Circle",
+      "Buying alcohol at restaurants instead of the Vínbúðin (state liquor store) — restaurant alcohol prices are extreme ($15+ per beer); stock up at duty-free on arrival at Keflavík Airport"
+    ]
   },
   {
     "slug": "athens",
@@ -8830,7 +10748,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/F",
       "timeZone": "EET (UTC+2)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Plaka",
+        "vibe": "Oldest neighborhood, Acropolis views, tavernas",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Monastiraki",
+        "vibe": "Flea market, street food, metro hub",
+        "bestFor": "Budget travelers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Koukaki",
+        "vibe": "Residential, Acropolis Museum adjacent, local life",
+        "bestFor": "Repeat visitors",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Psyrri",
+        "vibe": "Nightlife district, live music, tavernas",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Ancient history and mythology enthusiasts",
+      "Budget travelers wanting a cheap European capital",
+      "Foodies who love Greek taverna culture"
+    ],
+    "commonMistakes": [
+      "Visiting the Acropolis after 10am in summer — temperatures on the exposed rock hit 40°C+ and there's no shade; go at 8am opening or in the last hour before sunset",
+      "Not buying the combined archaeological sites ticket (€30) — it covers the Acropolis, Ancient Agora, Roman Agora, and more; individually they'd cost €60+",
+      "Eating at restaurants directly on Monastiraki Square — tourist-trap pricing; walk 5 minutes to Psyrri or Koukaki for authentic and cheaper souvlaki, moussaka, and grilled octopus",
+      "Skipping the National Archaeological Museum — most tourists only see the Acropolis Museum, but the National Museum houses the Mask of Agamemnon and the world's finest ancient Greek collection"
+    ]
   },
   {
     "slug": "new-orleans",
@@ -8995,7 +10950,44 @@
       "waterSafety": "safe",
       "plugType": "Type A/B (same as US)",
       "timeZone": "CST (UTC-6)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "French Quarter",
+        "vibe": "Bourbon Street, jazz clubs, Jackson Square, historic core",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Marigny/Bywater",
+        "vibe": "Frenchmen Street live music, artsy, local scene",
+        "bestFor": "Music lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Garden District",
+        "vibe": "Oak-lined streets, antebellum mansions, Magazine Street shops",
+        "bestFor": "Couples",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Warehouse District",
+        "vibe": "Converted warehouses, galleries, upscale restaurants",
+        "bestFor": "Foodies",
+        "priceRange": "$$$-$$$$"
+      }
+    ],
+    "bestFor": [
+      "Live music and jazz lovers",
+      "Foodies wanting America's most unique cuisine",
+      "Culture seekers fascinated by Creole/Cajun heritage"
+    ],
+    "commonMistakes": [
+      "Spending all your time on Bourbon Street — the real music scene is on Frenchmen Street in the Marigny; venues like d.b.a., The Spotted Cat, and Maison play live jazz nightly with no cover",
+      "Eating at Pat O'Brien's or Café Du Monde as your only food experience — get a po'boy at Parkway Bakery, gumbo at Dooky Chase, and beignets at Café Beignet for less crowded alternatives",
+      "Visiting during Mardi Gras without booking 6-12 months ahead — hotels sell out and prices are 3-5x normal; if you miss it, Jazz Fest (April-May) is equally incredible and less chaotic",
+      "Walking alone in poorly-lit areas at night outside the main tourist zones — stick to populated streets and use ride-shares after dark, especially around Tremé and parts of the CBD"
+    ]
   },
   {
     "slug": "costa-rica",
@@ -9171,7 +11163,44 @@
       "waterSafety": "safe",
       "plugType": "Type A/B (same as US)",
       "timeZone": "CST (UTC-6)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Arenal/La Fortuna",
+        "vibe": "Volcano views, hot springs, adventure activities",
+        "bestFor": "Adventure seekers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Manuel Antonio",
+        "vibe": "National park, beaches, wildlife spotting",
+        "bestFor": "Families",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Santa Teresa",
+        "vibe": "Surf town, yoga retreats, bohemian beach life",
+        "bestFor": "Surfers and wellness seekers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Monteverde",
+        "vibe": "Cloud forest, zip-lining, eco-lodges",
+        "bestFor": "Nature lovers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Nature and wildlife photographers",
+      "Adventure travelers seeking zip-lines and volcanoes",
+      "Eco-tourists wanting sustainable travel options"
+    ],
+    "commonMistakes": [
+      "Underestimating driving times — Costa Rica's roads are slow and winding; what looks like a 2-hour drive on Google Maps is often 4 hours on unpaved mountain roads",
+      "Not renting a 4WD vehicle — many roads to popular destinations like Monteverde and Santa Teresa are unpaved and impassable in a sedan, especially during rainy season (May-November)",
+      "Skipping the Osa Peninsula — most tourists stick to Arenal and Manuel Antonio, but Corcovado National Park on the Osa has the highest biodiversity on Earth per square meter",
+      "Not bringing binoculars — you'll see toucans, sloths, and monkeys daily, but they're in the canopy; a cheap pair of binoculars transforms your wildlife experience"
+    ]
   },
   {
     "slug": "cancun",
@@ -9337,7 +11366,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B (same as US)",
       "timeZone": "EST (UTC-5)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Hotel Zone (Zona Hotelera)",
+        "vibe": "All-inclusive resorts, turquoise water, nightclubs",
+        "bestFor": "Beach vacationers and spring breakers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Downtown Cancún (El Centro)",
+        "vibe": "Authentic tacos, local markets, budget hotels",
+        "bestFor": "Budget travelers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Isla Mujeres",
+        "vibe": "Laid-back island, snorkeling, golf carts, Playa Norte",
+        "bestFor": "Couples and families",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Puerto Morelos",
+        "vibe": "Quiet fishing village, snorkeling reef, relaxed pace",
+        "bestFor": "Repeat visitors seeking quiet",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Beach resort lovers wanting all-inclusive convenience",
+      "Divers and snorkelers exploring the Mesoamerican Reef",
+      "Day-trippers to Mayan ruins and cenotes"
+    ],
+    "commonMistakes": [
+      "Never leaving the Hotel Zone — downtown Cancún has amazing tacos al pastor at Tacos Rigo and Parque de las Palapas is a lively local park; Isla Mujeres is a 15-minute ferry ride away",
+      "Booking timeshare 'free tours' at the airport — they'll waste 3-4 hours of your vacation with high-pressure sales tactics for a discounted excursion that's available cheaper online",
+      "Not visiting Chichén Itzá early — tour buses from Cancún arrive by 11am; if you drive yourself or take a private tour departing at 6am, you'll have the pyramid nearly to yourself at opening",
+      "Swimming at beaches without checking the flag system — red and black flags mean dangerous currents; drownings in Cancún happen regularly to tourists who ignore warning flags"
+    ]
   },
   {
     "slug": "santiago",
@@ -9503,7 +11569,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/L",
       "timeZone": "CLT (UTC-3)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Lastarria/Bellas Artes",
+        "vibe": "Bohemian cafes, museums, art galleries, walkable",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Providencia",
+        "vibe": "Tree-lined avenues, upscale dining, safe residential",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Barrio Italia",
+        "vibe": "Antique shops, design studios, brunch culture",
+        "bestFor": "Creatives",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Bellavista",
+        "vibe": "Street art, Neruda museum, nightlife, Patio Bellavista",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Wine lovers exploring the Maipo and Casablanca valleys",
+      "Foodies discovering South America's rising food scene",
+      "Travelers using Santiago as a gateway to Patagonia or Atacama"
+    ],
+    "commonMistakes": [
+      "Not taking the funicular or teleférico up Cerro San Cristóbal — the panoramic view of the Andes behind the Santiago skyline is the city's best photo opportunity",
+      "Visiting wineries in Maipo Valley without a reservation — most boutique vineyards like Viña Undurraga and Concha y Toro require advance booking for tastings",
+      "Exchanging money at the airport — rates are 10-15% worse; wait and use ATMs or exchange at 'casas de cambio' on Agustinas Street downtown",
+      "Skipping the Mercado Central — the seafood market has incredible centolla (king crab) and caldillo de congrio (conger eel stew) at a fraction of restaurant prices; go for lunch, not dinner"
+    ]
   },
   {
     "slug": "lima",
@@ -9669,7 +11772,44 @@
       "waterSafety": "bottled",
       "plugType": "Type A/B/C",
       "timeZone": "PET (UTC-5)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Miraflores",
+        "vibe": "Ocean cliffs, Parque Kennedy, safe and walkable",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Barranco",
+        "vibe": "Bohemian, street art, Bridge of Sighs, galleries",
+        "bestFor": "Nightlife lovers and creatives",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "San Isidro",
+        "vibe": "Financial district, upscale dining, Huaca Pucllana ruins",
+        "bestFor": "Business travelers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Centro Histórico",
+        "vibe": "Colonial plazas, churches, historic core (daytime only)",
+        "bestFor": "History buffs",
+        "priceRange": "$-$$"
+      }
+    ],
+    "bestFor": [
+      "Foodies on a pilgrimage to South America's culinary capital",
+      "History buffs exploring pre-Inca ruins and colonial churches",
+      "Ceviche lovers who want it at the source"
+    ],
+    "commonMistakes": [
+      "Not reserving at Central or Maido months in advance — Lima's world-class restaurants book out 2-3 months ahead; walk-ins are impossible at the top spots",
+      "Only eating ceviche — Lima's food scene includes anticuchos (beef heart skewers) at Tía Grimanesa in Miraflores, causa limeña, and lomo saltado that you can't miss",
+      "Skipping Barranco for Miraflores — Barranco has better nightlife, more character, and restaurants like Isolina Taberna for traditional Peruvian comfort food",
+      "Taking unmarked taxis — use licensed taxi apps (InDriver or Beat) or have your hotel call a registered cab; unmarked taxis in Lima have been linked to robberies"
+    ]
   },
   {
     "slug": "bogota",
@@ -9836,7 +11976,44 @@
       "waterSafety": "safe",
       "plugType": "Type A/B (same as US)",
       "timeZone": "COT (UTC-5)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "La Candelaria",
+        "vibe": "Colonial streets, Botero Museum, graffiti tours",
+        "bestFor": "Culture seekers",
+        "priceRange": "$-$$"
+      },
+      {
+        "neighborhood": "Chapinero",
+        "vibe": "LGBTQ+ friendly, food scene, Zona G restaurants",
+        "bestFor": "Foodies",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Usaquén",
+        "vibe": "Sunday flea market, cobblestone streets, upscale dining",
+        "bestFor": "Families",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Zona Rosa/Parque 93",
+        "vibe": "Shopping, nightlife, international restaurants",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$$"
+      }
+    ],
+    "bestFor": [
+      "Street art and urban culture enthusiasts",
+      "Foodies discovering Colombian cuisine beyond arepas",
+      "History buffs exploring Gold Museum and colonial heritage"
+    ],
+    "commonMistakes": [
+      "Not acclimating to the altitude — Bogotá sits at 2,640m (8,660ft); take it easy the first day, drink agua de panela, and avoid alcohol for the first 24 hours",
+      "Walking in La Candelaria alone after dark — the historic center can be unsafe at night; explore during the day and take Uber/Didi back to your hotel after sunset",
+      "Skipping Monserrate — the cable car or funicular to the top of the mountain gives panoramic views of the entire city; go on a clear morning before clouds roll in by afternoon",
+      "Not trying the Bogotá food scene beyond restaurants — the Paloquemao market has the best tropical fruit juices and empanadas in the city at local prices"
+    ]
   },
   {
     "slug": "cairo",
@@ -10013,7 +12190,44 @@
       "waterSafety": "bottled",
       "plugType": "Type C/F",
       "timeZone": "EET (UTC+2)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Zamalek",
+        "vibe": "Island district, embassies, Nile views, quiet tree-lined streets",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Downtown (Wust El Balad)",
+        "vibe": "Colonial architecture, Tahrir Square, Egyptian Museum",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Garden City",
+        "vibe": "Nile-side, four Seasons, embassy row",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Giza (near Pyramids)",
+        "vibe": "Pyramid views from hotel, Sphinx proximity",
+        "bestFor": "Bucket-list travelers",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Ancient history enthusiasts seeing the Pyramids and Sphinx",
+      "Travelers wanting a sensory overload of Middle Eastern culture",
+      "Budget travelers where the Egyptian pound goes very far"
+    ],
+    "commonMistakes": [
+      "Not visiting the Grand Egyptian Museum (GEM) in Giza — it opened near the Pyramids and houses Tutankhamun's complete collection; buy timed tickets online to avoid 2+ hour queues",
+      "Hiring unlicensed 'guides' at the Pyramids — they'll demand inflated prices and lead you to camel ride scams; book through your hotel or use a licensed guide from the Ministry of Tourism",
+      "Taking Cairo taxis without a meter or app — use Uber or Careem exclusively; metered taxis will claim the meter is broken and charge 5-10x the real fare",
+      "Only seeing the Pyramids and leaving Cairo — the Khan el-Khalili bazaar, Islamic Cairo's mosques, and Coptic Cairo's churches make the city itself worth 2-3 full days"
+    ]
   },
   {
     "slug": "accra",
@@ -10180,7 +12394,44 @@
       "waterSafety": "bottled",
       "plugType": "Type D/G",
       "timeZone": "GMT (UTC+0)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Osu",
+        "vibe": "Oxford Street, nightlife, restaurants, central",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$"
+      },
+      {
+        "neighborhood": "Airport Residential",
+        "vibe": "Quiet, safe, modern hotels, near mall",
+        "bestFor": "Business travelers",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Labadi/La",
+        "vibe": "Beach area, Labadi Beach Hotel, local fish markets",
+        "bestFor": "Beach lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "East Legon",
+        "vibe": "Upscale suburb, expat area, new restaurants",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$"
+      }
+    ],
+    "bestFor": [
+      "African diaspora travelers on heritage journeys",
+      "Music lovers exploring Afrobeats and highlife culture",
+      "Travelers wanting a friendly introduction to West Africa"
+    ],
+    "commonMistakes": [
+      "Not visiting Cape Coast Castle — it's a 2.5-hour drive from Accra and a profoundly moving experience for understanding the transatlantic slave trade; combine with Kakum National Park canopy walk",
+      "Expecting Western-style punctuality — 'Ghana time' is real; build flexibility into your schedule and don't get frustrated when things start 30-60 minutes late",
+      "Skipping Jamestown — Accra's oldest neighborhood has the Bukom boxing legacy, lighthouse, and the most authentic street food in the city; take a local walking tour",
+      "Not trying waakye — this rice-and-beans breakfast dish with shito (pepper sauce) is Ghana's signature morning meal; any street vendor near Makola Market serves it for a few cedis"
+    ]
   },
   {
     "slug": "mauritius",
@@ -10348,7 +12599,44 @@
       "waterSafety": "safe",
       "plugType": "Type C/G",
       "timeZone": "MUT (UTC+4)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Grand Baie",
+        "vibe": "Beach town, water sports, nightlife, restaurants",
+        "bestFor": "Nightlife lovers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Flic en Flac",
+        "vibe": "Long sandy beach, snorkeling, sunset views",
+        "bestFor": "Beach lovers and families",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Le Morne",
+        "vibe": "UNESCO heritage mountain, luxury resorts, kite surfing",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$-$$$$"
+      },
+      {
+        "neighborhood": "Trou aux Biches",
+        "vibe": "Calm turquoise water, family resorts, protected reef",
+        "bestFor": "Families",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Honeymooners wanting tropical luxury",
+      "Water sports enthusiasts (diving, kitesurfing)",
+      "Travelers seeking a multicultural island experience"
+    ],
+    "commonMistakes": [
+      "Staying at an all-inclusive resort and never leaving — the street food at Flacq Market and Port Louis Central Market is incredible and costs a fraction of resort dining",
+      "Not renting a car — Mauritius is small enough to drive around in a day, and the interior (Chamarel Coloured Earth, Black River Gorges) is only accessible by car; drive on the left",
+      "Visiting Île aux Cerfs on a weekend — it's packed with local families and tour groups; go on a weekday for a much more peaceful beach experience",
+      "Skipping the rum distilleries — Rhumerie de Chamarel offers tastings and lunch with a view of the Seven Coloured Earths; Mauritius rum rivals Caribbean offerings"
+    ]
   },
   {
     "slug": "melbourne",
@@ -10515,7 +12803,44 @@
       "waterSafety": "safe",
       "plugType": "Type I",
       "timeZone": "AEST (UTC+10)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "CBD/Laneways",
+        "vibe": "Street art, hidden bars, coffee culture, central",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Fitzroy",
+        "vibe": "Brunswick Street, vintage shops, craft beer, bohemian",
+        "bestFor": "Nightlife lovers and creatives",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "South Yarra/Prahran",
+        "vibe": "Chapel Street shopping, brunch spots, Prahran Market",
+        "bestFor": "Foodies",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "St Kilda",
+        "vibe": "Beach, Luna Park, cake shops, backpacker energy",
+        "bestFor": "Beach lovers and budget travelers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Coffee snobs and cafe culture devotees",
+      "Street art and underground culture enthusiasts",
+      "Foodies in Australia's culinary capital"
+    ],
+    "commonMistakes": [
+      "Not exploring the laneways — Hosier Lane street art is famous, but the real gems are hidden bars like Eau de Vie (behind a bookshelf) and Rooftop Bar on Curtin House",
+      "Taking a taxi to the Great Ocean Road — rent a car and drive yourself; the 12 Apostles are 3.5 hours from Melbourne and the journey through surf towns like Lorne and Apollo Bay is the experience",
+      "Only drinking flat whites — Melbourne's specialty coffee scene goes deep; visit Market Lane, Patricia Coffee Brewers, or Seven Seeds for pour-overs and single-origin beans",
+      "Visiting in winter without layering properly — Melbourne's 'four seasons in a day' is not a joke; carry a rain jacket even when it's sunny at breakfast"
+    ]
   },
   {
     "slug": "bora-bora",
@@ -10688,7 +13013,44 @@
       "waterSafety": "safe",
       "plugType": "Type A/B/C/E",
       "timeZone": "TAHT (UTC-10)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Matira Beach",
+        "vibe": "Only public beach, crystal water, affordable pensions",
+        "bestFor": "Budget travelers",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Motu Tehotu (Four Seasons side)",
+        "vibe": "Overwater bungalows, Mount Otemanu views",
+        "bestFor": "Honeymooners",
+        "priceRange": "$$$$"
+      },
+      {
+        "neighborhood": "Motu Toopua",
+        "vibe": "Private island resort, ultimate seclusion",
+        "bestFor": "Luxury seekers",
+        "priceRange": "$$$$"
+      },
+      {
+        "neighborhood": "Vaitape Town",
+        "vibe": "Main village, local shops, restaurants, ferry dock",
+        "bestFor": "Budget-conscious travelers",
+        "priceRange": "$$"
+      }
+    ],
+    "bestFor": [
+      "Honeymooners wanting the ultimate overwater bungalow",
+      "Divers and snorkelers in crystal lagoons",
+      "Once-in-a-lifetime luxury splurge travelers"
+    ],
+    "commonMistakes": [
+      "Not budgeting for food — everything is imported and expensive; a simple lunch costs $30-50; bring snacks from Tahiti and eat at Matira Beach food trucks for relative savings",
+      "Booking an overwater bungalow without checking which direction it faces — Mount Otemanu-facing bungalows cost more for a reason; sunset-facing ones miss the iconic view",
+      "Not booking lagoon tours in advance — shark and ray snorkeling tours and coral garden excursions fill up; book through your hotel or Moana Adventure Tours immediately upon arrival",
+      "Flying directly without a night in Papeete (Tahiti) — Bora Bora flights are morning-only from Tahiti; if your international flight arrives late, you'll miss the connection and waste a day"
+    ]
   },
   {
     "slug": "auckland",
@@ -10854,6 +13216,43 @@
       "waterSafety": "safe",
       "plugType": "Type I",
       "timeZone": "NZST (UTC+12)"
-    }
+    },
+    "whereToStay": [
+      {
+        "neighborhood": "Auckland CBD/Viaduct Harbour",
+        "vibe": "Waterfront dining, Sky Tower, ferry terminal",
+        "bestFor": "First-time visitors",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Ponsonby",
+        "vibe": "Trendy restaurants, boutique shopping, brunch culture",
+        "bestFor": "Foodies",
+        "priceRange": "$$$"
+      },
+      {
+        "neighborhood": "Devonport",
+        "vibe": "Charming village, ferry ride, North Head volcano views",
+        "bestFor": "Couples",
+        "priceRange": "$$-$$$"
+      },
+      {
+        "neighborhood": "Parnell",
+        "vibe": "Oldest suburb, rose gardens, Auckland Museum adjacent",
+        "bestFor": "Culture seekers",
+        "priceRange": "$$-$$$"
+      }
+    ],
+    "bestFor": [
+      "Sailing and harbor city enthusiasts",
+      "Wine lovers exploring Waiheke Island",
+      "Outdoor adventurers using Auckland as a NZ launch pad"
+    ],
+    "commonMistakes": [
+      "Not taking the 35-minute ferry to Waiheke Island — it's New Zealand's premier wine region with beaches, and most visitors don't realize it's a quick day trip from the CBD ferry terminal",
+      "Skipping Rangitoto Island — the volcanic island is a 25-minute ferry ride and the summit hike through lava fields to panoramic harbor views is Auckland's best half-day outdoor experience",
+      "Spending too many days in the city — Auckland is a gateway; head to Rotorua (3 hours), Coromandel Peninsula (2.5 hours), or Hobbiton (2 hours) within your first couple of days",
+      "Not getting an AT HOP card — Auckland's public transport (buses, ferries, trains) is not walkable like European cities; the HOP card saves 20-30% on all fares"
+    ]
   }
 ]

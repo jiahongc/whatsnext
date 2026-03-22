@@ -21,6 +21,16 @@ export interface Destination {
   extendedDescription: string
   visaNote?: string
   cityInfo: CityInfo
+  whereToStay: NeighborhoodRec[]
+  bestFor: string[]
+  commonMistakes: string[]
+}
+
+export interface NeighborhoodRec {
+  neighborhood: string
+  vibe: string
+  bestFor: string
+  priceRange: string
 }
 
 export interface CityInfo {

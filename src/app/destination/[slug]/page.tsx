@@ -13,6 +13,8 @@ import { RedditSection } from '@/components/destination/RedditSection'
 import { WeatherInfo } from '@/components/destination/WeatherInfo'
 import { ThingsToDoSection } from '@/components/destination/ThingsToDoSection'
 import { MichelinSection } from '@/components/destination/MichelinSection'
+import { WhereToStaySection } from '@/components/destination/WhereToStaySection'
+import { CityFitSection } from '@/components/destination/CityFitSection'
 import { DestinationJsonLd } from '@/components/DestinationJsonLd'
 import { MapLoader } from '@/components/destination/MapLoader'
 import { TravelFromBanner } from './travel-from-banner'
@@ -141,9 +143,15 @@ export default async function DestinationPage({
             <WeatherInfo bestMonths={d.bestMonths} avgTemps={d.cityInfo.avgTempByMonth} />
           </section>
 
+          {/* ── WHO IS IT FOR + COMMON MISTAKES ── */}
+          <CityFitSection bestFor={d.bestFor} commonMistakes={d.commonMistakes} cityName={d.name} />
+
           {/* ── THINGS TO DO ── */}
           <ThingsToDoSection items={d.topThingsToDo} />
           <ItinerarySection itinerary={d.itinerary} />
+
+          {/* ── WHERE TO STAY ── */}
+          <WhereToStaySection neighborhoods={d.whereToStay} />
 
           {/* ── WHERE TO EAT ── */}
           <MichelinSection restaurants={michelinRestaurants} localFood={localFood} cityName={d.name} />
@@ -154,7 +162,7 @@ export default async function DestinationPage({
             <RedditSection communities={d.redditCommunities} />
           </section>
 
-          {/* ── MAP — clean, no overlay ── */}
+          {/* ── MAP ── */}
           <section>
             <h2 className="font-serif text-2xl text-stone-900 mb-4">Location</h2>
             <MapLoader name={d.name} lat={d.coordinates.lat} lng={d.coordinates.lng} />

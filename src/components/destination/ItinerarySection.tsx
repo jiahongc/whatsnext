@@ -8,64 +8,50 @@ export function ItinerarySection({ itinerary }: { itinerary: ItineraryDay[] }) {
 
   return (
     <section>
-      <h2 className="font-serif text-2xl text-stone-900 mb-5">
-        Sample Itinerary
-      </h2>
-      <div className="space-y-3">
-        {itinerary.map((day) => (
-          <div
-            key={day.day}
-            className="border border-stone-200/60 rounded-[2px] overflow-hidden transition-colors hover:border-stone-300"
-          >
-            <button
-              onClick={() =>
-                setExpandedDay(expandedDay === day.day ? null : day.day)
-              }
-              className="w-full flex items-center gap-4 px-5 py-4 text-left cursor-pointer bg-transparent"
-            >
-              {/* Day badge */}
-              <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center bg-amber-500 text-stone-900 text-sm font-semibold font-sans rounded-full">
-                {day.day}
-              </span>
-              <span className="font-sans text-stone-900 font-medium flex-1">
-                {day.title}
-              </span>
-              <svg
-                className={`w-4 h-4 text-stone-400 transition-transform duration-200 ${
-                  expandedDay === day.day ? 'rotate-180' : ''
-                }`}
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            </button>
+      <h2 className="font-serif text-2xl text-stone-900 mb-1">Sample Itinerary</h2>
+      <p className="font-sans text-sm text-stone-400 mb-4">{itinerary.length}-day trip plan</p>
 
-            {expandedDay === day.day && (
-              <div className="px-5 pb-5 pt-0 ml-[52px]">
-                <ul className="space-y-2">
-                  {day.activities.map((activity, i) => (
-                    <li
-                      key={i}
-                      className="font-sans text-sm text-stone-600 flex items-start gap-2"
-                    >
-                      <span className="text-amber-400 mt-1.5 flex-shrink-0">
-                        &bull;
-                      </span>
-                      {activity}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        ))}
+      <div className="space-y-2">
+        {itinerary.map((day) => {
+          const isExpanded = expandedDay === day.day
+          return (
+            <div
+              key={day.day}
+              className="bg-white border border-stone-200/80 rounded-lg overflow-hidden"
+            >
+              <button
+                onClick={() => setExpandedDay(isExpanded ? null : day.day)}
+                className="w-full flex items-center gap-3 px-4 py-3 text-left cursor-pointer bg-transparent hover:bg-stone-50/50 transition-colors"
+              >
+                <span className="flex-shrink-0 w-7 h-7 flex items-center justify-center bg-amber-500 text-stone-900 text-xs font-bold font-sans rounded-full">
+                  {day.day}
+                </span>
+                <span className="font-sans text-sm text-stone-900 font-medium flex-1">
+                  {day.title}
+                </span>
+                <svg
+                  className={`w-4 h-4 text-stone-400 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                  fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              {isExpanded && (
+                <div className="px-4 pb-4 ml-10">
+                  <div className="space-y-2 border-l border-amber-200 pl-3">
+                    {day.activities.map((activity, i) => (
+                      <div key={i} className="flex items-start gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-400 mt-1.5 flex-shrink-0" />
+                        <p className="font-sans text-sm text-stone-600 leading-relaxed">{activity}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )
+        })}
       </div>
     </section>
   )
