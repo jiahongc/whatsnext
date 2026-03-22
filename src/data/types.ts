@@ -17,6 +17,7 @@ export interface Destination {
   language: string
   englishFriendly: boolean
   description: string
+  extendedDescription: string
   visaNote?: string
   cityInfo: CityInfo
 }
