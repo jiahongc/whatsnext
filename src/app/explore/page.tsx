@@ -2,6 +2,7 @@ import { Suspense } from 'react'
 import type { Metadata } from 'next'
 import rawDestinations from '@/data/destinations.json'
 import type { Destination } from '@/data/types'
+import { Header } from '@/components/Header'
 import { ExploreContent } from './explore-content'
 
 const destinations = rawDestinations as Destination[]
@@ -15,7 +16,8 @@ export const metadata: Metadata = {
 export default function ExplorePage() {
   return (
     <main className="min-h-screen bg-warm-50 relative z-10">
-      {/* Header */}
+      <Header />
+      {/* Page header */}
       <div className="max-w-7xl mx-auto px-6 pt-10 pb-6">
         <h1 className="font-serif text-4xl text-stone-900 tracking-tight">
           Explore Destinations
