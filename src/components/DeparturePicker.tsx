@@ -16,6 +16,23 @@ export function DeparturePicker({
   value: string
   onChange: (city: string) => void
 }) {
+  // Persist to localStorage so destination pages can read it
+  useEffect(() => {
+    if (value) {
+      localStorage.setItem('departureCity', value)
+    } else {
+      localStorage.removeItem('departureCity')
+    }
+  }, [value])
+
+  // Load from localStorage on mount
+  useEffect(() => {
+    const saved = localStorage.getItem('departureCity')
+    if (saved && !value) {
+      onChange(saved)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
   const [open, setOpen] = useState(false)
   const [search, setSearch] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)

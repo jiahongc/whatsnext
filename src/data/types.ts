@@ -18,6 +18,32 @@ export interface Destination {
   englishFriendly: boolean
   description: string
   visaNote?: string
+  cityInfo: CityInfo
+}
+
+export interface CityInfo {
+  currency: {
+    name: string
+    code: string
+    symbol: string
+    exchangeRate: string
+  }
+  transportation: TransportOption[]
+  tipping: {
+    culture: 'expected' | 'appreciated' | 'not-expected' | 'included'
+    details: string
+  }
+  avgTempByMonth: number[]
+  emergencyNumber: string
+  waterSafety: 'safe' | 'boil' | 'bottled'
+  plugType: string
+  timeZone: string
+}
+
+export interface TransportOption {
+  mode: string
+  description: string
+  cost: string
 }
 
 export interface ItineraryDay {

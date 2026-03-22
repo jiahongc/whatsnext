@@ -9,8 +9,10 @@ import { PointsSection } from '@/components/destination/PointsSection'
 import { RedditSection } from '@/components/destination/RedditSection'
 import { WeatherInfo } from '@/components/destination/WeatherInfo'
 import { ThingsToDoSection } from '@/components/destination/ThingsToDoSection'
+import { CityInfoSection } from '@/components/destination/CityInfoSection'
 import { DestinationJsonLd } from '@/components/DestinationJsonLd'
 import { MapLoader } from '@/components/destination/MapLoader'
+import { TravelFromBanner } from './travel-from-banner'
 
 const destinations = rawDestinations as Destination[]
 
@@ -81,7 +83,6 @@ export default async function DestinationPage({
             <p className="font-sans text-lg text-stone-600 leading-relaxed">
               {destination.description}
             </p>
-            {/* Vibe tags */}
             <div className="flex flex-wrap gap-x-4 gap-y-1.5 mt-4">
               {destination.vibeTags.map((tag) => (
                 <span
@@ -94,6 +95,16 @@ export default async function DestinationPage({
             </div>
           </section>
 
+          {/* Travel from banner — shows flight time, distance, route when departure city is set */}
+          <TravelFromBanner
+            destinationName={destination.name}
+            destLat={destination.coordinates.lat}
+            destLng={destination.coordinates.lng}
+            flightCost={destination.flightCost}
+          />
+
+          <CityInfoSection cityInfo={destination.cityInfo} cityName={destination.name} />
+
           <ItinerarySection itinerary={destination.itinerary} />
 
           <ThingsToDoSection items={destination.topThingsToDo} />
@@ -104,7 +115,7 @@ export default async function DestinationPage({
 
           <RedditSection communities={destination.redditCommunities} />
 
-          {/* Mapbox Map — lazy-loaded */}
+          {/* Mapbox Map */}
           <section>
             <h2 className="font-serif text-2xl text-stone-900 mb-4">
               Location

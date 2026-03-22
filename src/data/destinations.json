@@ -118,7 +118,54 @@
     "language": "Japanese",
     "englishFriendly": false,
     "description": "Tokyo is a city of electrifying contrasts, where ancient temples sit in the shadow of glowing skyscrapers and a convenience store onigiri can rival a Michelin-starred meal. The energy here is relentless yet somehow orderly, pulling you from ramen counters to robot restaurants to silent shrines in a single afternoon.",
-    "visaNote": "US citizens get 90-day visa-free entry."
+    "visaNote": "US citizens get 90-day visa-free entry.",
+    "cityInfo": {
+      "currency": {
+        "name": "Japanese Yen",
+        "code": "JPY",
+        "symbol": "¥",
+        "exchangeRate": "~150 JPY = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro/Subway",
+          "description": "Extensive, clean, punctual subway system covering the entire city",
+          "cost": "$1.50-3 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Metered, safe, but expensive. Doors open automatically",
+          "cost": "$7-15 for short trips"
+        },
+        {
+          "mode": "JR Rail Pass",
+          "description": "Japan Rail pass for bullet trains and local JR lines",
+          "cost": "$200 for 7-day pass"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary and can even be considered rude. Service charges are included."
+      },
+      "avgTempByMonth": [
+        10,
+        11,
+        14,
+        19,
+        24,
+        26,
+        30,
+        31,
+        27,
+        22,
+        17,
+        12
+      ],
+      "emergencyNumber": "110 (police), 119 (fire/ambulance)",
+      "waterSafety": "safe",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "JST (UTC+9)"
+    }
   },
   {
     "slug": "bangkok",
@@ -230,7 +277,59 @@
     "language": "Thai",
     "englishFriendly": true,
     "description": "Bangkok is sensory overload in the best possible way — incense drifting from golden temples, sizzling woks on every corner, tuk-tuks weaving through traffic, and rooftop bars with skyline views that never end. It's one of the world's great food cities, where a $2 meal on a plastic stool can change your life.",
-    "visaNote": "US citizens get 30-day visa-free entry, extendable to 60 days."
+    "visaNote": "US citizens get 30-day visa-free entry, extendable to 60 days.",
+    "cityInfo": {
+      "currency": {
+        "name": "Thai Baht",
+        "code": "THB",
+        "symbol": "฿",
+        "exchangeRate": "~35 THB = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "BTS Skytrain",
+          "description": "Elevated rail covering central Bangkok, fast and air-conditioned",
+          "cost": "$0.50-1.50 per ride"
+        },
+        {
+          "mode": "MRT Subway",
+          "description": "Underground metro complementing the BTS with expanding coverage",
+          "cost": "$0.50-1.50 per ride"
+        },
+        {
+          "mode": "Tuk-tuk",
+          "description": "Iconic three-wheeled vehicles — always negotiate the fare before getting in",
+          "cost": "$1-5 per trip"
+        },
+        {
+          "mode": "Grab (Rideshare)",
+          "description": "Southeast Asia's Uber equivalent, metered and reliable",
+          "cost": "$2-8 for city trips"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Not mandatory but appreciated. Round up the bill at restaurants. 20-50 THB for hotel staff. Tip massage therapists 50-100 THB."
+      },
+      "avgTempByMonth": [
+        32,
+        33,
+        34,
+        35,
+        34,
+        33,
+        33,
+        33,
+        32,
+        32,
+        32,
+        31
+      ],
+      "emergencyNumber": "191 (police), 1669 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B/C (US and European plugs work)",
+      "timeZone": "ICT (UTC+7)"
+    }
   },
   {
     "slug": "bali",
@@ -354,7 +453,54 @@
     "language": "Indonesian",
     "englishFriendly": true,
     "description": "Bali casts a spell that brings people back year after year — emerald rice terraces cascading down volcanic hillsides, incense-filled temples draped in marigolds, and sunsets over the Indian Ocean that stop you mid-sentence. Whether you're chasing waves in Canggu or finding stillness in an Ubud yoga studio, this island delivers.",
-    "visaNote": "US citizens can get a 30-day visa on arrival for $35 USD, extendable once."
+    "visaNote": "US citizens can get a 30-day visa on arrival for $35 USD, extendable once.",
+    "cityInfo": {
+      "currency": {
+        "name": "Indonesian Rupiah",
+        "code": "IDR",
+        "symbol": "Rp",
+        "exchangeRate": "~15,800 IDR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Scooter Rental",
+          "description": "Most popular way to get around. International license required officially",
+          "cost": "$5-8 per day"
+        },
+        {
+          "mode": "Grab/Gojek",
+          "description": "Rideshare apps for cars and motorbike taxis",
+          "cost": "$1-10 depending on distance"
+        },
+        {
+          "mode": "Private Driver",
+          "description": "Hire a driver for the day to explore the island comfortably",
+          "cost": "$35-50 per day"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants if no service charge. 20,000-50,000 IDR for drivers and guides. Small tips for hotel staff appreciated."
+      },
+      "avgTempByMonth": [
+        30,
+        30,
+        31,
+        31,
+        30,
+        29,
+        29,
+        29,
+        30,
+        31,
+        31,
+        30
+      ],
+      "emergencyNumber": "112 (general), 110 (police), 118 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type C/F (European)",
+      "timeZone": "WITA (UTC+8)"
+    }
   },
   {
     "slug": "seoul",
@@ -465,7 +611,59 @@
     "language": "Korean",
     "englishFriendly": false,
     "description": "Seoul is where 600-year-old palaces and K-pop billboards share the same skyline, creating one of Asia's most dynamic capitals. The food alone is worth the trip — from sizzling barbecue joints that stay open until 4 AM to grandmothers ladling perfect kimchi jjigae in century-old markets.",
-    "visaNote": "US citizens get 90-day visa-free entry with K-ETA registration."
+    "visaNote": "US citizens get 90-day visa-free entry with K-ETA registration.",
+    "cityInfo": {
+      "currency": {
+        "name": "South Korean Won",
+        "code": "KRW",
+        "symbol": "₩",
+        "exchangeRate": "~1,350 KRW = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro/Subway",
+          "description": "World-class subway system with 23 lines, free WiFi, and heated seats",
+          "cost": "$1-2 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Extensive bus network color-coded by route type",
+          "cost": "$1-2 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Affordable metered taxis, no tipping needed. Orange taxis are deluxe",
+          "cost": "$3-10 for city trips"
+        },
+        {
+          "mode": "T-money Card",
+          "description": "Rechargeable transit card for metro, bus, and convenience stores",
+          "cost": "$3 for the card + fares"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary in South Korea. Service is included. Some upscale international restaurants may add a service charge."
+      },
+      "avgTempByMonth": [
+        1,
+        4,
+        10,
+        17,
+        23,
+        27,
+        29,
+        30,
+        26,
+        19,
+        11,
+        3
+      ],
+      "emergencyNumber": "112 (police), 119 (fire/ambulance)",
+      "waterSafety": "safe",
+      "plugType": "Type C/F (European)",
+      "timeZone": "KST (UTC+9)"
+    }
   },
   {
     "slug": "hanoi",
@@ -576,7 +774,59 @@
     "language": "Vietnamese",
     "englishFriendly": false,
     "description": "Hanoi is a city that moves to its own rhythm — motorbikes weave through tree-lined French colonial boulevards, vendors balance entire kitchens on shoulder poles, and the aroma of pho simmering since before dawn fills every alley. It's raw, chaotic, and utterly captivating.",
-    "visaNote": "US citizens need an e-visa ($25, valid 90 days single entry) — apply online before departure."
+    "visaNote": "US citizens need an e-visa ($25, valid 90 days single entry) — apply online before departure.",
+    "cityInfo": {
+      "currency": {
+        "name": "Vietnamese Dong",
+        "code": "VND",
+        "symbol": "₫",
+        "exchangeRate": "~25,000 VND = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Grab (Rideshare)",
+          "description": "The go-to app for car and motorbike rides, metered and safe",
+          "cost": "$1-5 for city trips"
+        },
+        {
+          "mode": "City Bus",
+          "description": "Growing bus network, very cheap but can be confusing for visitors",
+          "cost": "$0.25-0.40 per ride"
+        },
+        {
+          "mode": "Cyclo",
+          "description": "Traditional three-wheeled bicycle taxi for sightseeing in the Old Quarter",
+          "cost": "$2-5 per trip (negotiate)"
+        },
+        {
+          "mode": "Motorbike Rental",
+          "description": "Rent a scooter to explore like a local — chaotic but exciting",
+          "cost": "$6-10 per day"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Not required but appreciated. 5-10% at restaurants. $1-2 for hotel porters. Tour guides appreciate $5-10 per day."
+      },
+      "avgTempByMonth": [
+        20,
+        21,
+        23,
+        28,
+        32,
+        34,
+        33,
+        32,
+        31,
+        29,
+        25,
+        22
+      ],
+      "emergencyNumber": "113 (police), 115 (ambulance), 114 (fire)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/C (US and European plugs work)",
+      "timeZone": "ICT (UTC+7)"
+    }
   },
   {
     "slug": "singapore",
@@ -694,7 +944,59 @@
     "language": "English",
     "englishFriendly": true,
     "description": "Singapore packs an extraordinary punch for its tiny size — Michelin-starred hawker stalls, futuristic gardens, pristine streets, and a food culture that might be the best on Earth. It's the rare city where you can eat a $3 plate of chicken rice and a $300 tasting menu on the same day and both will blow your mind.",
-    "visaNote": "US citizens get 90-day visa-free entry."
+    "visaNote": "US citizens get 90-day visa-free entry.",
+    "cityInfo": {
+      "currency": {
+        "name": "Singapore Dollar",
+        "code": "SGD",
+        "symbol": "S$",
+        "exchangeRate": "~1.35 SGD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "MRT",
+          "description": "Modern, efficient metro system covering the entire island",
+          "cost": "$1-2 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Comprehensive bus network with air-conditioning and digital displays",
+          "cost": "$1-2 per ride"
+        },
+        {
+          "mode": "Grab (Rideshare)",
+          "description": "Southeast Asia's rideshare leader, widely used in Singapore",
+          "cost": "$5-15 for city trips"
+        },
+        {
+          "mode": "EZ-Link Card",
+          "description": "Contactless transit card for MRT, bus, and some shops",
+          "cost": "$5 for the card + fares"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Most restaurants add a 10% service charge. Tipping is not expected but you can leave small change for exceptional service."
+      },
+      "avgTempByMonth": [
+        30,
+        31,
+        31,
+        31,
+        32,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        30
+      ],
+      "emergencyNumber": "999 (police), 995 (fire/ambulance)",
+      "waterSafety": "safe",
+      "plugType": "Type G (UK)",
+      "timeZone": "SGT (UTC+8)"
+    }
   },
   {
     "slug": "kyoto",
@@ -804,7 +1106,59 @@
     "language": "Japanese",
     "englishFriendly": false,
     "description": "Kyoto is Japan distilled to its essence — over 2,000 temples and shrines, geisha districts preserved in amber, and seasonal beauty so profound it inspired an entire aesthetic philosophy. In spring, cherry blossoms drape the Philosopher's Path in pink; in autumn, maple leaves set the hillside temples ablaze.",
-    "visaNote": "US citizens get 90-day visa-free entry."
+    "visaNote": "US citizens get 90-day visa-free entry.",
+    "cityInfo": {
+      "currency": {
+        "name": "Japanese Yen",
+        "code": "JPY",
+        "symbol": "¥",
+        "exchangeRate": "~150 JPY = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "City Bus",
+          "description": "Main way to reach temples and shrines. Day passes available",
+          "cost": "$2.30 flat fare, $7 day pass"
+        },
+        {
+          "mode": "Subway",
+          "description": "Two subway lines covering north-south and east-west corridors",
+          "cost": "$1.50-2.50 per ride"
+        },
+        {
+          "mode": "Bicycle Rental",
+          "description": "Kyoto is flat and bike-friendly — a great way to explore",
+          "cost": "$8-12 per day"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Metered and reliable but adds up quickly",
+          "cost": "$5-15 for short trips"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary and can even be considered rude. Service charges are included."
+      },
+      "avgTempByMonth": [
+        9,
+        10,
+        14,
+        20,
+        25,
+        28,
+        32,
+        33,
+        29,
+        23,
+        17,
+        12
+      ],
+      "emergencyNumber": "110 (police), 119 (fire/ambulance)",
+      "waterSafety": "safe",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "JST (UTC+9)"
+    }
   },
   {
     "slug": "taipei",
@@ -914,7 +1268,59 @@
     "language": "Mandarin",
     "englishFriendly": false,
     "description": "Taipei is the most underrated food capital in Asia — a city where night markets serve michelin-worthy meals for $3, convenience stores stock gourmet bentos, and the original Din Tai Fung still has lines around the block. Beyond the food, it offers hot springs, lush mountain hikes, and some of the friendliest locals you'll ever meet.",
-    "visaNote": "US citizens get 90-day visa-free entry."
+    "visaNote": "US citizens get 90-day visa-free entry.",
+    "cityInfo": {
+      "currency": {
+        "name": "New Taiwan Dollar",
+        "code": "TWD",
+        "symbol": "NT$",
+        "exchangeRate": "~32 TWD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "MRT",
+          "description": "Clean, efficient metro system with English signage everywhere",
+          "cost": "$0.60-1.80 per ride"
+        },
+        {
+          "mode": "YouBike",
+          "description": "Public bike-sharing system, easy to use with an EasyCard",
+          "cost": "$0.30 per 30 minutes"
+        },
+        {
+          "mode": "Bus",
+          "description": "Extensive bus network covering areas the MRT doesn't reach",
+          "cost": "$0.45 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Yellow taxis are metered, safe, and affordable",
+          "cost": "$3-8 for city trips"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary in Taiwan. Some high-end restaurants add a 10% service charge automatically."
+      },
+      "avgTempByMonth": [
+        19,
+        19,
+        22,
+        25,
+        29,
+        32,
+        34,
+        34,
+        31,
+        27,
+        24,
+        20
+      ],
+      "emergencyNumber": "110 (police), 119 (fire/ambulance)",
+      "waterSafety": "boil",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "CST (UTC+8)"
+    }
   },
   {
     "slug": "chiang-mai",
@@ -1024,7 +1430,59 @@
     "language": "Thai",
     "englishFriendly": true,
     "description": "Chiang Mai is the gentle soul of Thailand — a moat-ringed old city filled with golden temples, surrounded by misty mountains and elephant sanctuaries. It's where digital nomads sip $2 lattes in gorgeous cafes, night markets stretch for miles, and a cooking class can teach you more about Thai culture than any museum.",
-    "visaNote": "US citizens get 30-day visa-free entry, extendable to 60 days."
+    "visaNote": "US citizens get 30-day visa-free entry, extendable to 60 days.",
+    "cityInfo": {
+      "currency": {
+        "name": "Thai Baht",
+        "code": "THB",
+        "symbol": "฿",
+        "exchangeRate": "~35 THB = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Songthaew (Red Truck)",
+          "description": "Shared red pickup trucks that serve as communal taxis around the Old City",
+          "cost": "$0.60-1.50 per ride"
+        },
+        {
+          "mode": "Grab (Rideshare)",
+          "description": "Rideshare app for cars and bikes, widely available",
+          "cost": "$1-5 for city trips"
+        },
+        {
+          "mode": "Scooter Rental",
+          "description": "The most popular way to explore temples and the countryside",
+          "cost": "$4-8 per day"
+        },
+        {
+          "mode": "Tuk-tuk",
+          "description": "Three-wheeled taxis, negotiate the fare before riding",
+          "cost": "$1-3 per trip"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Not mandatory but appreciated. Round up the bill at restaurants. 20-50 THB for massage therapists and hotel staff."
+      },
+      "avgTempByMonth": [
+        31,
+        33,
+        36,
+        36,
+        34,
+        32,
+        32,
+        31,
+        31,
+        31,
+        30,
+        29
+      ],
+      "emergencyNumber": "191 (police), 1669 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B/C (US and European plugs work)",
+      "timeZone": "ICT (UTC+7)"
+    }
   },
   {
     "slug": "jaipur",
@@ -1135,7 +1593,59 @@
     "language": "Hindi",
     "englishFriendly": true,
     "description": "Jaipur paints everything in shades of terracotta and gold — from its iconic pink-walled Old City to the amber sandstone of its hilltop forts. It's India at its most theatrical, where elephants still climb fortress ramps, bazaars overflow with gems and silk, and every palace tells a story of Rajput valor and artistry.",
-    "visaNote": "US citizens need an e-visa — apply online at least 4 days before departure ($25 for 30 days)."
+    "visaNote": "US citizens need an e-visa — apply online at least 4 days before departure ($25 for 30 days).",
+    "cityInfo": {
+      "currency": {
+        "name": "Indian Rupee",
+        "code": "INR",
+        "symbol": "₹",
+        "exchangeRate": "~83 INR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Auto-rickshaw",
+          "description": "Three-wheeled vehicles everywhere — negotiate or use Uber/Ola for metered fares",
+          "cost": "$0.50-3 per trip"
+        },
+        {
+          "mode": "Uber/Ola",
+          "description": "Rideshare apps available with metered pricing",
+          "cost": "$1-5 for city trips"
+        },
+        {
+          "mode": "City Bus",
+          "description": "Jaipur city buses are cheap but crowded",
+          "cost": "$0.10-0.25 per ride"
+        },
+        {
+          "mode": "Cycle Rickshaw",
+          "description": "Traditional pedal rickshaws good for short distances in the old city",
+          "cost": "$0.25-1 per trip"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants if no service charge. ₹50-100 for hotel porters and drivers. Tour guides expect ₹200-500 per day."
+      },
+      "avgTempByMonth": [
+        22,
+        25,
+        31,
+        37,
+        41,
+        39,
+        35,
+        33,
+        34,
+        33,
+        28,
+        23
+      ],
+      "emergencyNumber": "100 (police), 102 (ambulance), 101 (fire)",
+      "waterSafety": "bottled",
+      "plugType": "Type C/D/M (European Type C works, Indian round pins)",
+      "timeZone": "IST (UTC+5:30)"
+    }
   },
   {
     "slug": "maldives",
@@ -1255,7 +1765,59 @@
     "language": "Dhivehi",
     "englishFriendly": true,
     "description": "The Maldives is the closest thing to paradise that exists on Earth — 1,192 coral islands scattered across the Indian Ocean like emeralds on blue silk. Overwater villas hover above lagoons so clear you can watch stingrays glide beneath your glass floor, and the reefs below teem with more color than a painter's palette.",
-    "visaNote": "All nationalities get a free 30-day visa on arrival."
+    "visaNote": "All nationalities get a free 30-day visa on arrival.",
+    "cityInfo": {
+      "currency": {
+        "name": "Maldivian Rufiyaa",
+        "code": "MVR",
+        "symbol": "Rf",
+        "exchangeRate": "~15.4 MVR = 1 USD (USD widely accepted)"
+      },
+      "transportation": [
+        {
+          "mode": "Speedboat",
+          "description": "Resort and hotel transfers from Malé or the airport by speedboat",
+          "cost": "$100-300 round trip"
+        },
+        {
+          "mode": "Seaplane",
+          "description": "Scenic transfers to distant atolls, arranged by resorts",
+          "cost": "$300-600 round trip"
+        },
+        {
+          "mode": "Domestic Ferry",
+          "description": "Public ferries between inhabited islands, slow but cheap",
+          "cost": "$1-5 per trip"
+        },
+        {
+          "mode": "Taxi (Malé)",
+          "description": "Taxis within Malé city, short distances only",
+          "cost": "$1-2 per trip"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% service charge is added at resorts. Additional tipping of $5-10/day for room staff and $10-20 for dive instructors is appreciated."
+      },
+      "avgTempByMonth": [
+        30,
+        31,
+        31,
+        32,
+        31,
+        31,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "emergencyNumber": "119 (police), 102 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type G (UK) at resorts, Type C/D on local islands",
+      "timeZone": "MVT (UTC+5)"
+    }
   },
   {
     "slug": "colombo",
@@ -1366,7 +1928,59 @@
     "language": "Sinhala",
     "englishFriendly": true,
     "description": "Sri Lanka packs a continent's worth of experiences into an island the size of West Virginia — ancient Buddhist kingdoms, misty tea plantations, golden beaches, and some of the most generous curries in South Asia. Colombo itself has transformed into a cosmopolitan food scene while keeping its chaotic charm intact.",
-    "visaNote": "US citizens need an Electronic Travel Authorization (ETA) — apply online before departure ($50)."
+    "visaNote": "US citizens need an Electronic Travel Authorization (ETA) — apply online before departure ($50).",
+    "cityInfo": {
+      "currency": {
+        "name": "Sri Lankan Rupee",
+        "code": "LKR",
+        "symbol": "Rs",
+        "exchangeRate": "~320 LKR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Tuk-tuk",
+          "description": "Ubiquitous three-wheelers — use PickMe app for metered fares",
+          "cost": "$0.50-3 per trip"
+        },
+        {
+          "mode": "PickMe/Uber",
+          "description": "Rideshare apps with transparent pricing",
+          "cost": "$1-5 for city trips"
+        },
+        {
+          "mode": "City Bus",
+          "description": "Extensive but crowded bus network",
+          "cost": "$0.10-0.30 per ride"
+        },
+        {
+          "mode": "Train",
+          "description": "Scenic train rides to Kandy and Ella from Colombo Fort station",
+          "cost": "$1-5 depending on class and distance"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% service charge often included at restaurants. Additional 100-200 LKR for good service. Tip drivers and guides $5-10 per day."
+      },
+      "avgTempByMonth": [
+        31,
+        31,
+        32,
+        32,
+        31,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "emergencyNumber": "119 (police), 110 (ambulance/fire)",
+      "waterSafety": "bottled",
+      "plugType": "Type D/G (UK Type G and Indian Type D)",
+      "timeZone": "SLST (UTC+5:30)"
+    }
   },
   {
     "slug": "paris",
@@ -1483,7 +2097,59 @@
     "language": "French",
     "englishFriendly": true,
     "description": "Paris needs no introduction, yet it still surprises — a corner boulangerie with the world's best croissant, a hidden courtyard in the Marais that takes your breath away, golden light on limestone facades that makes you understand why artists have been obsessed with this city for centuries.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "€",
+        "exchangeRate": "~0.92 EUR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Métro",
+          "description": "Iconic subway system with 16 lines covering all of Paris",
+          "cost": "$2.15 per ride (t+ ticket)"
+        },
+        {
+          "mode": "RER",
+          "description": "Regional express trains connecting Paris to suburbs and airports",
+          "cost": "$2.15-13 depending on zone"
+        },
+        {
+          "mode": "Bus",
+          "description": "Extensive bus network, same ticket as Métro",
+          "cost": "$2.15 per ride"
+        },
+        {
+          "mode": "Vélib' (Bike Share)",
+          "description": "Public bike-sharing with stations everywhere",
+          "cost": "$2-5 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Service charge (service compris) is included by law. Rounding up or leaving 1-2€ for good service is appreciated but not required."
+      },
+      "avgTempByMonth": [
+        7,
+        8,
+        12,
+        16,
+        20,
+        23,
+        25,
+        25,
+        21,
+        16,
+        10,
+        7
+      ],
+      "emergencyNumber": "112 (EU general), 17 (police), 15 (ambulance), 18 (fire)",
+      "waterSafety": "safe",
+      "plugType": "Type C/E (European)",
+      "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
+    }
   },
   {
     "slug": "barcelona",
@@ -1595,7 +2261,59 @@
     "language": "Spanish",
     "englishFriendly": true,
     "description": "Barcelona is where Gaudí's surrealist architecture meets Mediterranean beach culture, where late-night tapas crawls spill into 3 AM dance floors, and where every turn reveals another jaw-dropping facade. It's sun-soaked, art-drunk, and unapologetically fun.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "€",
+        "exchangeRate": "~0.92 EUR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Modern metro with 12 lines covering most of the city",
+          "cost": "$1.30 per ride (T-casual 10-trip pass: $12)"
+        },
+        {
+          "mode": "Bus",
+          "description": "Comprehensive bus network including night buses",
+          "cost": "$1.30 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Black and yellow taxis, metered and reasonably priced",
+          "cost": "$5-15 for city trips"
+        },
+        {
+          "mode": "Bicing (Bike Share)",
+          "description": "City bike-sharing program, great along the beachfront",
+          "cost": "$50/year subscription (residents)"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Service included in prices. Rounding up the bill or leaving 5-10% at restaurants is appreciated for good service."
+      },
+      "avgTempByMonth": [
+        13,
+        14,
+        16,
+        18,
+        21,
+        25,
+        28,
+        28,
+        26,
+        22,
+        17,
+        14
+      ],
+      "emergencyNumber": "112 (EU general), 091 (police), 080 (fire)",
+      "waterSafety": "safe",
+      "plugType": "Type C/F (European)",
+      "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
+    }
   },
   {
     "slug": "lisbon",
@@ -1706,7 +2424,59 @@
     "language": "Portuguese",
     "englishFriendly": true,
     "description": "Lisbon glows — literally. The city's famous golden light bathes tiled facades, terracotta rooftops, and the Tagus River in a warmth that makes every photo look like a painting. Add soulful fado music drifting from tiny taverns, custard tarts fresh from century-old ovens, and wine that costs less than water, and you have Europe's coolest capital.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "€",
+        "exchangeRate": "~0.92 EUR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Four-line metro system covering central Lisbon",
+          "cost": "$1.65 per ride"
+        },
+        {
+          "mode": "Tram",
+          "description": "Historic trams including the iconic Tram 28 through Alfama",
+          "cost": "$3.25 per ride (or $1.65 with Viva Viagem card)"
+        },
+        {
+          "mode": "Uber/Bolt",
+          "description": "Rideshare apps very popular and affordable in Lisbon",
+          "cost": "$3-10 for city trips"
+        },
+        {
+          "mode": "Train",
+          "description": "CP trains to Sintra, Cascais, and other day-trip destinations",
+          "cost": "$2.50-5 each way"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Not mandatory. Rounding up or leaving 5-10% at restaurants is appreciated. 1€ per bag for hotel porters."
+      },
+      "avgTempByMonth": [
+        15,
+        16,
+        18,
+        19,
+        22,
+        25,
+        28,
+        28,
+        26,
+        22,
+        17,
+        15
+      ],
+      "emergencyNumber": "112 (EU general)",
+      "waterSafety": "safe",
+      "plugType": "Type C/F (European)",
+      "timeZone": "WET (UTC+0) / WEST (UTC+1) summer"
+    }
   },
   {
     "slug": "prague",
@@ -1817,7 +2587,59 @@
     "language": "Czech",
     "englishFriendly": true,
     "description": "Prague is a Gothic fairy tale come to life — a thousand spires piercing the morning mist, a castle the size of a small town watching over cobblestone streets, and beer halls where $2 buys a pint of the world's finest pilsner. It offers the grandeur of Paris at a fraction of the price.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Czech Koruna",
+        "code": "CZK",
+        "symbol": "Kč",
+        "exchangeRate": "~23 CZK = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Three-line metro system, efficient and easy to navigate",
+          "cost": "$1.30 per 30-min ticket"
+        },
+        {
+          "mode": "Tram",
+          "description": "Extensive tram network covering the historic center and beyond",
+          "cost": "$1.30 per 30-min ticket"
+        },
+        {
+          "mode": "Bus",
+          "description": "Buses serving outer Prague areas",
+          "cost": "$1.30 per 30-min ticket"
+        },
+        {
+          "mode": "Taxi/Bolt",
+          "description": "Use Bolt or Liftago apps to avoid tourist scam taxis",
+          "cost": "$3-10 for city trips"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Round up the bill or leave 10-15% at restaurants. Tell the server the total you want to pay when handing over cash."
+      },
+      "avgTempByMonth": [
+        2,
+        4,
+        9,
+        15,
+        20,
+        23,
+        25,
+        25,
+        20,
+        14,
+        7,
+        3
+      ],
+      "emergencyNumber": "112 (EU general), 158 (police), 155 (ambulance), 150 (fire)",
+      "waterSafety": "safe",
+      "plugType": "Type C/E (European)",
+      "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
+    }
   },
   {
     "slug": "dubrovnik",
@@ -1926,7 +2748,59 @@
     "language": "Croatian",
     "englishFriendly": true,
     "description": "Dubrovnik's terracotta rooftops and limestone walls rise dramatically from the Adriatic Sea, creating one of Europe's most photogenic cities. Walking the ancient walls with the turquoise sea shimmering below and islands dotting the horizon is a genuine bucket-list moment — Game of Thrones fans will recognize every corner.",
-    "visaNote": "US citizens get 90 days visa-free."
+    "visaNote": "US citizens get 90 days visa-free.",
+    "cityInfo": {
+      "currency": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "€",
+        "exchangeRate": "~0.92 EUR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "City Bus",
+          "description": "Libertas buses connecting Dubrovnik's neighborhoods and beaches",
+          "cost": "$2 per ride (buy at kiosk) or $2.70 on bus"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Fixed-rate taxis, more expensive than other Croatian cities",
+          "cost": "$8-15 for city trips"
+        },
+        {
+          "mode": "Walking",
+          "description": "The Old Town is entirely pedestrian — everything is walkable",
+          "cost": "Free"
+        },
+        {
+          "mode": "Ferry",
+          "description": "Ferries to Lokrum Island and the Elafiti Islands from Old Port",
+          "cost": "$5-15 round trip"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Round up the bill or leave 10-15% at restaurants. Not required but appreciated for good service."
+      },
+      "avgTempByMonth": [
+        12,
+        13,
+        15,
+        18,
+        22,
+        26,
+        29,
+        30,
+        26,
+        22,
+        17,
+        13
+      ],
+      "emergencyNumber": "112 (EU general)",
+      "waterSafety": "safe",
+      "plugType": "Type C/F (European)",
+      "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
+    }
   },
   {
     "slug": "santorini",
@@ -2035,7 +2909,59 @@
     "language": "Greek",
     "englishFriendly": true,
     "description": "Santorini looks impossibly beautiful — white-washed buildings cascading down volcanic cliffs into a deep blue caldera, with sunsets that paint the sky in shades no filter can replicate. It's the Greek island that launched a million Instagram posts, but experiencing it in person still takes your breath away.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "€",
+        "exchangeRate": "~0.92 EUR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Local Bus (KTEL)",
+          "description": "Public buses connecting Fira to main villages and beaches",
+          "cost": "$2-3 per ride"
+        },
+        {
+          "mode": "ATV/Quad Rental",
+          "description": "Popular way to explore the island at your own pace",
+          "cost": "$25-45 per day"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Limited taxis on the island, often hard to find in peak season",
+          "cost": "$10-25 per trip"
+        },
+        {
+          "mode": "Car Rental",
+          "description": "Best for full flexibility, book early in summer",
+          "cost": "$40-70 per day"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Round up the bill or leave 5-10% at restaurants. Not required but appreciated. Leave 1-2€ for hotel housekeeping."
+      },
+      "avgTempByMonth": [
+        14,
+        14,
+        16,
+        19,
+        23,
+        27,
+        29,
+        29,
+        27,
+        23,
+        19,
+        15
+      ],
+      "emergencyNumber": "112 (EU general), 100 (police), 166 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type C/F (European)",
+      "timeZone": "EET (UTC+2) / EEST (UTC+3) summer"
+    }
   },
   {
     "slug": "amsterdam",
@@ -2146,7 +3072,59 @@
     "language": "Dutch",
     "englishFriendly": true,
     "description": "Amsterdam's charm is in its contradictions — it's a world-class city that feels like a village, where you can cycle from a Rembrandt masterpiece to a cutting-edge design studio in ten minutes along a 17th-century canal. The golden-age townhouses leaning over the water, the bike bells, the warm glow of brown cafes — it's effortlessly cool.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "€",
+        "exchangeRate": "~0.92 EUR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Tram",
+          "description": "Extensive tram network, the primary way to get around the center",
+          "cost": "$2-4 per ride"
+        },
+        {
+          "mode": "Metro",
+          "description": "Metro lines connecting outer neighborhoods and suburbs",
+          "cost": "$2-4 per ride"
+        },
+        {
+          "mode": "Bicycle",
+          "description": "Amsterdam is a cycling city — rent a bike and ride like a local",
+          "cost": "$10-15 per day rental"
+        },
+        {
+          "mode": "Canal Bus/Ferry",
+          "description": "Free ferries behind Central Station and paid canal cruises",
+          "cost": "Free-$20 depending on route"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Service included in prices. Rounding up the bill or leaving 5-10% for good restaurant service is common."
+      },
+      "avgTempByMonth": [
+        6,
+        7,
+        10,
+        14,
+        17,
+        20,
+        22,
+        22,
+        19,
+        14,
+        10,
+        7
+      ],
+      "emergencyNumber": "112 (EU general)",
+      "waterSafety": "safe",
+      "plugType": "Type C/F (European)",
+      "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
+    }
   },
   {
     "slug": "rome",
@@ -2263,7 +3241,59 @@
     "language": "Italian",
     "englishFriendly": true,
     "description": "Rome is 3,000 years of history served with a side of the world's best pasta. You'll round a corner and stumble upon a 2,000-year-old temple, eat carbonara that ruins all future carbonara, and realize that la dolce vita isn't just a movie — it's a daily practice here.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "€",
+        "exchangeRate": "~0.92 EUR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Two main metro lines (A and B) crossing the city center",
+          "cost": "$1.60 per ride"
+        },
+        {
+          "mode": "Bus/Tram",
+          "description": "Extensive surface transit network, covers areas metro doesn't",
+          "cost": "$1.60 per ride"
+        },
+        {
+          "mode": "Walking",
+          "description": "Most historic sights in centro storico are within walking distance",
+          "cost": "Free"
+        },
+        {
+          "mode": "Taxi",
+          "description": "White licensed taxis with meters. Fixed rates to airports",
+          "cost": "$8-20 for city trips, $55 to Fiumicino airport"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Coperto (cover charge) of 1-3€ per person is common. Tipping 5-10% at restaurants appreciated but not required."
+      },
+      "avgTempByMonth": [
+        12,
+        13,
+        16,
+        18,
+        23,
+        28,
+        31,
+        31,
+        27,
+        22,
+        16,
+        13
+      ],
+      "emergencyNumber": "112 (EU general), 113 (police), 118 (ambulance)",
+      "waterSafety": "safe",
+      "plugType": "Type C/F/L (European, Type L is Italian three-pin)",
+      "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
+    }
   },
   {
     "slug": "edinburgh",
@@ -2372,7 +3402,59 @@
     "language": "English",
     "englishFriendly": true,
     "description": "Edinburgh is a city built on drama — volcanic crags, a medieval castle brooding over the skyline, cobblestone closes hiding centuries of secrets, and the wild green hill of Arthur's Seat rising right from the city center. In August, the Fringe Festival transforms it into the planet's greatest stage.",
-    "visaNote": "US citizens get 6 months visa-free entry to the UK."
+    "visaNote": "US citizens get 6 months visa-free entry to the UK.",
+    "cityInfo": {
+      "currency": {
+        "name": "British Pound Sterling",
+        "code": "GBP",
+        "symbol": "£",
+        "exchangeRate": "~0.79 GBP = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Lothian Buses",
+          "description": "Excellent bus network covering all of Edinburgh",
+          "cost": "$2 per ride, $5 day ticket"
+        },
+        {
+          "mode": "Tram",
+          "description": "Tram line from airport to city center and beyond",
+          "cost": "$2-8 depending on zones"
+        },
+        {
+          "mode": "Walking",
+          "description": "The compact city center is very walkable despite the hills",
+          "cost": "Free"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Black cabs and Uber widely available",
+          "cost": "$5-15 for city trips"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10-15% at sit-down restaurants. Not expected at pubs or casual spots. Round up taxi fares."
+      },
+      "avgTempByMonth": [
+        7,
+        7,
+        9,
+        12,
+        15,
+        17,
+        19,
+        19,
+        17,
+        13,
+        9,
+        7
+      ],
+      "emergencyNumber": "999 or 112",
+      "waterSafety": "safe",
+      "plugType": "Type G (UK)",
+      "timeZone": "GMT (UTC+0) / BST (UTC+1) summer"
+    }
   },
   {
     "slug": "budapest",
@@ -2483,7 +3565,59 @@
     "language": "Hungarian",
     "englishFriendly": true,
     "description": "Budapest is two cities in one — hilly Buda with its castle and thermal springs, and flat Pest with its ruin bars and grand boulevards — joined by the Danube and some of Europe's most beautiful bridges. Soak in a century-old thermal bath by day, crawl the ruin bars by night, and spend less than you would in almost any Western European capital.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Hungarian Forint",
+        "code": "HUF",
+        "symbol": "Ft",
+        "exchangeRate": "~370 HUF = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Four metro lines including the historic M1 (UNESCO World Heritage)",
+          "cost": "$1.20 per ride"
+        },
+        {
+          "mode": "Tram",
+          "description": "Scenic tram lines along the Danube, especially Tram 2",
+          "cost": "$1.20 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Extensive bus network covering all of Budapest",
+          "cost": "$1.20 per ride"
+        },
+        {
+          "mode": "Taxi/Bolt",
+          "description": "Use Bolt app for transparent pricing. Only use official Főtaxi",
+          "cost": "$3-10 for city trips"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10-15% at restaurants — tell the waiter the total you want to pay. Tip thermal bath attendants 200-500 HUF."
+      },
+      "avgTempByMonth": [
+        3,
+        5,
+        11,
+        17,
+        22,
+        26,
+        28,
+        28,
+        22,
+        16,
+        9,
+        4
+      ],
+      "emergencyNumber": "112 (EU general)",
+      "waterSafety": "safe",
+      "plugType": "Type C/F (European)",
+      "timeZone": "CET (UTC+1) / CEST (UTC+2) summer"
+    }
   },
   {
     "slug": "mexico-city",
@@ -2595,7 +3729,59 @@
     "language": "Spanish",
     "englishFriendly": true,
     "description": "Mexico City is a megalopolis with the soul of a village — Aztec pyramids beneath colonial cathedrals, taco stands that outperform fine dining, and a creative energy that's making it one of the world's most exciting cities right now. It's overwhelming, addictive, and criminally affordable.",
-    "visaNote": "US citizens get 180 days visa-free."
+    "visaNote": "US citizens get 180 days visa-free.",
+    "cityInfo": {
+      "currency": {
+        "name": "Mexican Peso",
+        "code": "MXN",
+        "symbol": "$",
+        "exchangeRate": "~17 MXN = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Extensive subway system covering the city center and beyond",
+          "cost": "$0.30 per ride"
+        },
+        {
+          "mode": "Metrobús",
+          "description": "Bus rapid transit with dedicated lanes across main avenues",
+          "cost": "$0.35 per ride"
+        },
+        {
+          "mode": "Taxi/Uber",
+          "description": "Widely available ride-hailing apps; use authorized taxis",
+          "cost": "$3-8 per ride"
+        },
+        {
+          "mode": "Ecobici",
+          "description": "Public bike-sharing system in central neighborhoods",
+          "cost": "$5 per day pass"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10-15% at restaurants is customary. Small tips for bag handlers and hotel staff."
+      },
+      "avgTempByMonth": [
+        22,
+        24,
+        26,
+        27,
+        27,
+        25,
+        23,
+        24,
+        23,
+        23,
+        22,
+        22
+      ],
+      "emergencyNumber": "911",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "CST (UTC-6)"
+    }
   },
   {
     "slug": "tulum",
@@ -2707,7 +3893,59 @@
     "language": "Spanish",
     "englishFriendly": true,
     "description": "Tulum is where ancient Mayan mysticism meets bohemian beach culture — clifftop ruins gazing over turquoise waters, jungle cenotes glowing like liquid sapphire, and a hotel zone that feels like a curated Instagram dream. It's the Riviera Maya at its most photogenic and wellness-obsessed.",
-    "visaNote": "US citizens get 180 days visa-free."
+    "visaNote": "US citizens get 180 days visa-free.",
+    "cityInfo": {
+      "currency": {
+        "name": "Mexican Peso",
+        "code": "MXN",
+        "symbol": "$",
+        "exchangeRate": "~17 MXN = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Colectivo",
+          "description": "Shared minivans running along the highway between towns",
+          "cost": "$1-3 per ride"
+        },
+        {
+          "mode": "Bicycle",
+          "description": "Popular way to get around the beach zone and town",
+          "cost": "$5-10 per day rental"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Local taxis for short trips; agree on fare before riding",
+          "cost": "$3-10 per ride"
+        },
+        {
+          "mode": "Rental Car",
+          "description": "Best option for exploring cenotes and ruins independently",
+          "cost": "$25-50 per day"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10-15% at restaurants. Tip tour guides and drivers."
+      },
+      "avgTempByMonth": [
+        28,
+        29,
+        31,
+        32,
+        33,
+        33,
+        34,
+        34,
+        33,
+        31,
+        30,
+        28
+      ],
+      "emergencyNumber": "911",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "EST (UTC-5)"
+    }
   },
   {
     "slug": "vancouver",
@@ -2816,7 +4054,59 @@
     ],
     "language": "English",
     "englishFriendly": true,
-    "description": "Vancouver is nature's city — snow-capped mountains plunge into the Pacific Ocean, old-growth rainforests border the downtown core, and you can ski and surf in the same day. Add one of North America's most diverse food scenes (the sushi here rivals Tokyo) and you've got a city that punches far above its weight."
+    "description": "Vancouver is nature's city — snow-capped mountains plunge into the Pacific Ocean, old-growth rainforests border the downtown core, and you can ski and surf in the same day. Add one of North America's most diverse food scenes (the sushi here rivals Tokyo) and you've got a city that punches far above its weight.",
+    "cityInfo": {
+      "currency": {
+        "name": "Canadian Dollar",
+        "code": "CAD",
+        "symbol": "$",
+        "exchangeRate": "~1.36 CAD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "SkyTrain",
+          "description": "Automated rapid transit connecting downtown, airport, and suburbs",
+          "cost": "$2.50-4 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Extensive bus network operated by TransLink",
+          "cost": "$2.50-4 per ride"
+        },
+        {
+          "mode": "SeaBus",
+          "description": "Passenger ferry across Burrard Inlet to North Vancouver",
+          "cost": "$2.50-4 per ride"
+        },
+        {
+          "mode": "Taxi/Uber",
+          "description": "Ride-hailing available throughout the metro area",
+          "cost": "$8-20 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "expected",
+        "details": "15-20% at restaurants, $1-2 per drink at bars, 10-15% for taxis."
+      },
+      "avgTempByMonth": [
+        7,
+        8,
+        10,
+        13,
+        17,
+        19,
+        22,
+        22,
+        19,
+        14,
+        9,
+        6
+      ],
+      "emergencyNumber": "911",
+      "waterSafety": "safe",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "PST (UTC-8)"
+    }
   },
   {
     "slug": "banff",
@@ -2926,7 +4216,54 @@
     ],
     "language": "English",
     "englishFriendly": true,
-    "description": "Banff is the Canadian Rockies at their most spectacular — lakes so turquoise they look photoshopped, glaciers that cascade into wildflower meadows, and elk wandering through a charming mountain town. Whether you're skiing in winter or hiking in summer, the scenery here is genuinely the most dramatic in North America."
+    "description": "Banff is the Canadian Rockies at their most spectacular — lakes so turquoise they look photoshopped, glaciers that cascade into wildflower meadows, and elk wandering through a charming mountain town. Whether you're skiing in winter or hiking in summer, the scenery here is genuinely the most dramatic in North America.",
+    "cityInfo": {
+      "currency": {
+        "name": "Canadian Dollar",
+        "code": "CAD",
+        "symbol": "$",
+        "exchangeRate": "~1.36 CAD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Roam Transit",
+          "description": "Local bus service connecting Banff, Canmore, and Lake Louise",
+          "cost": "$2-5 per ride"
+        },
+        {
+          "mode": "Rental Car",
+          "description": "Best option for exploring the national park and Icefields Parkway",
+          "cost": "$50-80 per day"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Available in Banff town for short trips",
+          "cost": "$8-15 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "expected",
+        "details": "15-20% at restaurants, $2-5 per day for hotel housekeeping, tip ski/tour guides."
+      },
+      "avgTempByMonth": [
+        -5,
+        -2,
+        3,
+        9,
+        15,
+        19,
+        23,
+        22,
+        17,
+        10,
+        1,
+        -5
+      ],
+      "emergencyNumber": "911",
+      "waterSafety": "safe",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "MST (UTC-7)"
+    }
   },
   {
     "slug": "havana",
@@ -3038,7 +4375,59 @@
     "language": "Spanish",
     "englishFriendly": false,
     "description": "Havana is a time capsule wrapped in a salsa rhythm — candy-colored 1950s Chevys cruise past crumbling colonial mansions, live son music spills from every doorway, and the Malecón at sunset is one of the world's great urban scenes. It's romantic, gritty, and unlike anywhere else on Earth.",
-    "visaNote": "US citizens need a Cuban tourist card (visa) and must travel under an approved OFAC category such as 'Support for the Cuban People.'"
+    "visaNote": "US citizens need a Cuban tourist card (visa) and must travel under an approved OFAC category such as 'Support for the Cuban People.'",
+    "cityInfo": {
+      "currency": {
+        "name": "Cuban Peso",
+        "code": "CUP",
+        "symbol": "$",
+        "exchangeRate": "~120 CUP = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Classic Car Taxi",
+          "description": "Iconic vintage American cars that serve as shared or private taxis",
+          "cost": "$5-20 per ride"
+        },
+        {
+          "mode": "Coco Taxi",
+          "description": "Yellow coconut-shaped three-wheelers for short trips",
+          "cost": "$3-8 per ride"
+        },
+        {
+          "mode": "Bus (Guagua)",
+          "description": "Local buses, very cheap but crowded and unreliable",
+          "cost": "$0.05 per ride"
+        },
+        {
+          "mode": "Bici-taxi",
+          "description": "Bicycle rickshaws for short trips in Old Havana",
+          "cost": "$2-5 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "expected",
+        "details": "10-15% at restaurants is expected. Tips in USD or EUR are greatly appreciated by service workers."
+      },
+      "avgTempByMonth": [
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        32,
+        33,
+        32,
+        30,
+        28,
+        27
+      ],
+      "emergencyNumber": "106 (police), 104 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "CST (UTC-5)"
+    }
   },
   {
     "slug": "san-juan",
@@ -3149,7 +4538,59 @@
     ],
     "language": "Spanish",
     "englishFriendly": true,
-    "description": "San Juan delivers Caribbean beauty without the passport hassle — 500 years of Spanish colonial history painted in every shade of pastel, world-class cocktail bars tucked behind unmarked doors, and rainforest waterfalls just 45 minutes from the beach. It's affordable, accessible, and criminally underrated."
+    "description": "San Juan delivers Caribbean beauty without the passport hassle — 500 years of Spanish colonial history painted in every shade of pastel, world-class cocktail bars tucked behind unmarked doors, and rainforest waterfalls just 45 minutes from the beach. It's affordable, accessible, and criminally underrated.",
+    "cityInfo": {
+      "currency": {
+        "name": "US Dollar",
+        "code": "USD",
+        "symbol": "$",
+        "exchangeRate": "1 USD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Bus (AMA)",
+          "description": "Metropolitan bus system with routes through San Juan metro area",
+          "cost": "$0.75 per ride"
+        },
+        {
+          "mode": "Uber/Lyft",
+          "description": "Widely available ride-hailing throughout San Juan",
+          "cost": "$5-15 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Metered taxis available at tourist areas and airport",
+          "cost": "$10-25 per ride"
+        },
+        {
+          "mode": "Rental Car",
+          "description": "Recommended for exploring outside San Juan",
+          "cost": "$30-60 per day"
+        }
+      ],
+      "tipping": {
+        "culture": "expected",
+        "details": "15-20% at restaurants, $1-2 per drink at bars. US tipping norms apply."
+      },
+      "avgTempByMonth": [
+        29,
+        29,
+        30,
+        30,
+        31,
+        32,
+        32,
+        32,
+        32,
+        32,
+        31,
+        30
+      ],
+      "emergencyNumber": "911",
+      "waterSafety": "safe",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "AST (UTC-4)"
+    }
   },
   {
     "slug": "buenos-aires",
@@ -3261,7 +4702,59 @@
     "language": "Spanish",
     "englishFriendly": true,
     "description": "Buenos Aires is the Paris of South America — wide Haussmann-style boulevards, a cafe culture that treats sitting for hours as an art form, and a passion for tango, steak, and Malbec that borders on religion. Dinner starts at 10 PM, nightclubs open at 2 AM, and the city's creative energy never sleeps.",
-    "visaNote": "US citizens get 90 days visa-free."
+    "visaNote": "US citizens get 90 days visa-free.",
+    "cityInfo": {
+      "currency": {
+        "name": "Argentine Peso",
+        "code": "ARS",
+        "symbol": "$",
+        "exchangeRate": "~900 ARS = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Subte (Metro)",
+          "description": "Six-line subway system covering central Buenos Aires",
+          "cost": "$0.30 per ride"
+        },
+        {
+          "mode": "Bus (Colectivo)",
+          "description": "Extensive bus network covering the entire city; pay with SUBE card",
+          "cost": "$0.25 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Black and yellow metered taxis widely available",
+          "cost": "$3-8 per ride"
+        },
+        {
+          "mode": "Uber/Cabify",
+          "description": "Ride-hailing apps available though technically in a legal gray area",
+          "cost": "$3-7 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants is standard. Small tips for delivery and hotel staff."
+      },
+      "avgTempByMonth": [
+        30,
+        29,
+        27,
+        22,
+        18,
+        15,
+        14,
+        16,
+        18,
+        22,
+        25,
+        28
+      ],
+      "emergencyNumber": "911",
+      "waterSafety": "safe",
+      "plugType": "Type C/I",
+      "timeZone": "ART (UTC-3)"
+    }
   },
   {
     "slug": "cartagena",
@@ -3372,7 +4865,59 @@
     "language": "Spanish",
     "englishFriendly": true,
     "description": "Cartagena is the Caribbean at its most seductive — a 16th-century walled city painted in every color of the sunset, where horse-drawn carriages clip-clop past fruit vendors balancing baskets on their heads and salsa music pulses from open doorways until dawn.",
-    "visaNote": "US citizens get 90 days visa-free."
+    "visaNote": "US citizens get 90 days visa-free.",
+    "cityInfo": {
+      "currency": {
+        "name": "Colombian Peso",
+        "code": "COP",
+        "symbol": "$",
+        "exchangeRate": "~4,200 COP = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "TransCaribe",
+          "description": "Bus rapid transit system with dedicated lanes",
+          "cost": "$0.70 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Metered taxis available; confirm fare or use the meter",
+          "cost": "$2-6 per ride"
+        },
+        {
+          "mode": "Uber/InDriver",
+          "description": "Ride-hailing apps widely used",
+          "cost": "$2-5 per ride"
+        },
+        {
+          "mode": "Horse Carriage",
+          "description": "Touristic horse-drawn carriages in the walled city",
+          "cost": "$15-25 per tour"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% is usually added to restaurant bills as 'propina voluntaria.' Additional tip appreciated for good service."
+      },
+      "avgTempByMonth": [
+        32,
+        32,
+        32,
+        33,
+        33,
+        33,
+        33,
+        33,
+        32,
+        32,
+        32,
+        32
+      ],
+      "emergencyNumber": "123",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "COT (UTC-5)"
+    }
   },
   {
     "slug": "cusco",
@@ -3494,7 +5039,59 @@
     "language": "Spanish",
     "englishFriendly": true,
     "description": "Cusco was the navel of the Inca Empire, and its magic endures — cobblestone streets built atop Inca stone walls, cloud forests hiding lost citadels, and a food scene that's transforming Andean ingredients into world-class cuisine. Machu Picchu is the headline act, but the Sacred Valley and the city itself are equally unforgettable.",
-    "visaNote": "US citizens get 183 days visa-free."
+    "visaNote": "US citizens get 183 days visa-free.",
+    "cityInfo": {
+      "currency": {
+        "name": "Peruvian Sol",
+        "code": "PEN",
+        "symbol": "S/",
+        "exchangeRate": "~3.7 PEN = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Combi/Minibus",
+          "description": "Small minibuses running fixed routes through the city",
+          "cost": "$0.30 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Abundant taxis; negotiate fare before riding as meters are rare",
+          "cost": "$1-4 per ride"
+        },
+        {
+          "mode": "Walking",
+          "description": "The historic center is compact and best explored on foot",
+          "cost": "Free"
+        },
+        {
+          "mode": "Colectivo",
+          "description": "Shared vans to Sacred Valley towns like Pisac and Ollantaytambo",
+          "cost": "$1-3 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants. Tip trekking guides and porters generously ($5-10/day for porters)."
+      },
+      "avgTempByMonth": [
+        19,
+        19,
+        19,
+        20,
+        20,
+        19,
+        19,
+        20,
+        20,
+        22,
+        22,
+        20
+      ],
+      "emergencyNumber": "105 (police), 116 (fire), 117 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B/C",
+      "timeZone": "PET (UTC-5)"
+    }
   },
   {
     "slug": "rio-de-janeiro",
@@ -3606,7 +5203,59 @@
     "language": "Portuguese",
     "englishFriendly": false,
     "description": "Rio de Janeiro is nature showing off — granite peaks erupting from tropical forest, golden beaches curving between dramatic headlands, and a giant Christ statue surveying it all with open arms. The city pulses with samba, caipirinhas flow freely, and Cariocas treat every sunset like a celebration.",
-    "visaNote": "US citizens need an e-visa — apply online before departure ($80, valid for up to 5 years)."
+    "visaNote": "US citizens need an e-visa — apply online before departure ($80, valid for up to 5 years).",
+    "cityInfo": {
+      "currency": {
+        "name": "Brazilian Real",
+        "code": "BRL",
+        "symbol": "R$",
+        "exchangeRate": "~5 BRL = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Clean, air-conditioned subway with two main lines",
+          "cost": "$1.20 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Extensive but confusing bus network; use Google Maps for routes",
+          "cost": "$0.80 per ride"
+        },
+        {
+          "mode": "Uber/99",
+          "description": "Very popular and affordable ride-hailing apps",
+          "cost": "$3-10 per ride"
+        },
+        {
+          "mode": "VLT (Light Rail)",
+          "description": "Modern tram serving the port area and city center",
+          "cost": "$0.80 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% service charge usually included in restaurant bills. Additional tip not expected but appreciated."
+      },
+      "avgTempByMonth": [
+        32,
+        32,
+        31,
+        28,
+        26,
+        25,
+        25,
+        25,
+        25,
+        27,
+        28,
+        30
+      ],
+      "emergencyNumber": "190 (police), 192 (ambulance), 193 (fire)",
+      "waterSafety": "safe",
+      "plugType": "Type C/N",
+      "timeZone": "BRT (UTC-3)"
+    }
   },
   {
     "slug": "medellin",
@@ -3718,7 +5367,59 @@
     "language": "Spanish",
     "englishFriendly": true,
     "description": "Medellín's transformation from one of the world's most dangerous cities to one of its most innovative is nothing short of extraordinary. The City of Eternal Spring sits in a lush valley with year-round 75°F weather, a thriving food and nightlife scene, and a creative energy powered by resilience and reinvention.",
-    "visaNote": "US citizens get 90 days visa-free."
+    "visaNote": "US citizens get 90 days visa-free.",
+    "cityInfo": {
+      "currency": {
+        "name": "Colombian Peso",
+        "code": "COP",
+        "symbol": "$",
+        "exchangeRate": "~4,200 COP = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Colombia's only metro system; clean and efficient",
+          "cost": "$0.70 per ride"
+        },
+        {
+          "mode": "MetroCable",
+          "description": "Aerial gondola system connecting hillside neighborhoods to the metro",
+          "cost": "$0.70 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Extensive city bus system",
+          "cost": "$0.60 per ride"
+        },
+        {
+          "mode": "Uber/InDriver",
+          "description": "Ride-hailing apps widely used throughout the city",
+          "cost": "$2-6 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% voluntary service charge usually added to restaurant bills. Additional tip optional."
+      },
+      "avgTempByMonth": [
+        28,
+        28,
+        28,
+        27,
+        27,
+        28,
+        29,
+        29,
+        28,
+        27,
+        27,
+        27
+      ],
+      "emergencyNumber": "123",
+      "waterSafety": "safe",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "COT (UTC-5)"
+    }
   },
   {
     "slug": "marrakech",
@@ -3829,7 +5530,59 @@
     "language": "Arabic",
     "englishFriendly": false,
     "description": "Marrakech assaults the senses in the most magnificent way — the call to prayer echoing over terracotta rooftops, the smell of cumin and cedar in the souks, the kaleidoscopic tilework of ancient madrasas, and the theatrical chaos of Jemaa el-Fnaa square where North Africa puts on its nightly show.",
-    "visaNote": "US citizens get 90 days visa-free."
+    "visaNote": "US citizens get 90 days visa-free.",
+    "cityInfo": {
+      "currency": {
+        "name": "Moroccan Dirham",
+        "code": "MAD",
+        "symbol": "د.م.",
+        "exchangeRate": "~10 MAD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Petit Taxi",
+          "description": "Small beige taxis for trips within the city; insist on the meter",
+          "cost": "$1-4 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "ALSA-operated city buses covering main routes",
+          "cost": "$0.40 per ride"
+        },
+        {
+          "mode": "Calèche",
+          "description": "Horse-drawn carriages, mainly touristic around the medina",
+          "cost": "$5-15 per ride"
+        },
+        {
+          "mode": "Uber/Careem",
+          "description": "Ride-hailing available but limited coverage",
+          "cost": "$3-8 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10-15% at restaurants. Tip riad staff, guides, and drivers. Small tips for help in the medina."
+      },
+      "avgTempByMonth": [
+        18,
+        20,
+        23,
+        25,
+        29,
+        34,
+        38,
+        38,
+        33,
+        28,
+        22,
+        18
+      ],
+      "emergencyNumber": "19 (police), 15 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type C/E",
+      "timeZone": "WET (UTC+1)"
+    }
   },
   {
     "slug": "cape-town",
@@ -3943,7 +5696,59 @@
     "language": "English",
     "englishFriendly": true,
     "description": "Cape Town might be the most dramatically beautiful city on Earth — a flat-topped mountain rising from the sea, penguins waddling on white-sand beaches, vineyards climbing into the mountains, and two oceans colliding at the continent's tip. The food and wine scene rivals Europe at half the price.",
-    "visaNote": "US citizens get 90 days visa-free."
+    "visaNote": "US citizens get 90 days visa-free.",
+    "cityInfo": {
+      "currency": {
+        "name": "South African Rand",
+        "code": "ZAR",
+        "symbol": "R",
+        "exchangeRate": "~18 ZAR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "MyCiTi Bus",
+          "description": "Modern rapid bus transit connecting major areas and the airport",
+          "cost": "$1-3 per ride"
+        },
+        {
+          "mode": "Uber/Bolt",
+          "description": "Very popular and affordable ride-hailing apps",
+          "cost": "$3-10 per ride"
+        },
+        {
+          "mode": "Minibus Taxi",
+          "description": "Shared minibus taxis used by locals; cheap but can be confusing",
+          "cost": "$0.50-1 per ride"
+        },
+        {
+          "mode": "Rental Car",
+          "description": "Best option for exploring the peninsula, wine lands, and Garden Route",
+          "cost": "$20-40 per day"
+        }
+      ],
+      "tipping": {
+        "culture": "expected",
+        "details": "10-15% at restaurants. Tip car guards R5-10, petrol attendants R5-10, and tour guides."
+      },
+      "avgTempByMonth": [
+        26,
+        27,
+        25,
+        23,
+        20,
+        18,
+        17,
+        18,
+        19,
+        21,
+        23,
+        25
+      ],
+      "emergencyNumber": "10111 (police), 10177 (ambulance)",
+      "waterSafety": "safe",
+      "plugType": "Type M/N",
+      "timeZone": "SAST (UTC+2)"
+    }
   },
   {
     "slug": "zanzibar",
@@ -4056,7 +5861,59 @@
     "language": "Swahili",
     "englishFriendly": true,
     "description": "Zanzibar is the spice island of your daydreams — Stone Town's labyrinth of ancient coral-stone buildings opens onto beaches so white they hurt your eyes, with turquoise water stretching to the horizon. The air smells of cloves and grilled seafood, dhows dot the sunset, and the pace of life slows to an island crawl.",
-    "visaNote": "US citizens need a visa on arrival ($50) or an e-visa applied in advance."
+    "visaNote": "US citizens need a visa on arrival ($50) or an e-visa applied in advance.",
+    "cityInfo": {
+      "currency": {
+        "name": "Tanzanian Shilling",
+        "code": "TZS",
+        "symbol": "TSh",
+        "exchangeRate": "~2,500 TZS = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Dala Dala",
+          "description": "Shared minibuses running fixed routes across the island",
+          "cost": "$0.25-0.50 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Private taxis for hire; negotiate fare before departing",
+          "cost": "$5-20 per ride"
+        },
+        {
+          "mode": "Scooter Rental",
+          "description": "Popular way to explore the island independently",
+          "cost": "$10-15 per day"
+        },
+        {
+          "mode": "Boat/Dhow",
+          "description": "Traditional sailing dhows and motorboats for island hopping",
+          "cost": "$10-30 per trip"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants. Tip tour guides, boat captains, and hotel staff $2-5."
+      },
+      "avgTempByMonth": [
+        32,
+        33,
+        32,
+        30,
+        29,
+        29,
+        29,
+        29,
+        30,
+        31,
+        31,
+        32
+      ],
+      "emergencyNumber": "112 or 114 (police), 115 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type D/G",
+      "timeZone": "EAT (UTC+3)"
+    }
   },
   {
     "slug": "nairobi",
@@ -4167,7 +6024,59 @@
     "language": "Swahili",
     "englishFriendly": true,
     "description": "Nairobi is the only capital city in the world with a national park inside its borders — you can watch lions hunt with skyscrapers in the background. Beyond the safari gateway, it's a booming tech hub with a food scene that spans nyama choma joints to innovative fine dining, and the energy of an African metropolis on the rise.",
-    "visaNote": "US citizens need an e-visa — apply at least 3 days before departure ($51)."
+    "visaNote": "US citizens need an e-visa — apply at least 3 days before departure ($51).",
+    "cityInfo": {
+      "currency": {
+        "name": "Kenyan Shilling",
+        "code": "KES",
+        "symbol": "KSh",
+        "exchangeRate": "~155 KES = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Matatu",
+          "description": "Colorful shared minibuses running fixed routes; a Nairobi icon",
+          "cost": "$0.30-0.60 per ride"
+        },
+        {
+          "mode": "Uber/Bolt",
+          "description": "Ride-hailing very popular and reliable",
+          "cost": "$3-10 per ride"
+        },
+        {
+          "mode": "Boda Boda",
+          "description": "Motorcycle taxis for navigating traffic quickly",
+          "cost": "$1-3 per ride"
+        },
+        {
+          "mode": "SGR Train",
+          "description": "Modern express train to Mombasa",
+          "cost": "$10-30 one-way"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants. Tip safari guides $10-20/day, drivers, and hotel staff."
+      },
+      "avgTempByMonth": [
+        26,
+        27,
+        27,
+        25,
+        24,
+        23,
+        22,
+        23,
+        25,
+        26,
+        24,
+        25
+      ],
+      "emergencyNumber": "999 or 112",
+      "waterSafety": "bottled",
+      "plugType": "Type G (UK-style)",
+      "timeZone": "EAT (UTC+3)"
+    }
   },
   {
     "slug": "sydney",
@@ -4279,7 +6188,59 @@
     "language": "English",
     "englishFriendly": true,
     "description": "Sydney is the city that has it all — a glittering harbour framed by the world's most recognizable opera house and bridge, golden beaches minutes from the CBD, and a laid-back outdoor lifestyle that makes every other city feel like it's trying too hard. The brunch scene alone is worth the long flight.",
-    "visaNote": "US citizens need an ETA (Electronic Travel Authority) — apply online before departure ($20 AUD)."
+    "visaNote": "US citizens need an ETA (Electronic Travel Authority) — apply online before departure ($20 AUD).",
+    "cityInfo": {
+      "currency": {
+        "name": "Australian Dollar",
+        "code": "AUD",
+        "symbol": "$",
+        "exchangeRate": "~1.55 AUD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Train",
+          "description": "Sydney Trains network connecting suburbs to the CBD and airport",
+          "cost": "$3-5 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Extensive bus network with Opal card payment",
+          "cost": "$2-4 per ride"
+        },
+        {
+          "mode": "Ferry",
+          "description": "Scenic ferries across Sydney Harbour and Parramatta River",
+          "cost": "$3-6 per ride"
+        },
+        {
+          "mode": "Uber/Taxi",
+          "description": "Ride-hailing and taxis widely available",
+          "cost": "$10-25 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary. Rounding up or 10% at upscale restaurants is appreciated but never expected."
+      },
+      "avgTempByMonth": [
+        27,
+        27,
+        25,
+        23,
+        20,
+        17,
+        17,
+        18,
+        20,
+        22,
+        24,
+        26
+      ],
+      "emergencyNumber": "000",
+      "waterSafety": "safe",
+      "plugType": "Type I",
+      "timeZone": "AEST (UTC+10)"
+    }
   },
   {
     "slug": "queenstown",
@@ -4391,7 +6352,59 @@
     "language": "English",
     "englishFriendly": true,
     "description": "Queenstown is the adventure capital of the world, perched on the shores of a glacial lake with jagged mountains rising on every side. It's where bungee jumping was invented, jet boats were perfected, and the scenery is so dramatic that Peter Jackson chose it for Middle-earth. Come for the adrenaline, stay for the pinot noir.",
-    "visaNote": "US citizens get 90 days visa-free with an NZeTA ($12 NZD, apply before departure)."
+    "visaNote": "US citizens get 90 days visa-free with an NZeTA ($12 NZD, apply before departure).",
+    "cityInfo": {
+      "currency": {
+        "name": "New Zealand Dollar",
+        "code": "NZD",
+        "symbol": "$",
+        "exchangeRate": "~1.65 NZD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Orbus",
+          "description": "Local public bus connecting Queenstown, Frankton, and Arrowtown",
+          "cost": "$2-4 per ride"
+        },
+        {
+          "mode": "Water Taxi",
+          "description": "Boats across Lake Wakatipu for scenic transport",
+          "cost": "$10-25 per ride"
+        },
+        {
+          "mode": "Rental Car",
+          "description": "Best way to explore Milford Sound, Glenorchy, and surrounding areas",
+          "cost": "$30-60 per day"
+        },
+        {
+          "mode": "Taxi/Uber",
+          "description": "Available but limited; book ahead during peak season",
+          "cost": "$8-20 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary in New Zealand. Rounding up or small tips for exceptional service are welcomed."
+      },
+      "avgTempByMonth": [
+        22,
+        21,
+        18,
+        14,
+        10,
+        7,
+        7,
+        9,
+        12,
+        15,
+        18,
+        20
+      ],
+      "emergencyNumber": "111",
+      "waterSafety": "safe",
+      "plugType": "Type I",
+      "timeZone": "NZST (UTC+12)"
+    }
   },
   {
     "slug": "fiji",
@@ -4503,7 +6516,59 @@
     "language": "English",
     "englishFriendly": true,
     "description": "Fiji is 333 islands of pure tropical bliss — warm turquoise waters teeming with the world's most colorful soft coral, palm-fringed beaches that look computer-generated, and a culture built on the word 'bula' and the genuine warmth behind it. Fijians are consistently ranked among the friendliest people on Earth, and five minutes here you'll understand why.",
-    "visaNote": "US citizens get 4 months visa-free on arrival."
+    "visaNote": "US citizens get 4 months visa-free on arrival.",
+    "cityInfo": {
+      "currency": {
+        "name": "Fijian Dollar",
+        "code": "FJD",
+        "symbol": "$",
+        "exchangeRate": "~2.25 FJD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Bus",
+          "description": "Local buses connecting towns on Viti Levu; affordable but slow",
+          "cost": "$1-3 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Metered taxis available in Nadi and Suva",
+          "cost": "$3-10 per ride"
+        },
+        {
+          "mode": "Island Ferry",
+          "description": "Ferries and boat transfers between islands",
+          "cost": "$20-80 per trip"
+        },
+        {
+          "mode": "Seaplane",
+          "description": "Scenic flights to remote island resorts",
+          "cost": "$150-400 per flight"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not part of Fijian culture. If you wish to show appreciation, a gift is more appropriate than cash."
+      },
+      "avgTempByMonth": [
+        31,
+        31,
+        31,
+        30,
+        28,
+        27,
+        26,
+        27,
+        27,
+        28,
+        29,
+        30
+      ],
+      "emergencyNumber": "911",
+      "waterSafety": "bottled",
+      "plugType": "Type I",
+      "timeZone": "FJT (UTC+12)"
+    }
   },
   {
     "slug": "beijing",
@@ -4623,7 +6688,59 @@
     "language": "Mandarin Chinese",
     "englishFriendly": false,
     "description": "Beijing is where imperial grandeur meets communist monumentalism meets breakneck modernity. The Forbidden City alone could take days, the Great Wall will leave you speechless, and the hutong alleyways hide centuries of stories behind their narrow doorways. This is a city that demands you reckon with the scale of history — and then rewards you with the best duck you've ever eaten.",
-    "visaNote": "US citizens need a visa. China offers 144-hour transit visa-free stays in Beijing when transiting to a third country."
+    "visaNote": "US citizens need a visa. China offers 144-hour transit visa-free stays in Beijing when transiting to a third country.",
+    "cityInfo": {
+      "currency": {
+        "name": "Chinese Yuan",
+        "code": "CNY",
+        "symbol": "¥",
+        "exchangeRate": "~7.2 CNY = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Subway",
+          "description": "Massive metro network with 20+ lines covering the city",
+          "cost": "$0.50-1 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Extensive bus system; very affordable with IC card",
+          "cost": "$0.15-0.50 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Abundant metered taxis; have your destination written in Chinese",
+          "cost": "$3-10 per ride"
+        },
+        {
+          "mode": "DiDi",
+          "description": "China's dominant ride-hailing app",
+          "cost": "$3-8 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary in China and can cause confusion. Service charges are included where applicable."
+      },
+      "avgTempByMonth": [
+        2,
+        5,
+        12,
+        21,
+        27,
+        31,
+        31,
+        30,
+        26,
+        19,
+        10,
+        4
+      ],
+      "emergencyNumber": "110 (police), 120 (ambulance), 119 (fire)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/C/I",
+      "timeZone": "CST (UTC+8)"
+    }
   },
   {
     "slug": "shanghai",
@@ -4735,7 +6852,59 @@
     "language": "Mandarin Chinese",
     "englishFriendly": false,
     "description": "Shanghai is China's most cosmopolitan city — a place where Art Deco buildings from the 1920s share blocks with supertall skyscrapers, where century-old soup dumpling shops sit beneath neon-drenched cocktail bars, and where the future feels like it's already arrived. The Bund at night is one of the great urban panoramas on Earth.",
-    "visaNote": "US citizens need a visa. China offers 144-hour transit visa-free stays in Shanghai when transiting to a third country."
+    "visaNote": "US citizens need a visa. China offers 144-hour transit visa-free stays in Shanghai when transiting to a third country.",
+    "cityInfo": {
+      "currency": {
+        "name": "Chinese Yuan",
+        "code": "CNY",
+        "symbol": "¥",
+        "exchangeRate": "~7.2 CNY = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "One of the world's largest metro systems with 19 lines",
+          "cost": "$0.50-1 per ride"
+        },
+        {
+          "mode": "Maglev Train",
+          "description": "High-speed magnetic levitation train from Pudong Airport to city",
+          "cost": "$7 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Comprehensive bus routes throughout the city",
+          "cost": "$0.30 per ride"
+        },
+        {
+          "mode": "DiDi/Taxi",
+          "description": "Taxis and ride-hailing widely available",
+          "cost": "$3-10 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary in China. Some high-end international hotels may accept tips."
+      },
+      "avgTempByMonth": [
+        8,
+        9,
+        14,
+        20,
+        25,
+        29,
+        33,
+        32,
+        28,
+        23,
+        17,
+        10
+      ],
+      "emergencyNumber": "110 (police), 120 (ambulance), 119 (fire)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/C/I",
+      "timeZone": "CST (UTC+8)"
+    }
   },
   {
     "slug": "hong-kong",
@@ -4847,7 +7016,59 @@
     "language": "Cantonese",
     "englishFriendly": true,
     "description": "Hong Kong is a vertical city that packs more flavor per square mile than anywhere on the planet. Skyscrapers climb jungle-covered mountains, double-decker trams rattle through streets lined with neon signs, and the food — from roast goose to wonton noodles to egg tarts — is reason enough to visit. It's loud, fast, dense, and absolutely electric.",
-    "visaNote": "US citizens get 90-day visa-free entry."
+    "visaNote": "US citizens get 90-day visa-free entry.",
+    "cityInfo": {
+      "currency": {
+        "name": "Hong Kong Dollar",
+        "code": "HKD",
+        "symbol": "HK$",
+        "exchangeRate": "~7.8 HKD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "MTR",
+          "description": "World-class metro system connecting Hong Kong Island, Kowloon, and the New Territories",
+          "cost": "$1-3 per ride"
+        },
+        {
+          "mode": "Star Ferry",
+          "description": "Iconic ferry crossing Victoria Harbour between Central and Tsim Sha Tsui",
+          "cost": "$0.40 per ride"
+        },
+        {
+          "mode": "Tram",
+          "description": "Double-decker trams running along Hong Kong Island's north shore",
+          "cost": "$0.40 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Metered taxis color-coded by service area",
+          "cost": "$3-12 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "10% service charge usually included in restaurant bills. Additional tipping not expected."
+      },
+      "avgTempByMonth": [
+        19,
+        19,
+        22,
+        26,
+        29,
+        31,
+        32,
+        32,
+        31,
+        28,
+        24,
+        20
+      ],
+      "emergencyNumber": "999",
+      "waterSafety": "safe",
+      "plugType": "Type G (UK-style)",
+      "timeZone": "HKT (UTC+8)"
+    }
   },
   {
     "slug": "phuket",
@@ -4960,7 +7181,59 @@
     "language": "Thai",
     "englishFriendly": true,
     "description": "Phuket is Thailand's largest island and the gateway to the Andaman Sea's most jaw-dropping scenery — limestone karsts rising from turquoise water, powder-white beaches backed by jungle, and underwater worlds bursting with color. Beyond the beaches, Phuket Old Town's Sino-Portuguese architecture and incredible southern Thai cuisine give this island real depth.",
-    "visaNote": "US citizens get 30-day visa-free entry, extendable to 60 days."
+    "visaNote": "US citizens get 30-day visa-free entry, extendable to 60 days.",
+    "cityInfo": {
+      "currency": {
+        "name": "Thai Baht",
+        "code": "THB",
+        "symbol": "฿",
+        "exchangeRate": "~35 THB = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Songthaew",
+          "description": "Shared open-air trucks running fixed routes; the local bus alternative",
+          "cost": "$1-2 per ride"
+        },
+        {
+          "mode": "Tuk-Tuk",
+          "description": "Iconic three-wheeled vehicles; negotiate fare before riding",
+          "cost": "$3-10 per ride"
+        },
+        {
+          "mode": "Grab",
+          "description": "Southeast Asia's leading ride-hailing app",
+          "cost": "$3-8 per ride"
+        },
+        {
+          "mode": "Scooter Rental",
+          "description": "Popular for exploring the island independently",
+          "cost": "$7-12 per day"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Rounding up or 10% at restaurants. 20-50 THB for massage therapists and hotel staff."
+      },
+      "avgTempByMonth": [
+        32,
+        33,
+        34,
+        34,
+        32,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31
+      ],
+      "emergencyNumber": "191 (police), 1669 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B/C/O",
+      "timeZone": "ICT (UTC+7)"
+    }
   },
   {
     "slug": "siem-reap",
@@ -5072,7 +7345,59 @@
     "language": "Khmer",
     "englishFriendly": true,
     "description": "Siem Reap exists because of Angkor — and Angkor is one of the most awe-inspiring places humans have ever built. Watching sunrise light creep across Angkor Wat's silhouette, or finding jungle roots consuming entire temple walls at Ta Prohm, are experiences that fundamentally shift your sense of scale. The town itself is surprisingly lively, with a buzzing food scene and warm Cambodian hospitality.",
-    "visaNote": "US citizens need a visa. E-visa available online for $36 (30-day single entry) or visa on arrival."
+    "visaNote": "US citizens need a visa. E-visa available online for $36 (30-day single entry) or visa on arrival.",
+    "cityInfo": {
+      "currency": {
+        "name": "Cambodian Riel / US Dollar",
+        "code": "KHR/USD",
+        "symbol": "៛/$",
+        "exchangeRate": "~4,100 KHR = 1 USD (USD widely accepted)"
+      },
+      "transportation": [
+        {
+          "mode": "Tuk-Tuk",
+          "description": "The primary way to get around; hire one for the day to tour Angkor temples",
+          "cost": "$2-5 per ride, $15-20 per day"
+        },
+        {
+          "mode": "Bicycle",
+          "description": "Great for exploring temples at a leisurely pace",
+          "cost": "$2-3 per day rental"
+        },
+        {
+          "mode": "Motorbike Taxi",
+          "description": "Quick and cheap motorcycle taxis around town",
+          "cost": "$1-3 per ride"
+        },
+        {
+          "mode": "Grab",
+          "description": "Ride-hailing available in Siem Reap",
+          "cost": "$2-5 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Not expected but appreciated. $1-2 at restaurants, $5-10/day for Angkor tour guides."
+      },
+      "avgTempByMonth": [
+        32,
+        34,
+        36,
+        36,
+        34,
+        33,
+        32,
+        32,
+        31,
+        31,
+        31,
+        31
+      ],
+      "emergencyNumber": "117 (police), 119 (fire/ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/C/G",
+      "timeZone": "ICT (UTC+7)"
+    }
   },
   {
     "slug": "luang-prabang",
@@ -5185,7 +7510,59 @@
     "language": "Lao",
     "englishFriendly": false,
     "description": "Luang Prabang is Southeast Asia's most serene surprise — a UNESCO-protected town at the confluence of two rivers, where saffron-robed monks collect alms at dawn, French-colonial architecture lines quiet streets, and turquoise waterfalls cascade through jungle. Time moves differently here, and that's exactly the point.",
-    "visaNote": "US citizens can get a 30-day visa on arrival for $35 USD."
+    "visaNote": "US citizens can get a 30-day visa on arrival for $35 USD.",
+    "cityInfo": {
+      "currency": {
+        "name": "Lao Kip",
+        "code": "LAK",
+        "symbol": "₭",
+        "exchangeRate": "~21,000 LAK = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Tuk-Tuk",
+          "description": "Three-wheeled vehicles for getting around the small town",
+          "cost": "$1-3 per ride"
+        },
+        {
+          "mode": "Bicycle",
+          "description": "The best way to explore the compact old town",
+          "cost": "$2-3 per day rental"
+        },
+        {
+          "mode": "Scooter",
+          "description": "Rent a scooter for trips to waterfalls and nearby villages",
+          "cost": "$8-12 per day"
+        },
+        {
+          "mode": "Boat",
+          "description": "Long-tail boats along the Mekong River for day trips",
+          "cost": "$5-20 per trip"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "Not expected but appreciated. 10% at tourist restaurants, small tips for boat drivers and guides."
+      },
+      "avgTempByMonth": [
+        27,
+        30,
+        33,
+        35,
+        34,
+        32,
+        31,
+        31,
+        32,
+        31,
+        29,
+        27
+      ],
+      "emergencyNumber": "191 (police), 195 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B/C/E/F",
+      "timeZone": "ICT (UTC+7)"
+    }
   },
   {
     "slug": "kuala-lumpur",
@@ -5296,7 +7673,59 @@
     "language": "Malay",
     "englishFriendly": true,
     "description": "Kuala Lumpur is where Malay, Chinese, and Indian cultures collide to create one of the world's most underrated food cities. The Petronas Towers gleam overhead, mosques sit next to Hindu temples next to Chinese shophouses, and every neighborhood has a hawker stall doing one dish so well it'll ruin all future versions of it for you. All of this at prices that feel almost unfair.",
-    "visaNote": "US citizens get 90-day visa-free entry."
+    "visaNote": "US citizens get 90-day visa-free entry.",
+    "cityInfo": {
+      "currency": {
+        "name": "Malaysian Ringgit",
+        "code": "MYR",
+        "symbol": "RM",
+        "exchangeRate": "~4.5 MYR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "LRT/MRT",
+          "description": "Modern rail transit system covering key areas of the city",
+          "cost": "$0.30-1.50 per ride"
+        },
+        {
+          "mode": "KL Monorail",
+          "description": "Elevated monorail through the city center and Bukit Bintang",
+          "cost": "$0.30-0.70 per ride"
+        },
+        {
+          "mode": "Grab",
+          "description": "Dominant ride-hailing app in Southeast Asia",
+          "cost": "$2-7 per ride"
+        },
+        {
+          "mode": "Bus (RapidKL)",
+          "description": "City bus network linking to rail stations",
+          "cost": "$0.30-0.60 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary. Some restaurants add a 10% service charge. Rounding up is fine."
+      },
+      "avgTempByMonth": [
+        32,
+        33,
+        33,
+        33,
+        33,
+        33,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32
+      ],
+      "emergencyNumber": "999",
+      "waterSafety": "bottled",
+      "plugType": "Type G (UK-style)",
+      "timeZone": "MYT (UTC+8)"
+    }
   },
   {
     "slug": "kathmandu",
@@ -5408,7 +7837,59 @@
     "language": "Nepali",
     "englishFriendly": false,
     "description": "Kathmandu is organized chaos with a spiritual core — medieval temples crumbling beside honking motorcycles, prayer flags fluttering over dusty streets, and the white Himalayas looming on clear days like a promise. This is the gateway to Everest and the Annapurna Circuit, but the Kathmandu Valley's own ancient cities, living temples, and momo-filled streets are worth the journey on their own.",
-    "visaNote": "US citizens need a visa. Visa on arrival available at Tribhuvan International Airport for $30 (15 days) or $50 (30 days)."
+    "visaNote": "US citizens need a visa. Visa on arrival available at Tribhuvan International Airport for $30 (15 days) or $50 (30 days).",
+    "cityInfo": {
+      "currency": {
+        "name": "Nepalese Rupee",
+        "code": "NPR",
+        "symbol": "₨",
+        "exchangeRate": "~133 NPR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Microbus",
+          "description": "Small local buses running fixed routes through the city",
+          "cost": "$0.15-0.30 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Small Suzuki taxis; negotiate fare or insist on the meter",
+          "cost": "$2-5 per ride"
+        },
+        {
+          "mode": "Rickshaw",
+          "description": "Cycle rickshaws for short trips in the old city",
+          "cost": "$0.50-2 per ride"
+        },
+        {
+          "mode": "Pathao/InDrive",
+          "description": "Ride-hailing and motorcycle taxi apps",
+          "cost": "$1-4 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants. Tip trekking guides $10-15/day and porters $7-10/day."
+      },
+      "avgTempByMonth": [
+        19,
+        21,
+        25,
+        28,
+        30,
+        30,
+        29,
+        29,
+        29,
+        27,
+        23,
+        20
+      ],
+      "emergencyNumber": "100 (police), 102 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type C/D/M",
+      "timeZone": "NPT (UTC+5:45)"
+    }
   },
   {
     "slug": "istanbul",
@@ -5536,7 +8017,59 @@
     "language": "Turkish",
     "englishFriendly": true,
     "description": "Istanbul is the only city on Earth that straddles two continents, and you feel that duality everywhere — Byzantine mosaics beside Ottoman minarets, ancient bazaars beside rooftop cocktail bars, Asia visible from Europe across a shimmering strait. The food alone is worth the flight: meyhane tables groaning with meze, balık ekmek fish sandwiches by the Galata Bridge, and Turkish breakfasts that redefine the word 'spread.'",
-    "visaNote": "US citizens need an e-Visa, available online for $50 (90 days within 180-day period)."
+    "visaNote": "US citizens need an e-Visa, available online for $50 (90 days within 180-day period).",
+    "cityInfo": {
+      "currency": {
+        "name": "Turkish Lira",
+        "code": "TRY",
+        "symbol": "₺",
+        "exchangeRate": "~32 TRY = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Growing metro network connecting European and Asian sides",
+          "cost": "$0.50 per ride"
+        },
+        {
+          "mode": "Tram",
+          "description": "Historic T1 tram running through Sultanahmet and Beyoğlu",
+          "cost": "$0.50 per ride"
+        },
+        {
+          "mode": "Ferry",
+          "description": "Ferries across the Bosphorus connecting Europe and Asia",
+          "cost": "$0.50 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Yellow metered taxis; insist on the meter to avoid overcharging",
+          "cost": "$3-10 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10-15% at restaurants. Round up for taxis. Tip hotel porters 20-50 TRY."
+      },
+      "avgTempByMonth": [
+        9,
+        9,
+        12,
+        17,
+        22,
+        27,
+        29,
+        30,
+        26,
+        21,
+        15,
+        11
+      ],
+      "emergencyNumber": "112",
+      "waterSafety": "bottled",
+      "plugType": "Type C/F",
+      "timeZone": "TRT (UTC+3)"
+    }
   },
   {
     "slug": "vienna",
@@ -5648,7 +8181,59 @@
     "language": "German",
     "englishFriendly": true,
     "description": "Vienna is a city that turned refinement into an art form — imperial palaces with 1,441 rooms, coffeehouses where philosophy was invented over melange and cake, and concert halls where Mozart, Beethoven, and Strauss wrote the soundtrack of Western civilization. It's consistently voted the world's most livable city, and one visit to a Viennese coffeehouse on a rainy afternoon will tell you why.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "€",
+        "exchangeRate": "~0.92 EUR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "U-Bahn (Metro)",
+          "description": "Five-line subway system covering all major areas",
+          "cost": "$2.80 per ride"
+        },
+        {
+          "mode": "Tram",
+          "description": "Extensive tram network including the scenic Ring Tram",
+          "cost": "$2.80 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Complementing the tram and metro networks",
+          "cost": "$2.80 per ride"
+        },
+        {
+          "mode": "Taxi/Uber",
+          "description": "Taxis and ride-hailing available throughout the city",
+          "cost": "$8-20 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "5-10% at restaurants by rounding up. Say the total amount you wish to pay when settling the bill."
+      },
+      "avgTempByMonth": [
+        3,
+        5,
+        10,
+        16,
+        21,
+        24,
+        27,
+        26,
+        21,
+        15,
+        8,
+        4
+      ],
+      "emergencyNumber": "112",
+      "waterSafety": "safe",
+      "plugType": "Type C/F",
+      "timeZone": "CET (UTC+1)"
+    }
   },
   {
     "slug": "copenhagen",
@@ -5759,7 +8344,59 @@
     "language": "Danish",
     "englishFriendly": true,
     "description": "Copenhagen is Scandinavian cool distilled into a bikeable, canal-laced city where design is a way of life and 'hygge' isn't just a buzzword — it's the operating system. The New Nordic food movement was born here at Noma, and that culinary ambition has trickled into every bakery, food hall, and smørrebrød counter. Add candy-colored harbors, royal palaces, and the world's best pastries, and you've got a city that punches absurdly above its size.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Danish Krone",
+        "code": "DKK",
+        "symbol": "kr",
+        "exchangeRate": "~6.9 DKK = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Automated driverless metro with 24/7 service",
+          "cost": "$3.50 per ride"
+        },
+        {
+          "mode": "S-tog (Commuter Rail)",
+          "description": "Suburban rail connecting greater Copenhagen",
+          "cost": "$3.50 per ride"
+        },
+        {
+          "mode": "Bicycle",
+          "description": "Copenhagen is one of the world's best cycling cities; bike lanes everywhere",
+          "cost": "$5-15 per day rental"
+        },
+        {
+          "mode": "Bus",
+          "description": "Comprehensive bus network across the city",
+          "cost": "$3.50 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Service charge included in bills. Rounding up or small tips for exceptional service are appreciated."
+      },
+      "avgTempByMonth": [
+        3,
+        3,
+        6,
+        11,
+        16,
+        19,
+        22,
+        21,
+        17,
+        12,
+        7,
+        4
+      ],
+      "emergencyNumber": "112",
+      "waterSafety": "safe",
+      "plugType": "Type C/K",
+      "timeZone": "CET (UTC+1)"
+    }
   },
   {
     "slug": "reykjavik",
@@ -5871,7 +8508,59 @@
     "language": "Icelandic",
     "englishFriendly": true,
     "description": "Iceland looks like another planet — steaming geothermal fields, glaciers calving into lagoons, waterfalls around every bend, and black sand beaches pounded by North Atlantic waves. Reykjavik is the world's most northerly capital, colorful and quirky with a music and food scene that belies its tiny population. In summer, the midnight sun never sets. In winter, the Northern Lights dance overhead. Neither is a bad option.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Icelandic Króna",
+        "code": "ISK",
+        "symbol": "kr",
+        "exchangeRate": "~138 ISK = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Strætó Bus",
+          "description": "Public bus system covering Reykjavik and surrounding areas",
+          "cost": "$3.50 per ride"
+        },
+        {
+          "mode": "Rental Car",
+          "description": "Essential for exploring the Golden Circle and Ring Road",
+          "cost": "$60-120 per day"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Available but expensive; book via Hreyfill or Borgarbílstöðin",
+          "cost": "$15-30 per ride"
+        },
+        {
+          "mode": "Walking",
+          "description": "The compact city center is easily walkable",
+          "cost": "Free"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary in Iceland. Service charge is included in all prices."
+      },
+      "avgTempByMonth": [
+        3,
+        3,
+        4,
+        7,
+        10,
+        13,
+        14,
+        14,
+        11,
+        7,
+        4,
+        3
+      ],
+      "emergencyNumber": "112",
+      "waterSafety": "safe",
+      "plugType": "Type C/F",
+      "timeZone": "GMT (UTC+0)"
+    }
   },
   {
     "slug": "athens",
@@ -5983,7 +8672,59 @@
     "language": "Greek",
     "englishFriendly": true,
     "description": "Athens invented Western civilization, and then had 2,500 years to develop one of Europe's most vibrant street food and nightlife scenes in the shadow of its own monuments. The Acropolis still takes your breath away from every angle, but modern Athens — its anarchist-chic neighborhoods, rooftop bars with Parthenon views, and tavernas where the ouzo never stops flowing — is what makes you want to stay.",
-    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area.",
+    "cityInfo": {
+      "currency": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "€",
+        "exchangeRate": "~0.92 EUR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Three-line metro system with stations near major archaeological sites",
+          "cost": "$1.60 per ride"
+        },
+        {
+          "mode": "Bus/Trolleybus",
+          "description": "Extensive bus and trolleybus network",
+          "cost": "$1.60 per ride"
+        },
+        {
+          "mode": "Tram",
+          "description": "Coastal tram connecting city center to the beach suburbs",
+          "cost": "$1.60 per ride"
+        },
+        {
+          "mode": "Taxi/Uber",
+          "description": "Yellow taxis and Uber/Beat ride-hailing available",
+          "cost": "$5-15 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "5-10% at restaurants by rounding up. Not expected at cafes or taxis but appreciated."
+      },
+      "avgTempByMonth": [
+        13,
+        14,
+        16,
+        20,
+        25,
+        30,
+        33,
+        33,
+        29,
+        24,
+        18,
+        14
+      ],
+      "emergencyNumber": "112",
+      "waterSafety": "safe",
+      "plugType": "Type C/F",
+      "timeZone": "EET (UTC+2)"
+    }
   },
   {
     "slug": "new-orleans",
@@ -6094,7 +8835,59 @@
     "language": "English",
     "englishFriendly": true,
     "description": "New Orleans is America's most unique city — a place where jazz pours from every doorway, the food is a religion unto itself, and the line between celebration and daily life barely exists. Creole, Cajun, French, African, and Caribbean influences collide on every plate and in every second-line parade. There's nowhere else like it in the country, or the world.",
-    "visaNote": "Domestic US destination — no visa needed for US residents."
+    "visaNote": "Domestic US destination — no visa needed for US residents.",
+    "cityInfo": {
+      "currency": {
+        "name": "US Dollar",
+        "code": "USD",
+        "symbol": "$",
+        "exchangeRate": "1 USD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Streetcar",
+          "description": "Historic streetcars running along St. Charles Ave, Canal St, and the Riverfront",
+          "cost": "$1.25 per ride"
+        },
+        {
+          "mode": "Bus (RTA)",
+          "description": "City bus system covering the metro area",
+          "cost": "$1.25 per ride"
+        },
+        {
+          "mode": "Uber/Lyft",
+          "description": "Ride-hailing widely available",
+          "cost": "$5-15 per ride"
+        },
+        {
+          "mode": "Walking",
+          "description": "The French Quarter and Garden District are very walkable",
+          "cost": "Free"
+        }
+      ],
+      "tipping": {
+        "culture": "expected",
+        "details": "15-20% at restaurants, $1-2 per drink at bars. Tip street performers and tour guides."
+      },
+      "avgTempByMonth": [
+        17,
+        19,
+        22,
+        26,
+        30,
+        33,
+        34,
+        34,
+        32,
+        28,
+        22,
+        18
+      ],
+      "emergencyNumber": "911",
+      "waterSafety": "safe",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "CST (UTC-6)"
+    }
   },
   {
     "slug": "costa-rica",
@@ -6216,7 +9009,59 @@
     "language": "Spanish",
     "englishFriendly": true,
     "description": "Costa Rica packs more biodiversity per square mile than almost anywhere on Earth — volcanoes, cloud forests, Pacific and Caribbean coastlines, and enough wildlife to make a nature documentary on every hike. The 'pura vida' philosophy is real here: a laid-back, grateful approach to life that infects every visitor. It's adventure travel made accessible, with excellent infrastructure and a genuine commitment to conservation.",
-    "visaNote": "US citizens get 90-day visa-free entry."
+    "visaNote": "US citizens get 90-day visa-free entry.",
+    "cityInfo": {
+      "currency": {
+        "name": "Costa Rican Colón",
+        "code": "CRC",
+        "symbol": "₡",
+        "exchangeRate": "~520 CRC = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Public Bus",
+          "description": "Extensive and affordable bus network connecting cities and national parks",
+          "cost": "$1-10 per ride"
+        },
+        {
+          "mode": "Shared Shuttle",
+          "description": "Tourist shuttles between popular destinations like Arenal, Monteverde, and Manuel Antonio",
+          "cost": "$30-60 per trip"
+        },
+        {
+          "mode": "Rental Car",
+          "description": "Best for exploring independently; 4WD recommended for dirt roads",
+          "cost": "$30-60 per day"
+        },
+        {
+          "mode": "Taxi/Uber",
+          "description": "Red official taxis in cities; Uber available in San José area",
+          "cost": "$3-15 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% service charge usually included. Additional 5-10% for great service. Tip tour guides $10-15/day."
+      },
+      "avgTempByMonth": [
+        24,
+        25,
+        26,
+        27,
+        27,
+        26,
+        26,
+        26,
+        26,
+        26,
+        25,
+        24
+      ],
+      "emergencyNumber": "911",
+      "waterSafety": "safe",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "CST (UTC-6)"
+    }
   },
   {
     "slug": "cancun",
@@ -6328,7 +9173,59 @@
     "language": "Spanish",
     "englishFriendly": true,
     "description": "Cancún is the gateway to the Riviera Maya — turquoise Caribbean water so clear it looks photoshopped, ancient Mayan ruins rising from the jungle, and cenotes (natural sinkholes) that feel like swimming in a cathedral. Beyond the hotel zone's resorts and nightlife, there's genuine archaeological wonder, world-class snorkeling, and a string of islands and beaches that remind you why the Caribbean is legendary.",
-    "visaNote": "US citizens get 180-day visa-free entry to Mexico."
+    "visaNote": "US citizens get 180-day visa-free entry to Mexico.",
+    "cityInfo": {
+      "currency": {
+        "name": "Mexican Peso",
+        "code": "MXN",
+        "symbol": "$",
+        "exchangeRate": "~17 MXN = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "ADO Bus",
+          "description": "Comfortable intercity buses to Playa del Carmen, Tulum, and Chichén Itzá",
+          "cost": "$5-20 per trip"
+        },
+        {
+          "mode": "R-1/R-2 Bus",
+          "description": "Local buses running through the Hotel Zone and downtown",
+          "cost": "$0.70 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Fixed-rate taxis in the Hotel Zone; negotiate in downtown",
+          "cost": "$5-15 per ride"
+        },
+        {
+          "mode": "Uber",
+          "description": "Available but sometimes faces opposition from local taxi unions",
+          "cost": "$3-10 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10-15% at restaurants. Tip hotel staff, tour guides, and bellhops."
+      },
+      "avgTempByMonth": [
+        28,
+        29,
+        30,
+        32,
+        33,
+        33,
+        34,
+        34,
+        33,
+        31,
+        29,
+        28
+      ],
+      "emergencyNumber": "911",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "EST (UTC-5)"
+    }
   },
   {
     "slug": "santiago",
@@ -6440,7 +9337,59 @@
     "language": "Spanish",
     "englishFriendly": false,
     "description": "Santiago sits in a valley beneath the snow-capped Andes — a modern, cosmopolitan capital with world-class wine regions just an hour away and ski resorts you can see from downtown. The city's neighborhoods each have their own personality, from the bohemian murals of Bellavista to the leafy cafes of Lastarria, and the food scene has exploded with creative restaurants that rival anything in South America.",
-    "visaNote": "US citizens get 90-day visa-free entry."
+    "visaNote": "US citizens get 90-day visa-free entry.",
+    "cityInfo": {
+      "currency": {
+        "name": "Chilean Peso",
+        "code": "CLP",
+        "symbol": "$",
+        "exchangeRate": "~930 CLP = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Modern, clean metro system with 7 lines covering the city",
+          "cost": "$1-1.30 per ride"
+        },
+        {
+          "mode": "Bus (Transantiago/RED)",
+          "description": "Extensive bus system using the BIP! card",
+          "cost": "$0.80-1 per ride"
+        },
+        {
+          "mode": "Uber/Cabify",
+          "description": "Ride-hailing apps widely used",
+          "cost": "$3-10 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Black taxis with yellow roofs; metered",
+          "cost": "$3-10 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants is customary. Not expected for taxis but rounding up is common."
+      },
+      "avgTempByMonth": [
+        30,
+        29,
+        27,
+        22,
+        17,
+        14,
+        14,
+        16,
+        18,
+        22,
+        26,
+        29
+      ],
+      "emergencyNumber": "131 (ambulance), 132 (fire), 133 (police)",
+      "waterSafety": "safe",
+      "plugType": "Type C/L",
+      "timeZone": "CLT (UTC-3)"
+    }
   },
   {
     "slug": "lima",
@@ -6552,7 +9501,59 @@
     "language": "Spanish",
     "englishFriendly": false,
     "description": "Lima is South America's undisputed food capital — a city where you can eat at three of the world's 50 best restaurants and follow them with a $3 ceviche from a market stall that's equally transcendent. Peruvian cuisine fuses Indigenous, Spanish, African, Chinese, and Japanese influences into something entirely its own. Beyond the food, Lima's colonial center, clifftop coastal parks, and bohemian Barranco neighborhood reveal a city with serious depth.",
-    "visaNote": "US citizens get 183-day visa-free entry."
+    "visaNote": "US citizens get 183-day visa-free entry.",
+    "cityInfo": {
+      "currency": {
+        "name": "Peruvian Sol",
+        "code": "PEN",
+        "symbol": "S/",
+        "exchangeRate": "~3.7 PEN = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metropolitano",
+          "description": "Bus rapid transit running north-south through the city",
+          "cost": "$0.40 per ride"
+        },
+        {
+          "mode": "Metro Line 1",
+          "description": "Elevated metro line running through eastern Lima",
+          "cost": "$0.50 per ride"
+        },
+        {
+          "mode": "Combi/Micro",
+          "description": "Small buses and minivans on fixed routes; cheap but chaotic",
+          "cost": "$0.30 per ride"
+        },
+        {
+          "mode": "Uber/InDriver",
+          "description": "Ride-hailing very popular and affordable",
+          "cost": "$2-8 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants is standard. Tip tour guides and hotel staff."
+      },
+      "avgTempByMonth": [
+        26,
+        27,
+        27,
+        25,
+        22,
+        20,
+        19,
+        18,
+        19,
+        20,
+        22,
+        24
+      ],
+      "emergencyNumber": "105 (police), 116 (fire), 117 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type A/B/C",
+      "timeZone": "PET (UTC-5)"
+    }
   },
   {
     "slug": "bogota",
@@ -6665,7 +9666,59 @@
     "language": "Spanish",
     "englishFriendly": false,
     "description": "Bogotá is a sprawling Andean capital at 2,640 meters that rewards the curious traveler with some of South America's best street art, a gold museum that redefines the word 'treasure,' and a food and nightlife scene that's evolving at warp speed. The transformation of this city over the past two decades is one of the great urban comeback stories, and it's still just getting started.",
-    "visaNote": "US citizens get 90-day visa-free entry, extendable to 180 days."
+    "visaNote": "US citizens get 90-day visa-free entry, extendable to 180 days.",
+    "cityInfo": {
+      "currency": {
+        "name": "Colombian Peso",
+        "code": "COP",
+        "symbol": "$",
+        "exchangeRate": "~4,200 COP = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "TransMilenio",
+          "description": "Bus rapid transit system with dedicated lanes across the city",
+          "cost": "$0.70 per ride"
+        },
+        {
+          "mode": "SITP Bus",
+          "description": "Integrated public transport buses feeding into TransMilenio",
+          "cost": "$0.60 per ride"
+        },
+        {
+          "mode": "Uber/InDriver",
+          "description": "Ride-hailing apps widely used",
+          "cost": "$2-8 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Yellow metered taxis; use official ones or apps like Tappsi",
+          "cost": "$2-7 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% voluntary service charge usually added to restaurant bills. Additional tip optional."
+      },
+      "avgTempByMonth": [
+        19,
+        20,
+        20,
+        19,
+        19,
+        18,
+        18,
+        18,
+        19,
+        19,
+        19,
+        19
+      ],
+      "emergencyNumber": "123",
+      "waterSafety": "safe",
+      "plugType": "Type A/B (same as US)",
+      "timeZone": "COT (UTC-5)"
+    }
   },
   {
     "slug": "cairo",
@@ -6788,7 +9841,59 @@
     "language": "Arabic",
     "englishFriendly": false,
     "description": "Cairo is 5,000 years of civilization stacked on top of itself — the Pyramids of Giza somehow still standing on the city's edge, medieval Islamic architecture rivaling anything in the world, and a Nile that has defined human history since the beginning. It's chaotic, dusty, loud, and absolutely unforgettable. The new Grand Egyptian Museum is reason alone to visit, and the street food scene will have you eating koshari for breakfast.",
-    "visaNote": "US citizens need a visa. Visa on arrival available at Cairo Airport for $25 (30 days single entry)."
+    "visaNote": "US citizens need a visa. Visa on arrival available at Cairo Airport for $25 (30 days single entry).",
+    "cityInfo": {
+      "currency": {
+        "name": "Egyptian Pound",
+        "code": "EGP",
+        "symbol": "E£",
+        "exchangeRate": "~50 EGP = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Three-line metro system; the oldest in Africa and the Middle East",
+          "cost": "$0.20 per ride"
+        },
+        {
+          "mode": "Uber/Careem",
+          "description": "Very popular ride-hailing apps; recommended over taxis",
+          "cost": "$2-6 per ride"
+        },
+        {
+          "mode": "Microbus",
+          "description": "Shared minibuses on fixed routes; cheap but crowded",
+          "cost": "$0.10-0.30 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "White metered taxis; insist on the meter or use an app",
+          "cost": "$1-5 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "expected",
+        "details": "Called 'baksheesh.' 10-15% at restaurants, tip parking attendants, bathroom attendants, and helpers at tourist sites."
+      },
+      "avgTempByMonth": [
+        19,
+        21,
+        24,
+        28,
+        33,
+        35,
+        36,
+        35,
+        33,
+        30,
+        24,
+        20
+      ],
+      "emergencyNumber": "122 (police), 123 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type C/F",
+      "timeZone": "EET (UTC+2)"
+    }
   },
   {
     "slug": "accra",
@@ -6901,7 +10006,59 @@
     "language": "English",
     "englishFriendly": true,
     "description": "Accra is West Africa's most welcoming capital — a city where Afrobeats pump from every corner, jollof rice debates are a national sport, and the warmth of Ghanaian hospitality is legendary. The city's art scene is exploding, the nightlife is electric, and a day trip to the sobering Cape Coast slave castles provides essential historical context. Ghana was the first sub-Saharan African country to gain independence, and that pride is palpable everywhere.",
-    "visaNote": "US citizens need a visa. Apply online through the Ghana e-Visa portal before travel."
+    "visaNote": "US citizens need a visa. Apply online through the Ghana e-Visa portal before travel.",
+    "cityInfo": {
+      "currency": {
+        "name": "Ghanaian Cedi",
+        "code": "GHS",
+        "symbol": "₵",
+        "exchangeRate": "~14.5 GHS = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Trotro",
+          "description": "Shared minibuses running fixed routes; the main local transport",
+          "cost": "$0.20-0.50 per ride"
+        },
+        {
+          "mode": "Uber/Bolt",
+          "description": "Ride-hailing apps widely available in Accra",
+          "cost": "$2-8 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Shared and private taxis; negotiate fare before riding",
+          "cost": "$2-8 per ride"
+        },
+        {
+          "mode": "Okada",
+          "description": "Motorcycle taxis for navigating traffic",
+          "cost": "$0.50-2 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants. Tip hotel staff and tour guides. Not expected at local eateries."
+      },
+      "avgTempByMonth": [
+        32,
+        33,
+        33,
+        32,
+        31,
+        29,
+        28,
+        28,
+        29,
+        31,
+        32,
+        32
+      ],
+      "emergencyNumber": "191 (police), 193 (fire), 112 (ambulance)",
+      "waterSafety": "bottled",
+      "plugType": "Type D/G",
+      "timeZone": "GMT (UTC+0)"
+    }
   },
   {
     "slug": "mauritius",
@@ -7015,7 +10172,59 @@
     "language": "English",
     "englishFriendly": true,
     "description": "Mauritius is a tiny volcanic island in the Indian Ocean that punches wildly above its weight — coral-ringed lagoons in impossible shades of blue, dramatic volcanic peaks draped in jungle, and a Creole-Indian-Chinese-French fusion cuisine that's one of the world's best-kept culinary secrets. It's the kind of place where you plan three days and wish you'd booked three weeks.",
-    "visaNote": "US citizens get 90-day visa-free entry."
+    "visaNote": "US citizens get 90-day visa-free entry.",
+    "cityInfo": {
+      "currency": {
+        "name": "Mauritian Rupee",
+        "code": "MUR",
+        "symbol": "₨",
+        "exchangeRate": "~45 MUR = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Bus",
+          "description": "Comprehensive public bus network covering the island",
+          "cost": "$0.50-1.50 per ride"
+        },
+        {
+          "mode": "Metro Express",
+          "description": "Modern light rail connecting Port Louis to Curepipe",
+          "cost": "$0.50-1 per ride"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Widely available; negotiate fare before riding",
+          "cost": "$5-20 per ride"
+        },
+        {
+          "mode": "Rental Car",
+          "description": "Best way to explore the island at your own pace; drives on the left",
+          "cost": "$25-50 per day"
+        }
+      ],
+      "tipping": {
+        "culture": "appreciated",
+        "details": "10% at restaurants if service charge not included. Tip hotel staff and tour guides."
+      },
+      "avgTempByMonth": [
+        30,
+        30,
+        30,
+        28,
+        26,
+        24,
+        24,
+        24,
+        25,
+        27,
+        28,
+        30
+      ],
+      "emergencyNumber": "999 (police), 114 (ambulance), 115 (fire)",
+      "waterSafety": "safe",
+      "plugType": "Type C/G",
+      "timeZone": "MUT (UTC+4)"
+    }
   },
   {
     "slug": "melbourne",
@@ -7128,7 +10337,59 @@
     "language": "English",
     "englishFriendly": true,
     "description": "Melbourne is Australia's cultural capital — a city that takes coffee, food, street art, and live music more seriously than almost anywhere else on Earth. Its laneway culture is legendary: turn down any narrow alley and you'll find a world-class espresso bar, a gallery, a speakeasy, or all three. The Great Ocean Road on its doorstep is one of the planet's great drives, and the food scene draws from Greek, Vietnamese, Italian, and Indigenous Australian influences in ways that consistently surprise.",
-    "visaNote": "US citizens need an ETA (Electronic Travel Authority) — apply online, typically approved within minutes."
+    "visaNote": "US citizens need an ETA (Electronic Travel Authority) — apply online, typically approved within minutes.",
+    "cityInfo": {
+      "currency": {
+        "name": "Australian Dollar",
+        "code": "AUD",
+        "symbol": "$",
+        "exchangeRate": "~1.55 AUD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Tram",
+          "description": "World's largest tram network; free in the CBD Free Tram Zone",
+          "cost": "Free-$3.50 per ride"
+        },
+        {
+          "mode": "Train",
+          "description": "Metro Trains network connecting suburbs to the city",
+          "cost": "$3-5 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Complementing the train and tram networks in outer suburbs",
+          "cost": "$2-4 per ride"
+        },
+        {
+          "mode": "Uber/Taxi",
+          "description": "Ride-hailing and taxis widely available",
+          "cost": "$10-25 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary. Rounding up or 10% at upscale restaurants is appreciated but never expected."
+      },
+      "avgTempByMonth": [
+        26,
+        26,
+        24,
+        20,
+        17,
+        14,
+        13,
+        15,
+        17,
+        20,
+        22,
+        24
+      ],
+      "emergencyNumber": "000",
+      "waterSafety": "safe",
+      "plugType": "Type I",
+      "timeZone": "AEST (UTC+10)"
+    }
   },
   {
     "slug": "bora-bora",
@@ -7247,7 +10508,59 @@
     "language": "French",
     "englishFriendly": true,
     "description": "Bora Bora is the place that invented the overwater bungalow and the reason every tropical travel poster looks the way it does. A volcanic peak rising from a lagoon so blue it looks artificially saturated, ringed by a coral reef that creates the calmest, clearest water you'll ever swim in. It's unapologetically luxurious, breathtakingly beautiful, and the kind of place that makes you understand why people save for years to get here.",
-    "visaNote": "US citizens get 90-day visa-free entry to French Polynesia."
+    "visaNote": "US citizens get 90-day visa-free entry to French Polynesia.",
+    "cityInfo": {
+      "currency": {
+        "name": "CFP Franc",
+        "code": "XPF",
+        "symbol": "₣",
+        "exchangeRate": "~110 XPF = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "Water Taxi",
+          "description": "Boat transfers between the main island and motu (islets)",
+          "cost": "$15-40 per ride"
+        },
+        {
+          "mode": "Bicycle",
+          "description": "Rent a bike to circle the small main island (32 km)",
+          "cost": "$10-15 per day"
+        },
+        {
+          "mode": "Rental Car/Buggy",
+          "description": "Fun way to explore the main island",
+          "cost": "$50-80 per day"
+        },
+        {
+          "mode": "Resort Shuttle",
+          "description": "Most resorts provide complimentary boat shuttles to the main island",
+          "cost": "Free (resort guests)"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not part of Polynesian culture. Some high-end resorts have a communal tip box."
+      },
+      "avgTempByMonth": [
+        31,
+        31,
+        31,
+        31,
+        30,
+        29,
+        29,
+        29,
+        29,
+        30,
+        30,
+        31
+      ],
+      "emergencyNumber": "17 (police), 15 (ambulance), 18 (fire)",
+      "waterSafety": "safe",
+      "plugType": "Type A/B/C/E",
+      "timeZone": "TAHT (UTC-10)"
+    }
   },
   {
     "slug": "auckland",
@@ -7359,6 +10672,58 @@
     "language": "English",
     "englishFriendly": true,
     "description": "Auckland is built on 53 dormant volcanoes, straddled between two harbors, and surrounded by islands — it's a city where you can climb a volcanic crater before lunch and be sipping wine at an island vineyard by afternoon. As New Zealand's largest city and the gateway to the rest of the country, Auckland blends Polynesian, European, and Asian cultures into a food and arts scene that's far more dynamic than its modest reputation suggests.",
-    "visaNote": "US citizens need an NZeTA (New Zealand Electronic Travel Authority) — apply online for NZ$17, plus an IVL (International Visitor Conservation and Tourism Levy) of NZ$100."
+    "visaNote": "US citizens need an NZeTA (New Zealand Electronic Travel Authority) — apply online for NZ$17, plus an IVL (International Visitor Conservation and Tourism Levy) of NZ$100.",
+    "cityInfo": {
+      "currency": {
+        "name": "New Zealand Dollar",
+        "code": "NZD",
+        "symbol": "$",
+        "exchangeRate": "~1.65 NZD = 1 USD"
+      },
+      "transportation": [
+        {
+          "mode": "AT Metro Train",
+          "description": "Commuter rail connecting suburbs to Britomart city center",
+          "cost": "$2-5 per ride"
+        },
+        {
+          "mode": "Bus",
+          "description": "Extensive Auckland Transport bus network",
+          "cost": "$2-4 per ride"
+        },
+        {
+          "mode": "Ferry",
+          "description": "Ferries to Devonport, Waiheke Island, and other harbor destinations",
+          "cost": "$4-20 per ride"
+        },
+        {
+          "mode": "Uber/Taxi",
+          "description": "Ride-hailing and taxis available throughout the city",
+          "cost": "$8-20 per ride"
+        }
+      ],
+      "tipping": {
+        "culture": "not-expected",
+        "details": "Tipping is not customary in New Zealand. Small tips for exceptional service are welcomed but never expected."
+      },
+      "avgTempByMonth": [
+        24,
+        24,
+        23,
+        20,
+        17,
+        15,
+        14,
+        15,
+        16,
+        18,
+        20,
+        22
+      ],
+      "emergencyNumber": "111",
+      "waterSafety": "safe",
+      "plugType": "Type I",
+      "timeZone": "NZST (UTC+12)"
+    }
   }
 ]

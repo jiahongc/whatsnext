@@ -29,3 +29,95 @@ Module not found: Can't resolve '@/components/destination/MapLoader'
 Import map: aliased to relative './src/components/destination/MapLoader' inside of [project]/
 
 https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 5473697ms] [ERROR] ./src/app/destination/[slug]/page.tsx:15:1
+Module not found: Can't resolve './travel-from-banner'
+  13 | import { DestinationJsonLd } from '@/components/DestinationJsonLd'
+  14 | import { MapLoader } from '@/components/destination/MapLoader'
+> 15 | import { TravelFromBanner } from './travel-from-banner'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |
+  17 | const destinations = rawDestinations as Destination[]
+  18 |
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 5474079ms] [ERROR] ./src/app/destination/[slug]/page.tsx:15:1
+Module not found: Can't resolve './travel-from-banner'
+  13 | import { DestinationJsonLd } from '@/components/DestinationJsonLd'
+  14 | import { MapLoader } from '@/components/destination/MapLoader'
+> 15 | import { TravelFromBanner } from './travel-from-banner'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |
+  17 | const destinations = rawDestinations as Destination[]
+  18 |
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 5474080ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/explore?_rsc=1tbmt:0
+[ 5474090ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/explore?_rsc=1tbmt:0
+[ 5474114ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/explore?_rsc=1tbmt:0
+[ 5474123ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/explore:0
+[ 5474262ms] Error: ./src/app/destination/[slug]/page.tsx:15:1
+Module not found: Can't resolve './travel-from-banner'
+  13 | import { DestinationJsonLd } from '@/components/DestinationJsonLd'
+  14 | import { MapLoader } from '@/components/destination/MapLoader'
+> 15 | import { TravelFromBanner } from './travel-from-banner'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |
+  17 | const destinations = rawDestinations as Destination[]
+  18 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/app/destination/[slug]/page.tsx:15:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/jiahongchen/Desktop/Coding/where-next-trip/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1189:59)
+    at DevBundlerService.getCompilationError (file:///Users/jiahongchen/Desktop/Coding/where-next-trip/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/jiahongchen/Desktop/Coding/where-next-trip/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/jiahongchen/Desktop/Coding/where-next-trip/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/jiahongchen/Desktop/Coding/where-next-trip/node_modules/next/dist/server/base-server.js:1745:26)
+[ 5474274ms] [ERROR] ./src/app/destination/[slug]/page.tsx:15:1
+Module not found: Can't resolve './travel-from-banner'
+  13 | import { DestinationJsonLd } from '@/components/DestinationJsonLd'
+  14 | import { MapLoader } from '@/components/destination/MapLoader'
+> 15 | import { TravelFromBanner } from './travel-from-banner'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |
+  17 | const destinations = rawDestinations as Destination[]
+  18 |
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 5474313ms] [ERROR] ./src/app/destination/[slug]/page.tsx:15:1
+Module not found: Can't resolve './travel-from-banner'
+  13 | import { DestinationJsonLd } from '@/components/DestinationJsonLd'
+  14 | import { MapLoader } from '@/components/destination/MapLoader'
+> 15 | import { TravelFromBanner } from './travel-from-banner'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |
+  17 | const destinations = rawDestinations as Destination[]
+  18 |
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 5474596ms] [ERROR] ./src/app/destination/[slug]/page.tsx:15:1
+Module not found: Can't resolve './travel-from-banner'
+  13 | import { DestinationJsonLd } from '@/components/DestinationJsonLd'
+  14 | import { MapLoader } from '@/components/destination/MapLoader'
+> 15 | import { TravelFromBanner } from './travel-from-banner'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |
+  17 | const destinations = rawDestinations as Destination[]
+  18 |
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 5474744ms] [ERROR] ./src/app/destination/[slug]/page.tsx:15:1
+Module not found: Can't resolve './travel-from-banner'
+  13 | import { DestinationJsonLd } from '@/components/DestinationJsonLd'
+  14 | import { MapLoader } from '@/components/destination/MapLoader'
+> 15 | import { TravelFromBanner } from './travel-from-banner'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |
+  17 | const destinations = rawDestinations as Destination[]
+  18 |
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
