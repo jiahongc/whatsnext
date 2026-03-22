@@ -9,7 +9,8 @@ export interface Destination {
   budgetTier: 1 | 2 | 3
   bestMonths: number[]
   flightCost: string
-  pointsTip?: string
+  pointsAndMiles: PointsRedemption[]
+  redditCommunities: RedditCommunity[]
   itinerary: ItineraryDay[]
   topThingsToDo: string[]
   vibeTags: VibeTag[]
@@ -44,6 +45,21 @@ export type VibeTag =
   | 'budget'
   | 'luxury'
   | 'family'
+
+export interface PointsRedemption {
+  program: string
+  points: string
+  route?: string
+  cabin: string
+  tip: string
+}
+
+export interface RedditCommunity {
+  name: string
+  url: string
+  description: string
+  members?: string
+}
 
 export interface FilterState {
   continents: Continent[]

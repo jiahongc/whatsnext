@@ -50,4 +50,41 @@ export const DESTINATION_IMAGES: Record<string, string> = {
   'sydney': 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=85',
   'queenstown': 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=85',
   'fiji': 'https://images.unsplash.com/photo-1706066954162-d557cc64a163?w=1200&q=85',
+
+  // New Asia additions
+  'beijing': 'https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1200&q=85',
+  'shanghai': 'https://images.unsplash.com/photo-1537531383496-f4749b535950?w=1200&q=85',
+  'hong-kong': 'https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=1200&q=85',
+  'phuket': 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=1200&q=85',
+  'siem-reap': 'https://images.unsplash.com/photo-1600490036275-35f5f1656861?w=1200&q=85',
+  'luang-prabang': 'https://images.unsplash.com/photo-1583531172005-814194ae08c5?w=1200&q=85',
+  'kuala-lumpur': 'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&q=85',
+  'kathmandu': 'https://images.unsplash.com/photo-1558799401-1dcba79834c2?w=1200&q=85',
+
+  // New Europe additions
+  'istanbul': 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=1200&q=85',
+  'vienna': 'https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1200&q=85',
+  'copenhagen': 'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1200&q=85',
+  'reykjavik': 'https://images.unsplash.com/photo-1504829857797-ddff29c27927?w=1200&q=85',
+  'athens': 'https://images.unsplash.com/photo-1555993539-1732b0258235?w=1200&q=85',
+
+  // New North America additions
+  'new-orleans': 'https://images.unsplash.com/photo-1568402102990-bc541580b59f?w=1200&q=85',
+  'costa-rica': 'https://images.unsplash.com/photo-1519999482648-25049ddd37b1?w=1200&q=85',
+  'cancun': 'https://images.unsplash.com/photo-1510097467424-192d713fd8b2?w=1200&q=85',
+
+  // New South America additions
+  'santiago': 'https://images.unsplash.com/photo-1594568284297-7c64464062b1?w=1200&q=85',
+  'lima': 'https://images.unsplash.com/photo-1531968455001-5c5272a41129?w=1200&q=85',
+  'bogota': 'https://images.unsplash.com/photo-1568578501256-ee5db5001ed9?w=1200&q=85',
+
+  // New Africa additions
+  'cairo': 'https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=1200&q=85',
+  'accra': 'https://images.unsplash.com/photo-1595925889916-af7f25cc0df2?w=1200&q=85',
+  'mauritius': 'https://images.unsplash.com/photo-1589979481223-deb893043163?w=1200&q=85',
+
+  // New Oceania additions
+  'melbourne': 'https://images.unsplash.com/photo-1514395462725-fb4566210144?w=1200&q=85',
+  'bora-bora': 'https://images.unsplash.com/photo-1589197331516-4d84b72ebde3?w=1200&q=85',
+  'auckland': 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=85',
 };

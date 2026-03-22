@@ -6,6 +6,7 @@ import type { Destination } from '@/data/types'
 import { DestinationHero } from '@/components/destination/DestinationHero'
 import { ItinerarySection } from '@/components/destination/ItinerarySection'
 import { PointsSection } from '@/components/destination/PointsSection'
+import { RedditSection } from '@/components/destination/RedditSection'
 import { WeatherInfo } from '@/components/destination/WeatherInfo'
 import { ThingsToDoSection } from '@/components/destination/ThingsToDoSection'
 import { DestinationJsonLd } from '@/components/DestinationJsonLd'
@@ -99,7 +100,9 @@ export default async function DestinationPage({
 
           <WeatherInfo bestMonths={destination.bestMonths} />
 
-          <PointsSection pointsTip={destination.pointsTip} />
+          <PointsSection points={destination.pointsAndMiles} />
+
+          <RedditSection communities={destination.redditCommunities} />
 
           {/* Mapbox Map — lazy-loaded */}
           <section>
