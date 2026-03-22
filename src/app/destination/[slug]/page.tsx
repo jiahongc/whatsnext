@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import rawDestinations from '@/data/destinations.json'
 import type { Destination } from '@/data/types'
+import { MICHELIN_RESTAURANTS } from '@/data/michelin-restaurants'
 import { DestinationHero } from '@/components/destination/DestinationHero'
 import { ItinerarySection } from '@/components/destination/ItinerarySection'
 import { PointsSection } from '@/components/destination/PointsSection'
@@ -10,6 +11,7 @@ import { RedditSection } from '@/components/destination/RedditSection'
 import { WeatherInfo } from '@/components/destination/WeatherInfo'
 import { ThingsToDoSection } from '@/components/destination/ThingsToDoSection'
 import { CityInfoSection } from '@/components/destination/CityInfoSection'
+import { MichelinSection } from '@/components/destination/MichelinSection'
 import { DestinationJsonLd } from '@/components/DestinationJsonLd'
 import { MapLoader } from '@/components/destination/MapLoader'
 import { TravelFromBanner } from './travel-from-banner'
@@ -56,6 +58,8 @@ export default async function DestinationPage({
   const destination = getDestination(slug)
   if (!destination) notFound()
 
+  const michelinRestaurants = MICHELIN_RESTAURANTS[destination.slug] || []
+
   return (
     <>
       <DestinationJsonLd destination={destination} />
@@ -76,9 +80,8 @@ export default async function DestinationPage({
 
         <DestinationHero destination={destination} />
 
-        {/* Content */}
-        <div className="max-w-4xl mx-auto px-6 py-10 space-y-10">
-          {/* Description */}
+        <div className="max-w-4xl mx-auto px-6 py-10 space-y-12">
+          {/* Description + vibes */}
           <section>
             <p className="font-sans text-lg text-stone-600 leading-relaxed">
               {destination.description}
@@ -95,7 +98,7 @@ export default async function DestinationPage({
             </div>
           </section>
 
-          {/* Travel from banner — shows flight time, distance, route when departure city is set */}
+          {/* Travel from banner — shows when departure city is set */}
           <TravelFromBanner
             destinationName={destination.name}
             destLat={destination.coordinates.lat}
@@ -103,19 +106,29 @@ export default async function DestinationPage({
             flightCost={destination.flightCost}
           />
 
+          {/* === ABOUT THIS CITY === */}
           <CityInfoSection cityInfo={destination.cityInfo} cityName={destination.name} />
+
+          {/* === WHAT TO DO === */}
+          <ThingsToDoSection items={destination.topThingsToDo} />
 
           <ItinerarySection itinerary={destination.itinerary} />
 
-          <ThingsToDoSection items={destination.topThingsToDo} />
-
           <WeatherInfo bestMonths={destination.bestMonths} />
 
+          {/* === WHERE TO EAT === */}
+          <MichelinSection
+            restaurants={michelinRestaurants}
+            cityName={destination.name}
+          />
+
+          {/* === HOW TO GET THERE === */}
           <PointsSection points={destination.pointsAndMiles} />
 
+          {/* === COMMUNITY === */}
           <RedditSection communities={destination.redditCommunities} />
 
-          {/* Mapbox Map */}
+          {/* === MAP === */}
           <section>
             <h2 className="font-serif text-2xl text-stone-900 mb-4">
               Location

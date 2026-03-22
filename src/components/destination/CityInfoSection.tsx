@@ -41,7 +41,7 @@ export function CityInfoSection({
           detail={
             cityInfo.waterSafety === 'safe'
               ? 'Tap water is drinkable'
-              : 'Don\'t drink tap water'
+              : "Don't drink tap water"
           }
         />
         <QuickFact
@@ -58,7 +58,7 @@ export function CityInfoSection({
         />
       </div>
 
-      {/* Temperature chart */}
+      {/* Temperature chart with F/C toggle */}
       <TemperatureChart temps={cityInfo.avgTempByMonth} />
 
       {/* Tipping */}
@@ -67,17 +67,23 @@ export function CityInfoSection({
           <span className="text-xl">💰</span>
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <h3 className="font-sans text-sm font-semibold text-stone-900">Tipping</h3>
-              <span className={`text-[10px] font-sans font-medium uppercase tracking-wider px-2 py-0.5 rounded-full ${
-                cityInfo.tipping.culture === 'expected'
-                  ? 'bg-amber-100 text-amber-700'
-                  : cityInfo.tipping.culture === 'appreciated'
-                  ? 'bg-blue-50 text-blue-600'
-                  : cityInfo.tipping.culture === 'included'
-                  ? 'bg-green-50 text-green-600'
-                  : 'bg-stone-100 text-stone-500'
-              }`}>
-                {cityInfo.tipping.culture === 'not-expected' ? 'Not Expected' : cityInfo.tipping.culture}
+              <h3 className="font-sans text-sm font-semibold text-stone-900">
+                Tipping
+              </h3>
+              <span
+                className={`text-[10px] font-sans font-medium uppercase tracking-wider px-2 py-0.5 rounded-full ${
+                  cityInfo.tipping.culture === 'expected'
+                    ? 'bg-amber-100 text-amber-700'
+                    : cityInfo.tipping.culture === 'appreciated'
+                    ? 'bg-blue-50 text-blue-600'
+                    : cityInfo.tipping.culture === 'included'
+                    ? 'bg-green-50 text-green-600'
+                    : 'bg-stone-100 text-stone-500'
+                }`}
+              >
+                {cityInfo.tipping.culture === 'not-expected'
+                  ? 'Not Expected'
+                  : cityInfo.tipping.culture}
               </span>
             </div>
             <p className="font-sans text-sm text-stone-500 leading-relaxed">
@@ -88,35 +94,38 @@ export function CityInfoSection({
       </div>
 
       {/* Transportation */}
-      <div className="mt-4">
+      <div className="mt-6">
         <h3 className="font-sans text-sm font-semibold text-stone-900 mb-3 flex items-center gap-2">
           <span>🚌</span> Getting Around
         </h3>
-        <div className="space-y-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
           {cityInfo.transportation.map((t, i) => (
             <div
               key={i}
-              className="flex items-start gap-3 bg-white border border-stone-200/80 rounded-lg px-4 py-3"
+              className="bg-white border border-stone-200/80 rounded-lg px-4 py-3"
             >
-              <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2">
-                  <span className="font-sans text-sm font-medium text-stone-900">
-                    {t.mode}
-                  </span>
-                  <span className="font-sans text-xs text-amber-600 font-medium">
-                    {t.cost}
-                  </span>
-                </div>
-                <p className="font-sans text-xs text-stone-500 mt-0.5">
-                  {t.description}
-                </p>
+              <div className="flex items-center justify-between mb-1">
+                <span className="font-sans text-sm font-medium text-stone-900">
+                  {t.mode}
+                </span>
+                <span className="font-sans text-xs text-amber-600 font-medium">
+                  {formatCostRange(t.cost)}
+                </span>
               </div>
+              <p className="font-sans text-xs text-stone-500 leading-relaxed">
+                {t.description}
+              </p>
             </div>
           ))}
         </div>
       </div>
     </section>
   )
+}
+
+// Ensure both numbers in a range have dollar signs: "$3-10" → "$3-$10"
+function formatCostRange(cost: string): string {
+  return cost.replace(/\$(\d[\d,.]*)\s*-\s*(\d)/g, '$$$1–$$$2')
 }
 
 function QuickFact({
@@ -145,56 +154,176 @@ function QuickFact({
 }
 
 function TemperatureChart({ temps }: { temps: number[] }) {
-  const max = Math.max(...temps)
-  const min = Math.min(...temps)
+  const [unit, setUnit] = useState<'C' | 'F'>('C')
+
+  const displayTemps = unit === 'F' ? temps.map((t) => Math.round(t * 9 / 5 + 32)) : temps
+  const max = Math.max(...displayTemps)
+  const min = Math.min(...displayTemps)
   const range = max - min || 1
+  const hotThreshold = unit === 'F' ? 82 : 28
+  const coldThreshold = unit === 'F' ? 50 : 10
 
   return (
     <div>
-      <h3 className="font-sans text-sm font-semibold text-stone-900 mb-3 flex items-center gap-2">
-        <span>🌡️</span> Average Temperature by Month
-      </h3>
-      <div className="bg-white border border-stone-200/80 rounded-lg p-4">
-        <div className="flex items-end justify-between gap-1 h-32">
-          {temps.map((temp, i) => {
-            const height = ((temp - min) / range) * 100
-            const isHot = temp >= 28
-            const isCold = temp <= 10
-
-            return (
-              <div key={i} className="flex flex-col items-center flex-1 gap-1">
-                <span className="font-sans text-[10px] text-stone-500 font-medium">
-                  {temp}°
-                </span>
-                <div
-                  className={`w-full min-w-[16px] rounded-t transition-all ${
-                    isHot
-                      ? 'bg-orange-400'
-                      : isCold
-                      ? 'bg-blue-300'
-                      : 'bg-amber-400'
-                  }`}
-                  style={{ height: `${Math.max(height, 8)}%` }}
-                />
-                <span className="font-sans text-[10px] text-stone-400">
-                  {MONTH_LABELS[i]}
-                </span>
-              </div>
-            )
-          })}
+      <div className="flex items-center justify-between mb-3">
+        <h3 className="font-sans text-sm font-semibold text-stone-900 flex items-center gap-2">
+          <span>🌡️</span> Average Temperature by Month
+        </h3>
+        {/* F/C Toggle */}
+        <div className="flex items-center bg-stone-100 rounded-md p-0.5">
+          <button
+            onClick={() => setUnit('C')}
+            className={`text-xs font-sans font-medium px-2.5 py-1 rounded transition-all cursor-pointer ${
+              unit === 'C'
+                ? 'bg-white text-stone-900 shadow-sm'
+                : 'text-stone-500 hover:text-stone-700'
+            }`}
+          >
+            °C
+          </button>
+          <button
+            onClick={() => setUnit('F')}
+            className={`text-xs font-sans font-medium px-2.5 py-1 rounded transition-all cursor-pointer ${
+              unit === 'F'
+                ? 'bg-white text-stone-900 shadow-sm'
+                : 'text-stone-500 hover:text-stone-700'
+            }`}
+          >
+            °F
+          </button>
         </div>
-        <div className="flex items-center justify-center gap-4 mt-3 pt-3 border-t border-stone-100">
+      </div>
+
+      <div className="bg-white border border-stone-200/80 rounded-lg p-5">
+        {/* SVG Line Chart */}
+        <div className="relative">
+          <svg viewBox="0 0 480 180" className="w-full h-auto" preserveAspectRatio="xMidYMid meet">
+            {/* Grid lines */}
+            {[0, 0.25, 0.5, 0.75, 1].map((pct) => (
+              <line
+                key={pct}
+                x1={40}
+                y1={20 + (1 - pct) * 120}
+                x2={460}
+                y2={20 + (1 - pct) * 120}
+                stroke="#f5f5f4"
+                strokeWidth={1}
+              />
+            ))}
+
+            {/* Y-axis labels */}
+            <text x={35} y={24} textAnchor="end" className="fill-stone-400" fontSize={9} fontFamily="system-ui">
+              {max}°
+            </text>
+            <text x={35} y={84} textAnchor="end" className="fill-stone-400" fontSize={9} fontFamily="system-ui">
+              {Math.round((max + min) / 2)}°
+            </text>
+            <text x={35} y={144} textAnchor="end" className="fill-stone-400" fontSize={9} fontFamily="system-ui">
+              {min}°
+            </text>
+
+            {/* Gradient fill under the line */}
+            <defs>
+              <linearGradient id="tempGradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor="#F59E0B" stopOpacity={0.15} />
+                <stop offset="100%" stopColor="#F59E0B" stopOpacity={0.02} />
+              </linearGradient>
+            </defs>
+
+            {/* Area fill */}
+            <path
+              d={buildAreaPath(displayTemps, min, range)}
+              fill="url(#tempGradient)"
+            />
+
+            {/* Line */}
+            <path
+              d={buildLinePath(displayTemps, min, range)}
+              fill="none"
+              stroke="#F59E0B"
+              strokeWidth={2.5}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+
+            {/* Data points + labels */}
+            {displayTemps.map((temp, i) => {
+              const x = 40 + (i / 11) * 420
+              const y = 20 + ((max - temp) / range) * 120
+              const isHot = temp >= hotThreshold
+              const isCold = temp <= coldThreshold
+
+              return (
+                <g key={i}>
+                  <circle
+                    cx={x}
+                    cy={y}
+                    r={4}
+                    fill={isHot ? '#fb923c' : isCold ? '#93c5fd' : '#F59E0B'}
+                    stroke="white"
+                    strokeWidth={2}
+                  />
+                  <text
+                    x={x}
+                    y={y - 10}
+                    textAnchor="middle"
+                    className="fill-stone-600"
+                    fontSize={9}
+                    fontWeight={600}
+                    fontFamily="system-ui"
+                  >
+                    {temp}°
+                  </text>
+                  <text
+                    x={x}
+                    y={165}
+                    textAnchor="middle"
+                    className="fill-stone-400"
+                    fontSize={9}
+                    fontFamily="system-ui"
+                  >
+                    {MONTH_LABELS[i]}
+                  </text>
+                </g>
+              )
+            })}
+          </svg>
+        </div>
+
+        {/* Legend */}
+        <div className="flex items-center justify-center gap-4 mt-2 pt-3 border-t border-stone-100">
           <span className="flex items-center gap-1.5 text-[10px] font-sans text-stone-400">
-            <span className="w-2.5 h-2.5 rounded-sm bg-blue-300" /> Cold (&le;10°C)
+            <span className="w-2.5 h-2.5 rounded-full bg-blue-300" /> Cold
           </span>
           <span className="flex items-center gap-1.5 text-[10px] font-sans text-stone-400">
-            <span className="w-2.5 h-2.5 rounded-sm bg-amber-400" /> Mild
+            <span className="w-2.5 h-2.5 rounded-full bg-amber-400" /> Mild
           </span>
           <span className="flex items-center gap-1.5 text-[10px] font-sans text-stone-400">
-            <span className="w-2.5 h-2.5 rounded-sm bg-orange-400" /> Hot (&ge;28°C)
+            <span className="w-2.5 h-2.5 rounded-full bg-orange-400" /> Hot
           </span>
         </div>
       </div>
     </div>
   )
+}
+
+function buildLinePath(temps: number[], min: number, range: number): string {
+  const points = temps.map((temp, i) => {
+    const x = 40 + (i / 11) * 420
+    const y = 20 + ((Math.max(...temps) - temp) / range) * 120
+    return `${x},${y}`
+  })
+  return `M ${points.join(' L ')}`
+}
+
+function buildAreaPath(temps: number[], min: number, range: number): string {
+  const max = Math.max(...temps)
+  const points = temps.map((temp, i) => {
+    const x = 40 + (i / 11) * 420
+    const y = 20 + ((max - temp) / range) * 120
+    return `${x},${y}`
+  })
+  const firstX = 40
+  const lastX = 40 + (11 / 11) * 420
+  return `M ${firstX},140 L ${points.join(' L ')} L ${lastX},140 Z`
 }
