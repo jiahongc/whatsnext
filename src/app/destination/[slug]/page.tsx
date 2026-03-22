@@ -9,6 +9,7 @@ import { PointsSection } from '@/components/destination/PointsSection'
 import { WeatherInfo } from '@/components/destination/WeatherInfo'
 import { ThingsToDoSection } from '@/components/destination/ThingsToDoSection'
 import { DestinationJsonLd } from '@/components/DestinationJsonLd'
+import { MapLoader } from '@/components/destination/MapLoader'
 
 const destinations = rawDestinations as Destination[]
 
@@ -100,18 +101,16 @@ export default async function DestinationPage({
 
           <PointsSection pointsTip={destination.pointsTip} />
 
-          {/* Map placeholder — Mapbox will be lazy-loaded here */}
+          {/* Mapbox Map — lazy-loaded */}
           <section>
             <h2 className="font-serif text-2xl text-stone-900 mb-4">
               Location
             </h2>
-            <div className="aspect-video bg-stone-100 rounded-[2px] flex items-center justify-center border border-stone-200">
-              <p className="font-sans text-sm text-stone-400">
-                📍 {destination.coordinates.lat.toFixed(4)}, {destination.coordinates.lng.toFixed(4)}
-                <br />
-                <span className="text-xs">Map loading...</span>
-              </p>
-            </div>
+            <MapLoader
+              name={destination.name}
+              lat={destination.coordinates.lat}
+              lng={destination.coordinates.lng}
+            />
           </section>
         </div>
       </main>
