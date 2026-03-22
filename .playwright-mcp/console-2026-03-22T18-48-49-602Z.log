@@ -1,0 +1,5 @@
+[     226ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[  295279ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1586523969104-1d40d075ef51%3Fw%3D800%26q%3D80&w=828&q=75:0
+[  295336ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1555990538-1e27583de5e1%3Fw%3D800%26q%3D80&w=828&q=75:0
+[  359599ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1586523969104-1d40d075ef51%3Fw%3D800%26q%3D80&w=828&q=75:0
+[  359601ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1555990538-1e27583de5e1%3Fw%3D800%26q%3D80&w=828&q=75:0

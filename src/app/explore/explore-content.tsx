@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { useQueryStates, parseAsArrayOf, parseAsString, parseAsBoolean } from 'nuqs'
 import type { Destination, Continent, VibeTag } from '@/data/types'
 import { filterDestinations, getActiveFilterCount } from '@/lib/filters'
@@ -7,12 +8,15 @@ import { FilterPanel } from '@/components/FilterPanel'
 import { SearchInput } from '@/components/SearchInput'
 import { SortDropdown } from '@/components/SortDropdown'
 import { DestinationGrid } from '@/components/DestinationGrid'
+import { DeparturePicker } from '@/components/DeparturePicker'
 
 export function ExploreContent({
   destinations,
 }: {
   destinations: Destination[]
 }) {
+  const [departureCity, setDepartureCity] = useState('')
+
   const [filters, setFilters] = useQueryStates(
     {
       continent: parseAsArrayOf(parseAsString, ',').withDefault([]),
@@ -40,12 +44,10 @@ export function ExploreContent({
   const activeCount = getActiveFilterCount(filterState)
 
   function toggleInArray<T extends string>(arr: T[], item: T): T[] {
-    return arr.includes(item)
-      ? arr.filter((x) => x !== item)
-      : [...arr, item]
+    return arr.includes(item) ? arr.filter((x) => x !== item) : [...arr, item]
   }
 
-  function handleViewTransition(cb: () => void) {
+  function withViewTransition(cb: () => void) {
     if (typeof document !== 'undefined' && 'startViewTransition' in document) {
       ;(document as unknown as { startViewTransition: (fn: () => void) => void }).startViewTransition(cb)
     } else {
@@ -55,6 +57,23 @@ export function ExploreContent({
 
   return (
     <>
+      {/* Toolbar: departure + search + sort */}
+      <div className="border-b border-stone-100 bg-warm-50">
+        <div className="max-w-7xl mx-auto px-6 py-3 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-5">
+          <DeparturePicker value={departureCity} onChange={setDepartureCity} />
+          <div className="flex-1" />
+          <SearchInput
+            value={filters.q}
+            onChange={(q) => setFilters({ q: q || null })}
+          />
+          <SortDropdown
+            value={filters.sort}
+            onChange={(sort) => setFilters({ sort })}
+          />
+        </div>
+      </div>
+
+      {/* Filters */}
       <FilterPanel
         continents={filterState.continents}
         budgetTiers={filterState.budgetTiers}
@@ -63,57 +82,29 @@ export function ExploreContent({
         englishFriendlyOnly={filterState.englishFriendlyOnly}
         activeCount={activeCount}
         onContinentToggle={(c) =>
-          handleViewTransition(() =>
-            setFilters({ continent: toggleInArray(filters.continent, c) })
-          )
+          withViewTransition(() => setFilters({ continent: toggleInArray(filters.continent, c) }))
         }
         onBudgetToggle={(b) =>
-          handleViewTransition(() =>
-            setFilters({ budget: toggleInArray(filters.budget, String(b)) })
-          )
+          withViewTransition(() => setFilters({ budget: toggleInArray(filters.budget, String(b)) }))
         }
         onVibeToggle={(v) =>
-          handleViewTransition(() =>
-            setFilters({ vibe: toggleInArray(filters.vibe, v) })
-          )
+          withViewTransition(() => setFilters({ vibe: toggleInArray(filters.vibe, v) }))
         }
         onMonthToggle={(m) =>
-          handleViewTransition(() =>
-            setFilters({ month: toggleInArray(filters.month, String(m)) })
-          )
+          withViewTransition(() => setFilters({ month: toggleInArray(filters.month, String(m)) }))
         }
         onEnglishToggle={() =>
-          handleViewTransition(() =>
-            setFilters({ english: !filters.english })
-          )
+          withViewTransition(() => setFilters({ english: !filters.english }))
         }
         onClearAll={() =>
-          handleViewTransition(() =>
-            setFilters({
-              continent: [],
-              budget: [],
-              vibe: [],
-              month: [],
-              english: false,
-            })
+          withViewTransition(() =>
+            setFilters({ continent: [], budget: [], vibe: [], month: [], english: false })
           )
         }
       />
 
-      {/* Search + Sort row */}
-      <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
-        <SearchInput
-          value={filters.q}
-          onChange={(q) => setFilters({ q: q || null })}
-        />
-        <SortDropdown
-          value={filters.sort}
-          onChange={(sort) => setFilters({ sort })}
-        />
-      </div>
-
       {/* Grid */}
-      <div className="max-w-7xl mx-auto px-6 pb-16">
+      <div className="max-w-7xl mx-auto px-6 py-8">
         <DestinationGrid
           destinations={filtered}
           totalCount={destinations.length}

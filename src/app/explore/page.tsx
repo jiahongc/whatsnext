@@ -17,25 +17,26 @@ export default function ExplorePage() {
   return (
     <main className="min-h-screen bg-warm-50 relative z-10">
       <Header />
+
       {/* Page header */}
-      <div className="max-w-7xl mx-auto px-6 pt-10 pb-6">
-        <h1 className="font-serif text-4xl text-stone-900 tracking-tight">
+      <div className="max-w-7xl mx-auto px-6 pt-8 pb-4">
+        <h1 className="font-serif text-3xl md:text-4xl text-stone-900 tracking-tight">
           Explore Destinations
         </h1>
-        <p className="font-sans text-stone-400 mt-1 pl-0.5">
-          Find your next adventure
+        <p className="font-sans text-sm text-stone-400 mt-1">
+          40 handpicked places to inspire your next trip
         </p>
       </div>
 
-      {/* Suspense boundary for nuqs useSearchParams */}
+      {/* Suspense boundary for nuqs */}
       <Suspense
         fallback={
           <div className="max-w-7xl mx-auto px-6 py-12">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7">
-              {Array.from({ length: 8 }).map((_, i) => (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {Array.from({ length: 6 }).map((_, i) => (
                 <div
                   key={i}
-                  className="bg-warm-100 rounded-[2px] animate-pulse h-[340px]"
+                  className="bg-stone-100 rounded-lg animate-pulse h-[320px]"
                 />
               ))}
             </div>

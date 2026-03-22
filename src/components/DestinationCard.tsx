@@ -1,66 +1,76 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Destination } from '@/data/types'
+import { DESTINATION_IMAGES } from '@/data/destination-images'
 import { formatBestMonths } from '@/lib/constants'
 
 export function DestinationCard({
   destination,
-  index,
 }: {
   destination: Destination
-  index: number
 }) {
+  const imageUrl = DESTINATION_IMAGES[destination.slug]
+
   return (
     <Link
       href={`/destination/${destination.slug}`}
-      className="destination-card group block bg-warm-50 border border-stone-200/20 shadow-[0_1px_2px_rgba(28,25,23,0.04),0_4px_12px_rgba(28,25,23,0.03)] rounded-[2px] p-[10px] pb-5 transition-all duration-[400ms] hover:-translate-y-1.5 hover:shadow-[0_8px_25px_rgba(245,158,11,0.08),0_2px_8px_rgba(28,25,23,0.06)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-warm-50 focus-visible:ring-offset-2 focus-visible:ring-offset-amber-500"
+      className="destination-card group block bg-white rounded-lg overflow-hidden shadow-[0_1px_3px_rgba(0,0,0,0.06)] hover:shadow-[0_12px_40px_rgba(245,158,11,0.12),0_4px_12px_rgba(0,0,0,0.06)] transition-all duration-500 hover:-translate-y-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2"
       style={{
         transitionTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)',
         viewTransitionName: `card-${destination.slug}`,
       }}
     >
       {/* Photo */}
-      <div className="relative aspect-[4/3] overflow-hidden rounded-[1px] bg-stone-200">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900/8 z-10 pointer-events-none" />
-        {/* Placeholder gradient until real photos */}
-        <div
-          className="absolute inset-0 transition-transform duration-[600ms] group-hover:scale-[1.04]"
-          style={{
-            transitionTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)',
-            background: getPlaceholderGradient(index),
-            filter: 'saturate(0.9) sepia(0.05) brightness(1.02)',
-          }}
-        />
-        {/* Flag badge */}
-        <span className="absolute top-2 right-2 z-20 text-xl drop-shadow-md">
-          {destination.flag}
-        </span>
+      <div className="relative aspect-[3/2] overflow-hidden bg-stone-100">
+        {imageUrl ? (
+          <Image
+            src={imageUrl}
+            alt={`${destination.name}, ${destination.country}`}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
+            style={{ filter: 'saturate(0.95) brightness(1.02)' }}
+          />
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-br from-amber-200 to-orange-300" />
+        )}
+
+        {/* Gradient overlay at bottom */}
+        <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/40 to-transparent" />
+
+        {/* Name + flag overlay on image */}
+        <div className="absolute bottom-0 inset-x-0 p-4">
+          <div className="flex items-end justify-between">
+            <div>
+              <h3 className="font-serif text-2xl text-white leading-tight drop-shadow-md">
+                {destination.name}
+              </h3>
+              <p className="font-sans text-xs text-white/80 uppercase tracking-[0.1em] mt-0.5">
+                {destination.country}
+              </p>
+            </div>
+            <span className="text-2xl drop-shadow-md">{destination.flag}</span>
+          </div>
+        </div>
       </div>
 
       {/* Content */}
-      <div className="mt-3 px-0.5">
-        {/* Name + Country */}
-        <h3 className="font-serif text-xl text-stone-900 leading-tight">
-          {destination.name}
-        </h3>
-        <p className="font-sans text-xs text-stone-400 uppercase tracking-[0.08em] mt-0.5">
-          {destination.country}
-        </p>
-
-        {/* Info line */}
-        <div className="flex items-center gap-2 mt-2.5 text-sm text-stone-600 font-sans">
+      <div className="p-4 space-y-3">
+        {/* Stats row */}
+        <div className="flex items-center gap-2.5 text-sm text-stone-500 font-sans">
           <BudgetDots tier={destination.budgetTier} />
-          <span className="text-stone-300">&middot;</span>
-          <span>{formatBestMonths(destination.bestMonths)}</span>
-          <span className="text-stone-300">&middot;</span>
-          <span>✈ {destination.flightCost}</span>
+          <span className="text-stone-200">|</span>
+          <span className="text-stone-600">{formatBestMonths(destination.bestMonths)}</span>
+          <span className="text-stone-200">|</span>
+          <span className="text-stone-600">✈ {destination.flightCost}</span>
         </div>
 
         {/* Vibe tags */}
-        <div className="flex flex-wrap gap-x-3 gap-y-1 mt-2.5">
+        <div className="flex flex-wrap gap-1.5">
           {destination.vibeTags.map((tag) => (
             <span
               key={tag}
-              className="text-xs text-stone-600 tracking-[0.04em] lowercase border-b-[1.5px] border-amber-400 pb-px"
+              className="text-[11px] font-sans text-stone-500 bg-warm-100 px-2 py-0.5 rounded-full"
             >
               {tag}
             </span>
@@ -77,27 +87,11 @@ function BudgetDots({ tier }: { tier: 1 | 2 | 3 }) {
       {[1, 2, 3].map((i) => (
         <span
           key={i}
-          className={`w-1.5 h-1.5 rounded-full ${
+          className={`w-[6px] h-[6px] rounded-full ${
             i <= tier ? 'bg-amber-500' : 'bg-stone-200'
           }`}
         />
       ))}
     </span>
   )
-}
-
-function getPlaceholderGradient(index: number): string {
-  const gradients = [
-    'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-    'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-    'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-    'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
-    'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
-    'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)',
-    'linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)',
-    'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)',
-    'linear-gradient(135deg, #f5af19 0%, #f12711 100%)',
-    'linear-gradient(135deg, #667eea 0%, #f5576c 100%)',
-  ]
-  return gradients[index % gradients.length]
 }

@@ -1,16 +1,31 @@
+import Image from 'next/image'
 import type { Destination } from '@/data/types'
+import { DESTINATION_IMAGES } from '@/data/destination-images'
 import { formatBestMonths } from '@/lib/constants'
 
 export function DestinationHero({ destination }: { destination: Destination }) {
+  const imageUrl = DESTINATION_IMAGES[destination.slug]
+
   return (
     <div className="relative w-full h-[50vh] min-h-[360px] max-h-[500px] overflow-hidden">
-      {/* Placeholder gradient (replace with real photo later) */}
-      <div
-        className="absolute inset-0"
-        style={{
-          background: `linear-gradient(135deg, hsl(${hashToHue(destination.slug)}, 60%, 45%) 0%, hsl(${hashToHue(destination.slug) + 40}, 50%, 35%) 100%)`,
-        }}
-      />
+      {/* Hero image */}
+      {imageUrl ? (
+        <Image
+          src={imageUrl}
+          alt={`${destination.name}, ${destination.country}`}
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+      ) : (
+        <div
+          className="absolute inset-0"
+          style={{
+            background: `linear-gradient(135deg, hsl(${hashToHue(destination.slug)}, 60%, 45%) 0%, hsl(${hashToHue(destination.slug) + 40}, 50%, 35%) 100%)`,
+          }}
+        />
+      )}
 
       {/* Gradient overlay for text legibility */}
       <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-stone-900/20 to-transparent" />
