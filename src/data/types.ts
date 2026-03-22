@@ -1,0 +1,56 @@
+export interface Destination {
+  slug: string
+  name: string
+  country: string
+  flag: string
+  continent: Continent
+  coordinates: { lat: number; lng: number }
+  heroImage: string
+  budgetTier: 1 | 2 | 3
+  bestMonths: number[]
+  flightCost: string
+  pointsTip?: string
+  itinerary: ItineraryDay[]
+  topThingsToDo: string[]
+  vibeTags: VibeTag[]
+  language: string
+  englishFriendly: boolean
+  description: string
+  visaNote?: string
+}
+
+export interface ItineraryDay {
+  day: number
+  title: string
+  activities: string[]
+}
+
+export type Continent =
+  | 'africa'
+  | 'asia'
+  | 'europe'
+  | 'north-america'
+  | 'south-america'
+  | 'oceania'
+
+export type VibeTag =
+  | 'adventure'
+  | 'romantic'
+  | 'foodie'
+  | 'cultural'
+  | 'beach'
+  | 'nature'
+  | 'nightlife'
+  | 'budget'
+  | 'luxury'
+  | 'family'
+
+export interface FilterState {
+  continents: Continent[]
+  budgetTiers: (1 | 2 | 3)[]
+  vibes: VibeTag[]
+  travelMonths: number[]
+  englishFriendlyOnly: boolean
+  searchQuery: string
+  sortBy: 'featured' | 'budget-low' | 'budget-high' | 'a-z'
+}

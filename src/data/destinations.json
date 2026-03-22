@@ -1,0 +1,2278 @@
+[
+  {
+    "slug": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "flag": "🇯🇵",
+    "continent": "asia",
+    "coordinates": { "lat": 35.6762, "lng": 139.6503 },
+    "heroImage": "/images/destinations/tokyo.jpg",
+    "budgetTier": 2,
+    "bestMonths": [3, 4, 5, 10, 11],
+    "flightCost": "$600-1100",
+    "pointsTip": "ANA round-trip awards from the US start at 75k miles in economy. Book via Virgin Atlantic for better availability.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Shibuya & Shinjuku Immersion",
+        "activities": [
+          "Cross the iconic Shibuya Scramble and explore Center-gai street",
+          "Lunch at Fuunji for their legendary tsukemen dipping ramen",
+          "Wander through Meiji Shrine and the forested Yoyogi Park",
+          "Evening at Golden Gai in Shinjuku — hop between tiny six-seat bars"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Asakusa, Akihabara & Traditional Tokyo",
+        "activities": [
+          "Morning visit to Senso-ji Temple and Nakamise-dori shopping street",
+          "Explore the Akihabara electric district for anime and retro games",
+          "Afternoon tea at Yanaka Ginza, a charming old-town shotengai",
+          "Dinner omakase at a counter sushi spot in Tsukiji Outer Market"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Harajuku, Omotesando & Roppongi",
+        "activities": [
+          "Stroll Takeshita Street in Harajuku for street fashion and crepes",
+          "Window-shop the luxury boutiques along Omotesando-dori",
+          "Visit teamLab Borderless digital art museum in Azabudai Hills",
+          "Sunset drinks at the Mori Tower observation deck in Roppongi Hills"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day Trip to Kamakura",
+        "activities": [
+          "Train to Kamakura to see the Great Buddha at Kotoku-in",
+          "Hike the Daibutsu Trail through bamboo groves to Zeniarai Benten Shrine",
+          "Lunch on Komachi-dori — try shirasu-don (whitebait rice bowl)",
+          "Return to Tokyo for a final evening exploring Shimokitazawa's vintage shops"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Witness the organized chaos of Shibuya Crossing",
+      "Eat your way through Tsukiji Outer Market at dawn",
+      "Experience a traditional onsen bath house",
+      "Get lost in the neon labyrinth of Shinjuku at night",
+      "Ride the bullet train to a day-trip destination"
+    ],
+    "vibeTags": ["foodie", "cultural", "nightlife"],
+    "language": "Japanese",
+    "englishFriendly": false,
+    "description": "Tokyo is a city of electrifying contrasts, where ancient temples sit in the shadow of glowing skyscrapers and a convenience store onigiri can rival a Michelin-starred meal. The energy here is relentless yet somehow orderly, pulling you from ramen counters to robot restaurants to silent shrines in a single afternoon.",
+    "visaNote": "US citizens get 90-day visa-free entry."
+  },
+  {
+    "slug": "bangkok",
+    "name": "Bangkok",
+    "country": "Thailand",
+    "flag": "🇹🇭",
+    "continent": "asia",
+    "coordinates": { "lat": 13.7563, "lng": 100.5018 },
+    "heroImage": "/images/destinations/bangkok.jpg",
+    "budgetTier": 1,
+    "bestMonths": [11, 12, 1, 2, 3],
+    "flightCost": "$500-900",
+    "pointsTip": "EVA Air awards via 40k Star Alliance miles one-way. Also check Japan Airlines for great routing through Tokyo.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Grand Palace & Old Town",
+        "activities": [
+          "Tour the Grand Palace and the Emerald Buddha at Wat Phra Kaew",
+          "Walk to Wat Pho to see the massive Reclining Buddha",
+          "Cross the Chao Phraya by ferry to explore Wat Arun at golden hour",
+          "Dinner at Err Urban Rustic Thai near the river for refined street food"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Markets, Street Food & Chinatown",
+        "activities": [
+          "Morning at Chatuchak Weekend Market — over 15,000 stalls",
+          "Lunch at Jeh O Chula for their viral tom yum mama noodle soup",
+          "Afternoon exploring Yaowarat Road in Chinatown",
+          "Evening street food crawl — try pad thai at Thipsamai and mango sticky rice at Mae Varee"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Modern Bangkok & Nightlife",
+        "activities": [
+          "Brunch at Roast Coffee in Thonglor, Bangkok's trendy neighborhood",
+          "Visit MOCA Bangkok or the Jim Thompson House Museum",
+          "Sunset cocktails at Octave Rooftop Bar on the 49th floor of the Marriott",
+          "Night out on Khao San Road or the speakeasy bars of Ekkamai"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Feast on $1 pad thai from legendary street stalls",
+      "Cruise the Chao Phraya River at sunset",
+      "Explore the golden spires of the Grand Palace",
+      "Get a world-class Thai massage for under $10",
+      "Shop until you drop at Chatuchak Weekend Market"
+    ],
+    "vibeTags": ["foodie", "budget", "nightlife", "cultural"],
+    "language": "Thai",
+    "englishFriendly": true,
+    "description": "Bangkok is sensory overload in the best possible way — incense drifting from golden temples, sizzling woks on every corner, tuk-tuks weaving through traffic, and rooftop bars with skyline views that never end. It's one of the world's great food cities, where a $2 meal on a plastic stool can change your life.",
+    "visaNote": "US citizens get 30-day visa-free entry, extendable to 60 days."
+  },
+  {
+    "slug": "bali",
+    "name": "Bali",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "continent": "asia",
+    "coordinates": { "lat": -8.3405, "lng": 115.092 },
+    "heroImage": "/images/destinations/bali.jpg",
+    "budgetTier": 1,
+    "bestMonths": [4, 5, 6, 7, 8, 9, 10],
+    "flightCost": "$600-1000",
+    "pointsTip": "Singapore Airlines Saver awards at 47.5k KrisFlyer miles round-trip from select US cities via Singapore.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Ubud & Rice Terraces",
+        "activities": [
+          "Morning walk through the Tegallalang Rice Terraces",
+          "Visit the Sacred Monkey Forest Sanctuary in central Ubud",
+          "Lunch at Locavore — one of Bali's most acclaimed restaurants",
+          "Evening traditional Kecak fire dance performance at Ubud Palace"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Waterfalls & Temples",
+        "activities": [
+          "Chase waterfalls at Tegenungan and Tibumana Falls",
+          "Visit the ancient Tirta Empul water temple for a purification ritual",
+          "Afternoon at Gunung Kawi, a stunning rock-cut temple complex",
+          "Sunset dinner at Swept Away restaurant overlooking the Ayung River"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Seminyak & Beach Life",
+        "activities": [
+          "Brunch at Sisterfields in Seminyak for excellent coffee and avocado toast",
+          "Surf lesson at Kuta or Double Six Beach",
+          "Afternoon at Potato Head Beach Club with infinity pool views",
+          "Watch the sunset at Tanah Lot sea temple perched on a rocky outcrop"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Nusa Penida Day Trip",
+        "activities": [
+          "Fast boat to Nusa Penida island",
+          "Hike to the dramatic Kelingking Beach cliff viewpoint",
+          "Snorkel with manta rays at Manta Point",
+          "Visit the natural infinity pool at Angel's Billabong before returning"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Sunrise hike up Mount Batur volcano",
+      "Surf the breaks at Uluwatu or Canggu",
+      "Swim under a hidden jungle waterfall",
+      "Take a Balinese cooking class in Ubud",
+      "Snorkel with manta rays off Nusa Penida"
+    ],
+    "vibeTags": ["nature", "adventure", "budget", "romantic"],
+    "language": "Indonesian",
+    "englishFriendly": true,
+    "description": "Bali casts a spell that brings people back year after year — emerald rice terraces cascading down volcanic hillsides, incense-filled temples draped in marigolds, and sunsets over the Indian Ocean that stop you mid-sentence. Whether you're chasing waves in Canggu or finding stillness in an Ubud yoga studio, this island delivers.",
+    "visaNote": "US citizens can get a 30-day visa on arrival for $35 USD, extendable once."
+  },
+  {
+    "slug": "seoul",
+    "name": "Seoul",
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "continent": "asia",
+    "coordinates": { "lat": 37.5665, "lng": 126.978 },
+    "heroImage": "/images/destinations/seoul.jpg",
+    "budgetTier": 2,
+    "bestMonths": [3, 4, 5, 9, 10, 11],
+    "flightCost": "$600-1000",
+    "pointsTip": "Korean Air SkyPass awards at 80k miles round-trip from the US. Transfer from Chase Ultimate Rewards.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Palaces & Traditional Seoul",
+        "activities": [
+          "Tour Gyeongbokgung Palace during the Changing of the Guard ceremony",
+          "Rent a hanbok to walk through the Bukchon Hanok Village alleyways",
+          "Lunch at Tosokchon for their famous samgyetang (ginseng chicken soup)",
+          "Stroll along Cheonggyecheon Stream as it lights up at dusk"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Hongdae, K-Culture & Street Food",
+        "activities": [
+          "Explore the Hongdae district for indie shops, murals, and busking performances",
+          "Visit the HYBE Insight museum for K-pop history",
+          "Afternoon at Gwangjang Market — try bindaetteok (mung bean pancakes) and mayak gimbap",
+          "Evening at a Korean BBQ restaurant in Mapo-gu — Maple Tree House is iconic"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Gangnam, Shopping & Nightlife",
+        "activities": [
+          "Morning hike up Namsan Tower for panoramic city views",
+          "Shop the underground malls at COEX in Gangnam and visit Starfield Library",
+          "Afternoon in the trendy Garosu-gil neighborhood for cafes and boutiques",
+          "Night out in Itaewon or a Korean pojangmacha (street food tent bar)"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Feast at Gwangjang Market, Seoul's oldest traditional market",
+      "Hike Bukhansan National Park on the city's doorstep",
+      "Experience a traditional Korean jjimjilbang spa",
+      "Explore the DMZ on a half-day tour from the city"
+    ],
+    "vibeTags": ["foodie", "cultural", "nightlife"],
+    "language": "Korean",
+    "englishFriendly": false,
+    "description": "Seoul is where 600-year-old palaces and K-pop billboards share the same skyline, creating one of Asia's most dynamic capitals. The food alone is worth the trip — from sizzling barbecue joints that stay open until 4 AM to grandmothers ladling perfect kimchi jjigae in century-old markets.",
+    "visaNote": "US citizens get 90-day visa-free entry with K-ETA registration."
+  },
+  {
+    "slug": "hanoi",
+    "name": "Hanoi",
+    "country": "Vietnam",
+    "flag": "🇻🇳",
+    "continent": "asia",
+    "coordinates": { "lat": 21.0285, "lng": 105.8542 },
+    "heroImage": "/images/destinations/hanoi.jpg",
+    "budgetTier": 1,
+    "bestMonths": [2, 3, 4, 10, 11],
+    "flightCost": "$550-950",
+    "pointsTip": "ANA round-trip awards from the US at 75k miles. Route through Tokyo Narita for a free stopover.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old Quarter & Street Food",
+        "activities": [
+          "Wander the 36 ancient streets of the Old Quarter, each named for its trade",
+          "Eat pho bo at Pho Gia Truyen on Bat Dan Street — the city's most famous bowl",
+          "Visit Hoan Kiem Lake and the Ngoc Son Temple on its tiny island",
+          "Evening street food tour — bun cha, banh mi, and egg coffee at Giang Cafe"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "History & Culture",
+        "activities": [
+          "Tour the Ho Chi Minh Mausoleum complex and the Presidential Palace",
+          "Visit the Temple of Literature, Vietnam's first university from 1070",
+          "Lunch at Bun Bo Nam Bo for their namesake beef noodle salad",
+          "Afternoon at the Vietnamese Women's Museum, then a water puppet show at Thang Long Theatre"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Ha Long Bay Day Trip",
+        "activities": [
+          "Early drive to Ha Long Bay (or take a seaplane for stunning aerial views)",
+          "Cruise through limestone karsts and emerald waters on a traditional junk boat",
+          "Kayak through hidden caves and floating fishing villages",
+          "Swim and enjoy a fresh seafood lunch on board before returning to Hanoi"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Eat the world's best pho for under $2",
+      "Cruise the otherworldly Ha Long Bay",
+      "Sip egg coffee at a tiny Old Quarter cafe",
+      "Ride a motorbike through the chaotic streets (or take a Grab)"
+    ],
+    "vibeTags": ["foodie", "budget", "cultural"],
+    "language": "Vietnamese",
+    "englishFriendly": false,
+    "description": "Hanoi is a city that moves to its own rhythm — motorbikes weave through tree-lined French colonial boulevards, vendors balance entire kitchens on shoulder poles, and the aroma of pho simmering since before dawn fills every alley. It's raw, chaotic, and utterly captivating.",
+    "visaNote": "US citizens need an e-visa ($25, valid 90 days single entry) — apply online before departure."
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "flag": "🇸🇬",
+    "continent": "asia",
+    "coordinates": { "lat": 1.3521, "lng": 103.8198 },
+    "heroImage": "/images/destinations/singapore.jpg",
+    "budgetTier": 3,
+    "bestMonths": [2, 3, 4, 5, 6, 7],
+    "flightCost": "$500-900",
+    "pointsTip": "Singapore Airlines Saver awards at 60k KrisFlyer miles round-trip. Transfer from Chase, Amex, or Citi.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Marina Bay & Gardens",
+        "activities": [
+          "Morning at Gardens by the Bay — walk the OCBC Skyway between the Supertrees",
+          "Visit the Cloud Forest dome with its indoor waterfall",
+          "Lunch at Satay by the Bay hawker center",
+          "Evening light show at the Marina Bay Sands waterfront, then drinks at CÉ LA VI rooftop"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Hawker Culture & Neighborhoods",
+        "activities": [
+          "Breakfast at Tiong Bahru Market for chwee kueh and kaya toast",
+          "Explore the colorful Peranakan shophouses of Katong and Joo Chiat",
+          "Lunch at Maxwell Food Centre — try the legendary Tian Tian chicken rice",
+          "Afternoon in Little India and Kampong Glam for Arab Street textiles and Sultan Mosque"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Sentosa & Chinatown",
+        "activities": [
+          "Morning at Chinatown Heritage Centre and the Buddha Tooth Relic Temple",
+          "Ferry to Sentosa Island for beaches and the S.E.A. Aquarium",
+          "Afternoon exploring the National Gallery Singapore in the former Supreme Court building",
+          "Farewell dinner at Burnt Ends for world-class modern barbecue"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Eat your way through UNESCO-recognized hawker centres",
+      "Watch the Supertree light show at Gardens by the Bay",
+      "Swim in the Marina Bay Sands infinity pool (hotel guests only)",
+      "Explore the futuristic Jewel Changi Airport waterfall"
+    ],
+    "vibeTags": ["foodie", "luxury", "cultural", "family"],
+    "language": "English",
+    "englishFriendly": true,
+    "description": "Singapore packs an extraordinary punch for its tiny size — Michelin-starred hawker stalls, futuristic gardens, pristine streets, and a food culture that might be the best on Earth. It's the rare city where you can eat a $3 plate of chicken rice and a $300 tasting menu on the same day and both will blow your mind.",
+    "visaNote": "US citizens get 90-day visa-free entry."
+  },
+  {
+    "slug": "kyoto",
+    "name": "Kyoto",
+    "country": "Japan",
+    "flag": "🇯🇵",
+    "continent": "asia",
+    "coordinates": { "lat": 35.0116, "lng": 135.7681 },
+    "heroImage": "/images/destinations/kyoto.jpg",
+    "budgetTier": 2,
+    "bestMonths": [3, 4, 5, 10, 11],
+    "flightCost": "$650-1100",
+    "pointsTip": "Fly into Osaka KIX — JAL awards from 60k miles round-trip via partner programs. Kyoto is 75 min by train.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Eastern Kyoto Temples",
+        "activities": [
+          "Early morning at Fushimi Inari shrine — walk the thousands of vermillion torii gates before crowds arrive",
+          "Visit Kiyomizu-dera Temple and its dramatic wooden terrace",
+          "Lunch in the Gion district — try yudofu (hot tofu) at Okutan, serving since 1635",
+          "Evening stroll through Gion hoping to spot a geiko heading to an engagement"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Golden Pavilion & Arashiyama",
+        "activities": [
+          "Morning at Kinkaku-ji (Golden Pavilion) reflected in its mirror pond",
+          "Take the scenic Sagano Romantic Train to Arashiyama",
+          "Walk through the towering Arashiyama Bamboo Grove",
+          "Visit the Iwatayama Monkey Park for hilltop views and wild macaques"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Zen Gardens & Nishiki Market",
+        "activities": [
+          "Meditate at Ryoan-ji and contemplate its enigmatic rock garden",
+          "Explore Nishiki Market — the 'Kitchen of Kyoto' — for pickles, matcha, and tamagoyaki",
+          "Afternoon tea ceremony experience at Camellia Garden near Kodai-ji Temple",
+          "Farewell kaiseki dinner at Gion Nanba for an exquisite multi-course meal"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Walk thousands of torii gates at Fushimi Inari at sunrise",
+      "Experience a traditional multi-course kaiseki dinner",
+      "Stroll the ethereal Arashiyama Bamboo Grove",
+      "Attend a tea ceremony in a historic machiya townhouse"
+    ],
+    "vibeTags": ["cultural", "romantic", "foodie"],
+    "language": "Japanese",
+    "englishFriendly": false,
+    "description": "Kyoto is Japan distilled to its essence — over 2,000 temples and shrines, geisha districts preserved in amber, and seasonal beauty so profound it inspired an entire aesthetic philosophy. In spring, cherry blossoms drape the Philosopher's Path in pink; in autumn, maple leaves set the hillside temples ablaze.",
+    "visaNote": "US citizens get 90-day visa-free entry."
+  },
+  {
+    "slug": "taipei",
+    "name": "Taipei",
+    "country": "Taiwan",
+    "flag": "🇹🇼",
+    "continent": "asia",
+    "coordinates": { "lat": 25.033, "lng": 121.5654 },
+    "heroImage": "/images/destinations/taipei.jpg",
+    "budgetTier": 1,
+    "bestMonths": [3, 4, 5, 10, 11],
+    "flightCost": "$500-900",
+    "pointsTip": "EVA Air Kitty Jet awards from 60k Star Alliance miles round-trip. Excellent premium cabin product.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Temples, Tea & Night Markets",
+        "activities": [
+          "Morning at Longshan Temple, one of Taipei's oldest and most ornate",
+          "Explore the hip Dadaocheng neighborhood and its preserved Baroque-style buildings",
+          "Afternoon tea tasting at a traditional teahouse in Maokong, reached by gondola",
+          "Night feast at Shilin Night Market — try stinky tofu, pepper buns, and bubble tea"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Taipei 101 & Modern City",
+        "activities": [
+          "Morning hike up Elephant Mountain for the classic Taipei 101 skyline photo",
+          "Visit the National Palace Museum for its unparalleled Chinese art collection",
+          "Lunch at Din Tai Fung original branch for soup dumplings",
+          "Afternoon exploring Ximending pedestrian district and the Red House creative market"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Jiufen & North Coast",
+        "activities": [
+          "Day trip to Jiufen, the hillside village that inspired Spirited Away",
+          "Wander the narrow lantern-lit alleys and sip taro ball soup",
+          "Side trip to the otherworldly Yehliu Geopark and its mushroom rock formations",
+          "Return for a final night market crawl at Raohe Street Night Market"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Eat your way through Taipei's legendary night markets",
+      "Ride the gondola to Maokong for hillside tea plantations",
+      "Hike Elephant Mountain for Taipei 101 skyline views",
+      "Day trip to the misty lantern-lit streets of Jiufen"
+    ],
+    "vibeTags": ["foodie", "budget", "cultural"],
+    "language": "Mandarin",
+    "englishFriendly": false,
+    "description": "Taipei is the most underrated food capital in Asia — a city where night markets serve michelin-worthy meals for $3, convenience stores stock gourmet bentos, and the original Din Tai Fung still has lines around the block. Beyond the food, it offers hot springs, lush mountain hikes, and some of the friendliest locals you'll ever meet.",
+    "visaNote": "US citizens get 90-day visa-free entry."
+  },
+  {
+    "slug": "chiang-mai",
+    "name": "Chiang Mai",
+    "country": "Thailand",
+    "flag": "🇹🇭",
+    "continent": "asia",
+    "coordinates": { "lat": 18.7883, "lng": 98.9853 },
+    "heroImage": "/images/destinations/chiang-mai.jpg",
+    "budgetTier": 1,
+    "bestMonths": [11, 12, 1, 2],
+    "flightCost": "$550-950",
+    "pointsTip": "Fly Bangkok to Chiang Mai on Thai Smile from 5k Star Alliance miles one-way after getting to Bangkok on a partner award.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old City Temples",
+        "activities": [
+          "Visit Wat Chedi Luang, a massive 14th-century temple ruin in the Old City",
+          "Explore Wat Phra Singh and its exquisite Lanna murals",
+          "Lunch at SP Chicken near Chiang Mai Gate for the best roast chicken in town",
+          "Join a monk chat session at Wat Suan Dok to learn about Buddhist practice"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Doi Suthep & Markets",
+        "activities": [
+          "Morning drive up to Wat Phra That Doi Suthep for mountaintop temple views",
+          "Visit the Hmong hill tribe village near the summit",
+          "Afternoon Thai cooking class at Mama Noi or Pantawan Cooking School",
+          "Evening at the massive Saturday or Sunday Walking Street night market"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Nature & Elephants",
+        "activities": [
+          "Full-day visit to Elephant Nature Park — an ethical rescue sanctuary",
+          "Feed, walk alongside, and bathe rescued elephants",
+          "Lunch at the sanctuary with other visitors",
+          "Return for a traditional Lanna khantoke dinner with dance performance"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Take a Thai cooking class with market shopping",
+      "Visit an ethical elephant sanctuary",
+      "Explore the moat-encircled Old City and its 30+ temples",
+      "Shop the legendary Sunday Walking Street night market"
+    ],
+    "vibeTags": ["cultural", "budget", "nature", "foodie"],
+    "language": "Thai",
+    "englishFriendly": true,
+    "description": "Chiang Mai is the gentle soul of Thailand — a moat-ringed old city filled with golden temples, surrounded by misty mountains and elephant sanctuaries. It's where digital nomads sip $2 lattes in gorgeous cafes, night markets stretch for miles, and a cooking class can teach you more about Thai culture than any museum.",
+    "visaNote": "US citizens get 30-day visa-free entry, extendable to 60 days."
+  },
+  {
+    "slug": "jaipur",
+    "name": "Jaipur",
+    "country": "India",
+    "flag": "🇮🇳",
+    "continent": "asia",
+    "coordinates": { "lat": 26.9124, "lng": 75.7873 },
+    "heroImage": "/images/destinations/jaipur.jpg",
+    "budgetTier": 1,
+    "bestMonths": [10, 11, 12, 1, 2, 3],
+    "flightCost": "$600-1000",
+    "pointsTip": "Air India awards via Star Alliance at 80k miles round-trip. Also check Emirates via Dubai for 90k Skywards miles.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "The Pink City's Landmarks",
+        "activities": [
+          "Start at Hawa Mahal (Palace of Winds) — photograph its 953 honeycomb windows",
+          "Tour the City Palace complex, still home to the Jaipur royal family",
+          "Lunch at LMB (Laxmi Mishthan Bhandar) for rajasthani thali since 1727",
+          "Explore Jantar Mantar, the world's largest stone astronomical observatory"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Amber Fort & Surroundings",
+        "activities": [
+          "Morning jeep ride up to Amber Fort, a stunning hilltop palace-fortress",
+          "Explore the Sheesh Mahal (Mirror Palace) with its thousands of inlaid mirrors",
+          "Lunch at 1135 AD restaurant inside the fort for regal dining",
+          "Afternoon visit to the Jal Mahal (Water Palace) floating in Man Sagar Lake"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Markets & Hidden Gems",
+        "activities": [
+          "Morning at Nahargarh Fort for panoramic views of the pink city below",
+          "Shopping in Johari Bazaar for gems, textiles, and block-printed fabrics",
+          "Lunch of dal baati churma at Chokhi Dhani, an ethnic village resort",
+          "Sunset drinks at Bar Palladio, an opulently decorated Italian-Indian bar"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Wander through the rose-pink streets of the walled old city",
+      "Explore the majestic Amber Fort",
+      "Shop for block-printed textiles and gemstones in the bazaars",
+      "Watch the sunset from Nahargarh Fort overlooking the city"
+    ],
+    "vibeTags": ["cultural", "budget", "adventure"],
+    "language": "Hindi",
+    "englishFriendly": true,
+    "description": "Jaipur paints everything in shades of terracotta and gold — from its iconic pink-walled Old City to the amber sandstone of its hilltop forts. It's India at its most theatrical, where elephants still climb fortress ramps, bazaars overflow with gems and silk, and every palace tells a story of Rajput valor and artistry.",
+    "visaNote": "US citizens need an e-visa — apply online at least 4 days before departure ($25 for 30 days)."
+  },
+  {
+    "slug": "maldives",
+    "name": "Maldives",
+    "country": "Maldives",
+    "flag": "🇲🇻",
+    "continent": "asia",
+    "coordinates": { "lat": 3.2028, "lng": 73.2207 },
+    "heroImage": "/images/destinations/maldives.jpg",
+    "budgetTier": 3,
+    "bestMonths": [1, 2, 3, 4, 11, 12],
+    "flightCost": "$700-1400",
+    "pointsTip": "Hyatt points go far here — Park Hyatt Maldives at 30k World of Hyatt points/night. Transfer from Chase Ultimate Rewards.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Overwater Bliss",
+        "activities": [
+          "Scenic seaplane transfer from Malé to your resort atoll",
+          "Settle into your overwater villa and swim from your private deck",
+          "Afternoon snorkel session on the house reef — spot reef sharks and turtles",
+          "Sunset dinner on a sandbank set up by the resort staff"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Ocean Adventures",
+        "activities": [
+          "Morning dolphin-watching cruise in the atoll lagoon",
+          "Guided snorkel trip to a manta ray cleaning station",
+          "Afternoon spa treatment in an overwater treatment room",
+          "Night snorkel or dive to see bioluminescent plankton on the beach"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Island Exploration",
+        "activities": [
+          "Sunrise yoga on the beach",
+          "Visit a local inhabited island to see Maldivian village life and taste hedhikaa snacks",
+          "Afternoon diving or semi-submarine coral reef tour",
+          "Farewell underwater restaurant dinner at Ithaa or Sea (depending on resort)"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Sleep in an overwater villa above crystal-clear lagoons",
+      "Snorkel with manta rays and whale sharks",
+      "Dine at an underwater restaurant surrounded by marine life",
+      "Watch bioluminescent plankton glow on the beach at night"
+    ],
+    "vibeTags": ["romantic", "luxury", "beach", "nature"],
+    "language": "Dhivehi",
+    "englishFriendly": true,
+    "description": "The Maldives is the closest thing to paradise that exists on Earth — 1,192 coral islands scattered across the Indian Ocean like emeralds on blue silk. Overwater villas hover above lagoons so clear you can watch stingrays glide beneath your glass floor, and the reefs below teem with more color than a painter's palette.",
+    "visaNote": "All nationalities get a free 30-day visa on arrival."
+  },
+  {
+    "slug": "colombo",
+    "name": "Colombo",
+    "country": "Sri Lanka",
+    "flag": "🇱🇰",
+    "continent": "asia",
+    "coordinates": { "lat": 6.9271, "lng": 79.8612 },
+    "heroImage": "/images/destinations/colombo.jpg",
+    "budgetTier": 1,
+    "bestMonths": [1, 2, 3, 4, 12],
+    "flightCost": "$600-1000",
+    "pointsTip": "Qatar Airways awards from 70k Avios round-trip via Doha. Transfer from Chase, Amex, or Capital One.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Colombo City Discovery",
+        "activities": [
+          "Morning at Gangaramaya Temple, an eclectic Buddhist temple on Beira Lake",
+          "Walk through Pettah Market, the city's chaotic and colorful bazaar district",
+          "Lunch at Ministry of Crab in the old Dutch Hospital for Sri Lankan crab curry",
+          "Sunset stroll along Galle Face Green promenade with street food vendors"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day Trip to Galle",
+        "activities": [
+          "Train along the coast to Galle — one of the world's most scenic rail rides",
+          "Explore the 16th-century Galle Fort, a UNESCO World Heritage Site",
+          "Lunch at Lucky Fort Restaurant for fresh seafood in the fort walls",
+          "Browse boutiques and galleries in the fort's atmospheric narrow streets"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Tea Country & Culture",
+        "activities": [
+          "Early train to Kandy through lush hill country and tea plantations",
+          "Visit the Temple of the Tooth Relic, Sri Lanka's most sacred Buddhist site",
+          "Tour a working tea factory and taste fresh Ceylon tea at the source",
+          "Return to Colombo for a farewell rice and curry feast at Upali's"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Ride the scenic coastal and hill country trains",
+      "Explore the colonial Galle Fort at sunset",
+      "Feast on fiery Sri Lankan rice and curry",
+      "Visit ancient Buddhist temples and ruins"
+    ],
+    "vibeTags": ["cultural", "budget", "nature", "adventure"],
+    "language": "Sinhala",
+    "englishFriendly": true,
+    "description": "Sri Lanka packs a continent's worth of experiences into an island the size of West Virginia — ancient Buddhist kingdoms, misty tea plantations, golden beaches, and some of the most generous curries in South Asia. Colombo itself has transformed into a cosmopolitan food scene while keeping its chaotic charm intact.",
+    "visaNote": "US citizens need an Electronic Travel Authorization (ETA) — apply online before departure ($50)."
+  },
+  {
+    "slug": "paris",
+    "name": "Paris",
+    "country": "France",
+    "flag": "🇫🇷",
+    "continent": "europe",
+    "coordinates": { "lat": 48.8566, "lng": 2.3522 },
+    "heroImage": "/images/destinations/paris.jpg",
+    "budgetTier": 3,
+    "bestMonths": [4, 5, 6, 9, 10],
+    "flightCost": "$400-800",
+    "pointsTip": "Air France Flying Blue Promo Rewards often drop to 25k miles one-way. Transfer from Chase, Amex, Citi, or Capital One.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Iconic Paris",
+        "activities": [
+          "Morning at the Louvre — head straight to Winged Victory and the Dutch Masters to avoid Mona Lisa crowds",
+          "Walk through the Tuileries Garden to Place de la Concorde",
+          "Lunch at Café de Flore in Saint-Germain-des-Prés",
+          "Sunset at the Eiffel Tower — book the summit ticket in advance"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Montmartre & Le Marais",
+        "activities": [
+          "Morning climbing to Sacré-Cœur for panoramic views from Montmartre",
+          "Coffee and croissant at the pink La Maison Rose",
+          "Afternoon exploring Le Marais — falafel at L'As du Fallafel on Rue des Rosiers",
+          "Evening Seine river cruise watching the monuments light up"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Versailles Day Trip",
+        "activities": [
+          "RER train to the Palace of Versailles — arrive at opening for the Hall of Mirrors",
+          "Wander the formal gardens and Marie Antoinette's hamlet",
+          "Lunch at La Petite Venise in the gardens",
+          "Return for a farewell dinner in the bistros of the 11th arrondissement — try Le Bistrot Paul Bert"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Watch the Eiffel Tower sparkle at night from Trocadéro",
+      "Stroll the Seine at golden hour past Notre-Dame",
+      "Get lost in the Louvre (and actually enjoy it with a strategy)",
+      "Eat croissants, cheese, and wine in every arrondissement",
+      "Explore Versailles' impossibly grand palace and gardens"
+    ],
+    "vibeTags": ["romantic", "cultural", "foodie"],
+    "language": "French",
+    "englishFriendly": true,
+    "description": "Paris needs no introduction, yet it still surprises — a corner boulangerie with the world's best croissant, a hidden courtyard in the Marais that takes your breath away, golden light on limestone facades that makes you understand why artists have been obsessed with this city for centuries.",
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+  },
+  {
+    "slug": "barcelona",
+    "name": "Barcelona",
+    "country": "Spain",
+    "flag": "🇪🇸",
+    "continent": "europe",
+    "coordinates": { "lat": 41.3874, "lng": 2.1686 },
+    "heroImage": "/images/destinations/barcelona.jpg",
+    "budgetTier": 2,
+    "bestMonths": [4, 5, 6, 9, 10],
+    "flightCost": "$400-750",
+    "pointsTip": "Iberia Avios flash sales drop to 17k one-way from the US East Coast. Transfer from Chase, Amex, or Capital One.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Gaudí & Gothic Quarter",
+        "activities": [
+          "Morning timed entry to La Sagrada Familia — book the tower access for aerial views",
+          "Walk through the enchanting Park Güell with its mosaic terraces",
+          "Lunch at Bar Cañete near Las Ramblas for exceptional Catalan tapas",
+          "Afternoon wandering the Gothic Quarter — find the Barcelona Cathedral and hidden Plaça Reial"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Beach, Barceloneta & El Born",
+        "activities": [
+          "Morning at Barceloneta Beach with a swim in the Mediterranean",
+          "Brunch at La Mar Salada for fresh seafood near the port",
+          "Explore the Picasso Museum in the El Born neighborhood",
+          "Evening tapas crawl on Carrer Blai in Poble-sec — pintxos for €1 each"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Montjuïc & Eixample",
+        "activities": [
+          "Cable car up to Montjuïc Castle for harbor panoramas",
+          "Visit the Fundació Joan Miró gallery",
+          "Lunch at Cervecería Catalana in the Eixample for the city's best patatas bravas",
+          "Tour Casa Batlló at twilight when Gaudí's facade glows with colored light"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Stand inside the kaleidoscopic nave of La Sagrada Familia",
+      "Eat tapas until you can't move in Poble-sec",
+      "Watch the sunset over the city from Park Güell's terrace",
+      "Swim in the Mediterranean at Barceloneta Beach",
+      "Explore Gaudí's fantastical Casa Batlló and Casa Milà"
+    ],
+    "vibeTags": ["cultural", "beach", "foodie", "nightlife"],
+    "language": "Spanish",
+    "englishFriendly": true,
+    "description": "Barcelona is where Gaudí's surrealist architecture meets Mediterranean beach culture, where late-night tapas crawls spill into 3 AM dance floors, and where every turn reveals another jaw-dropping facade. It's sun-soaked, art-drunk, and unapologetically fun.",
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+  },
+  {
+    "slug": "lisbon",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "flag": "🇵🇹",
+    "continent": "europe",
+    "coordinates": { "lat": 38.7223, "lng": -9.1393 },
+    "heroImage": "/images/destinations/lisbon.jpg",
+    "budgetTier": 2,
+    "bestMonths": [4, 5, 6, 9, 10],
+    "flightCost": "$350-700",
+    "pointsTip": "TAP Air Portugal via 40k Star Alliance miles one-way. Also check Aeroplan for great Europe awards.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Alfama & Belém",
+        "activities": [
+          "Morning getting lost in Alfama's narrow cobblestone alleys and tiled facades",
+          "Visit São Jorge Castle for panoramic views over the red rooftops",
+          "Tram 28 ride through the historic neighborhoods",
+          "Afternoon in Belém — pastéis de nata at Pastéis de Belém and the Jerónimos Monastery"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Bairro Alto & Time Out Market",
+        "activities": [
+          "Morning at the LX Factory creative complex for brunch, art, and vintage shopping",
+          "Walk across the 25 de Abril Bridge viewpoint at Miradouro da Graça",
+          "Lunch at Time Out Market Lisbon for curated stalls from the city's best chefs",
+          "Sunset drinks at a Bairro Alto rooftop bar, then fado music at Clube de Fado in Alfama"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Sintra Day Trip",
+        "activities": [
+          "Train to Sintra to explore the candy-colored Pena Palace on its forested hilltop",
+          "Hike to the mysterious Initiation Well at Quinta da Regaleira",
+          "Lunch at Tascantiga in Sintra's charming old town",
+          "Return to Lisbon for a farewell dinner of bacalhau at Cervejaria Ramiro"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Eat pastéis de nata warm from the oven at the original bakery",
+      "Listen to hauntingly beautiful fado in an Alfama tavern",
+      "Ride the iconic yellow Tram 28 through the hills",
+      "Explore the fairy-tale palaces of Sintra"
+    ],
+    "vibeTags": ["cultural", "foodie", "romantic", "nightlife"],
+    "language": "Portuguese",
+    "englishFriendly": true,
+    "description": "Lisbon glows — literally. The city's famous golden light bathes tiled facades, terracotta rooftops, and the Tagus River in a warmth that makes every photo look like a painting. Add soulful fado music drifting from tiny taverns, custard tarts fresh from century-old ovens, and wine that costs less than water, and you have Europe's coolest capital.",
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+  },
+  {
+    "slug": "prague",
+    "name": "Prague",
+    "country": "Czech Republic",
+    "flag": "🇨🇿",
+    "continent": "europe",
+    "coordinates": { "lat": 50.0755, "lng": 14.4378 },
+    "heroImage": "/images/destinations/prague.jpg",
+    "budgetTier": 2,
+    "bestMonths": [4, 5, 6, 9, 10],
+    "flightCost": "$400-750",
+    "pointsTip": "United awards at 30k Saver miles one-way from the US. Also check Aeroplan for partner routings.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old Town & Castle District",
+        "activities": [
+          "Watch the Astronomical Clock strike the hour in Old Town Square",
+          "Cross the Charles Bridge early morning before the crowds arrive",
+          "Tour Prague Castle and St. Vitus Cathedral, the world's largest ancient castle complex",
+          "Lunch at Lokál Dlouhá for classic Czech cuisine and fresh tank beer"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Jewish Quarter & Malá Strana",
+        "activities": [
+          "Morning at the Jewish Quarter — visit the Old Jewish Cemetery and Spanish Synagogue",
+          "Walk through the picturesque Malá Strana neighborhood below the castle",
+          "Lunch at Café Savoy for their legendary open-face sandwiches",
+          "Afternoon at the Lennon Wall and Petřín Hill for a hilltop panorama via funicular"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Beer Culture & Hidden Prague",
+        "activities": [
+          "Morning exploring Vyšehrad fortress with river views and the Slavín cemetery",
+          "Craft beer tour at Letná Beer Garden and Prague Beer Museum",
+          "Lunch at Kantýna for excellent Czech charcuterie and steak",
+          "Evening classical concert inside one of Prague's baroque churches"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Walk the Charles Bridge at sunrise with the castle glowing behind it",
+      "Drink the world's best pilsner for $2 in a medieval beer hall",
+      "Tour the largest ancient castle complex on Earth",
+      "Catch a classical concert in a stunning baroque church"
+    ],
+    "vibeTags": ["cultural", "budget", "nightlife", "romantic"],
+    "language": "Czech",
+    "englishFriendly": true,
+    "description": "Prague is a Gothic fairy tale come to life — a thousand spires piercing the morning mist, a castle the size of a small town watching over cobblestone streets, and beer halls where $2 buys a pint of the world's finest pilsner. It offers the grandeur of Paris at a fraction of the price.",
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+  },
+  {
+    "slug": "dubrovnik",
+    "name": "Dubrovnik",
+    "country": "Croatia",
+    "flag": "🇭🇷",
+    "continent": "europe",
+    "coordinates": { "lat": 42.6507, "lng": 18.0944 },
+    "heroImage": "/images/destinations/dubrovnik.jpg",
+    "budgetTier": 2,
+    "bestMonths": [5, 6, 9, 10],
+    "flightCost": "$500-900",
+    "pointsTip": "United excursionist perk lets you add Dubrovnik as a free stopover on a multi-city Europe award.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old Town Walls & Stradun",
+        "activities": [
+          "Walk the full circuit of Dubrovnik's medieval city walls — a 2km loop with Adriatic views",
+          "Stroll the marble-paved Stradun main street and visit the Rector's Palace",
+          "Lunch at Nishta in the Old Town for creative vegetarian cuisine in a 14th-century building",
+          "Sunset drinks at Buža Bar, a cliffside bar carved into the outer walls above the sea"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Lokrum Island & Beaches",
+        "activities": [
+          "Ferry to Lokrum Island — swim in the Dead Sea saltwater lake and explore the botanical gardens",
+          "Afternoon at Banje Beach with the Old Town as your backdrop",
+          "Kayak around the Old Town walls at golden hour",
+          "Dinner at Proto for fresh Adriatic seafood on a candlelit terrace"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Cable Car & Wine Country",
+        "activities": [
+          "Cable car up Mount Srđ for breathtaking views of the old town and islands",
+          "Day trip to the Pelješac Peninsula for wine tasting — try the local Dingač red",
+          "Stop at Ston for fresh oysters pulled from the bay",
+          "Return for a farewell walk along the Lazareti strip at night"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Walk the full medieval city wall circuit above the Adriatic",
+      "Drink cocktails at Buža Bar perched on the cliffs",
+      "Kayak beneath the ancient city walls at sunset",
+      "Day trip to Lokrum Island for swimming and peacock-spotting"
+    ],
+    "vibeTags": ["cultural", "beach", "romantic"],
+    "language": "Croatian",
+    "englishFriendly": true,
+    "description": "Dubrovnik's terracotta rooftops and limestone walls rise dramatically from the Adriatic Sea, creating one of Europe's most photogenic cities. Walking the ancient walls with the turquoise sea shimmering below and islands dotting the horizon is a genuine bucket-list moment — Game of Thrones fans will recognize every corner.",
+    "visaNote": "US citizens get 90 days visa-free."
+  },
+  {
+    "slug": "santorini",
+    "name": "Santorini",
+    "country": "Greece",
+    "flag": "🇬🇷",
+    "continent": "europe",
+    "coordinates": { "lat": 36.3932, "lng": 25.4615 },
+    "heroImage": "/images/destinations/santorini.jpg",
+    "budgetTier": 3,
+    "bestMonths": [5, 6, 9, 10],
+    "flightCost": "$500-900",
+    "pointsTip": "Fly to Athens on 40k Star Alliance miles, then catch a budget Aegean/Olympic Air hop to Santorini.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Oia & Caldera Views",
+        "activities": [
+          "Settle into Oia and explore its blue-domed churches and narrow marble paths",
+          "Visit the Maritime Museum for the island's seafaring history",
+          "Lunch at Ammoudi Bay — climb down 300 steps for grilled octopus by the water",
+          "Watch the world-famous Oia sunset from the castle ruins"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Wine, Beaches & Akrotiri",
+        "activities": [
+          "Morning at Akrotiri, the 'Minoan Pompeii' — a Bronze Age city preserved under volcanic ash",
+          "Visit Red Beach and the dramatic volcanic cliffs",
+          "Afternoon wine tasting at Santo Wines or Venetsanos Winery with caldera views",
+          "Dinner in Fira at Koukoumavlos for creative Greek tasting menus"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Sailing & Village Life",
+        "activities": [
+          "Catamaran sail around the caldera — swim in hot springs and snorkel volcanic reefs",
+          "BBQ lunch on board with local wine",
+          "Explore the quiet village of Pyrgos and its medieval Venetian castle",
+          "Farewell dinner at Selene in Fira for Santorini's finest modern Greek cuisine"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Watch the sunset in Oia — one of the most famous views on Earth",
+      "Sail the caldera and swim in volcanic hot springs",
+      "Taste Assyrtiko wine at a cliffside winery",
+      "Walk the cliffside path from Fira to Oia"
+    ],
+    "vibeTags": ["romantic", "luxury", "beach"],
+    "language": "Greek",
+    "englishFriendly": true,
+    "description": "Santorini looks impossibly beautiful — white-washed buildings cascading down volcanic cliffs into a deep blue caldera, with sunsets that paint the sky in shades no filter can replicate. It's the Greek island that launched a million Instagram posts, but experiencing it in person still takes your breath away.",
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+  },
+  {
+    "slug": "amsterdam",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "continent": "europe",
+    "coordinates": { "lat": 52.3676, "lng": 4.9041 },
+    "heroImage": "/images/destinations/amsterdam.jpg",
+    "budgetTier": 2,
+    "bestMonths": [4, 5, 6, 7, 8, 9],
+    "flightCost": "$350-700",
+    "pointsTip": "Delta SkyMiles flash sales to AMS frequently drop to 26k miles round-trip. Also check KLM Flying Blue promos.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Canals, Museums & Jordaan",
+        "activities": [
+          "Morning timed-entry visit to the Anne Frank House (book weeks in advance)",
+          "Walk the canal ring through the picturesque Jordaan neighborhood",
+          "Lunch at The Pancake Bakery for Dutch-style pannenkoeken",
+          "Afternoon at the Rijksmuseum — see Rembrandt's Night Watch and Vermeer's Milkmaid"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Van Gogh, Markets & Nightlife",
+        "activities": [
+          "Morning at the Van Gogh Museum on Museumplein",
+          "Browse the Albert Cuyp Market in De Pijp for stroopwafels and raw herring",
+          "Afternoon biking along the Amstel River — rent from MacBike",
+          "Evening exploring hidden brown cafes (bruine kroegen) like Café 't Smalle"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Vondelpark & Hidden Gems",
+        "activities": [
+          "Morning stroll through Vondelpark with coffee from Lot Sixty One",
+          "Visit the NDSM Wharf for street art, creative studios, and waterfront vibes",
+          "Lunch at Foodhallen in Oud-West for gourmet market bites",
+          "Afternoon canal cruise through the UNESCO-listed canal ring"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Bike along the canal ring like a local",
+      "Stand before Rembrandt's Night Watch at the Rijksmuseum",
+      "Visit the Anne Frank House for a deeply moving experience",
+      "Eat fresh stroopwafels from a street market"
+    ],
+    "vibeTags": ["cultural", "nightlife", "romantic"],
+    "language": "Dutch",
+    "englishFriendly": true,
+    "description": "Amsterdam's charm is in its contradictions — it's a world-class city that feels like a village, where you can cycle from a Rembrandt masterpiece to a cutting-edge design studio in ten minutes along a 17th-century canal. The golden-age townhouses leaning over the water, the bike bells, the warm glow of brown cafes — it's effortlessly cool.",
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+  },
+  {
+    "slug": "rome",
+    "name": "Rome",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "continent": "europe",
+    "coordinates": { "lat": 41.9028, "lng": 12.4964 },
+    "heroImage": "/images/destinations/rome.jpg",
+    "budgetTier": 2,
+    "bestMonths": [4, 5, 6, 9, 10],
+    "flightCost": "$400-750",
+    "pointsTip": "ITA Airways frequently has business class sales. Also check United at 30k Saver miles one-way.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Ancient Rome",
+        "activities": [
+          "Morning at the Colosseum with arena floor access (book in advance)",
+          "Walk through the Roman Forum and up Palatine Hill",
+          "Lunch at Roscioli for their legendary cacio e pepe and curated wine list",
+          "Afternoon tossing a coin in the Trevi Fountain and climbing the Spanish Steps"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Vatican & Trastevere",
+        "activities": [
+          "Early entry tour of the Vatican Museums and Sistine Chapel",
+          "Climb St. Peter's Basilica dome for city-wide views",
+          "Cross the Tiber for lunch in Trastevere at Da Enzo al 29 (arrive early — no reservations)",
+          "Evening passeggiata through the cobblestone streets with gelato from Fatamorgana"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Piazzas & Neighborhoods",
+        "activities": [
+          "Morning coffee at Sant'Eustachio Il Caffè, Rome's most celebrated espresso bar",
+          "Explore the Pantheon and lively Piazza Navona",
+          "Lunch at Testaccio Market for supplì and trapizzino",
+          "Sunset aperitivo overlooking the city from Pincian Hill in Villa Borghese"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Stand inside the Colosseum and imagine gladiator combat",
+      "Marvel at the Sistine Chapel ceiling up close",
+      "Eat cacio e pepe, carbonara, and supplì in every neighborhood",
+      "Throw a coin in the Trevi Fountain at sunrise before the crowds",
+      "Wander Trastevere's cobblestone streets at golden hour"
+    ],
+    "vibeTags": ["cultural", "foodie", "romantic"],
+    "language": "Italian",
+    "englishFriendly": true,
+    "description": "Rome is 3,000 years of history served with a side of the world's best pasta. You'll round a corner and stumble upon a 2,000-year-old temple, eat carbonara that ruins all future carbonara, and realize that la dolce vita isn't just a movie — it's a daily practice here.",
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+  },
+  {
+    "slug": "edinburgh",
+    "name": "Edinburgh",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "continent": "europe",
+    "coordinates": { "lat": 55.9533, "lng": -3.1883 },
+    "heroImage": "/images/destinations/edinburgh.jpg",
+    "budgetTier": 2,
+    "bestMonths": [5, 6, 7, 8],
+    "flightCost": "$400-800",
+    "pointsTip": "British Airways Avios at 13k one-way off-peak from select US cities. Transfer from Chase or Amex.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old Town & Royal Mile",
+        "activities": [
+          "Tour Edinburgh Castle perched on its volcanic rock",
+          "Walk the Royal Mile from the Castle to the Palace of Holyroodhouse",
+          "Lunch at The Witchery for Scottish fine dining in Gothic surroundings",
+          "Descend into the underground vaults beneath the Old Town on a guided tour"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Arthur's Seat & New Town",
+        "activities": [
+          "Morning hike up Arthur's Seat for 360-degree city panoramas",
+          "Explore the Georgian splendor of New Town and its independent shops on Thistle Street",
+          "Lunch at The Scran & Scallie in Stockbridge for elevated Scottish pub food",
+          "Afternoon at the Scottish National Gallery on the Mound"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Whisky & Leith",
+        "activities": [
+          "Scotch whisky tasting experience at the Scotch Whisky Experience on the Royal Mile",
+          "Explore the vibrant Leith neighborhood and its waterfront restaurants",
+          "Lunch at The Kitchin in Leith — Michelin-starred Scottish seasonal cuisine",
+          "Evening ghost tour through the atmospheric closes and graveyards of Old Town"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Hike Arthur's Seat for volcano-top city views",
+      "Explore Edinburgh Castle and its crown jewels",
+      "Tour a Scotch whisky distillery",
+      "Visit during the Fringe Festival in August for the world's largest arts festival"
+    ],
+    "vibeTags": ["cultural", "adventure", "nightlife"],
+    "language": "English",
+    "englishFriendly": true,
+    "description": "Edinburgh is a city built on drama — volcanic crags, a medieval castle brooding over the skyline, cobblestone closes hiding centuries of secrets, and the wild green hill of Arthur's Seat rising right from the city center. In August, the Fringe Festival transforms it into the planet's greatest stage.",
+    "visaNote": "US citizens get 6 months visa-free entry to the UK."
+  },
+  {
+    "slug": "budapest",
+    "name": "Budapest",
+    "country": "Hungary",
+    "flag": "🇭🇺",
+    "continent": "europe",
+    "coordinates": { "lat": 47.4979, "lng": 19.0402 },
+    "heroImage": "/images/destinations/budapest.jpg",
+    "budgetTier": 1,
+    "bestMonths": [4, 5, 6, 9, 10],
+    "flightCost": "$400-750",
+    "pointsTip": "LOT Polish Airlines via Warsaw often has great Star Alliance awards at 30k miles one-way.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Buda Side & Castle District",
+        "activities": [
+          "Morning at Buda Castle and the Hungarian National Gallery",
+          "Walk through the Fisherman's Bastion for fairy-tale Danube views",
+          "Visit the stunning Matthias Church with its colorful tiled roof",
+          "Cross the Chain Bridge to Pest for dinner at Borkonyha Winekitchen"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Thermal Baths & Jewish Quarter",
+        "activities": [
+          "Morning soak at Széchenyi Thermal Bath — Europe's largest medicinal bath complex",
+          "Walk through Heroes' Square and City Park",
+          "Afternoon exploring the Jewish Quarter's ruin bars — start at Szimpla Kert",
+          "Dinner at Mazel Tov for Middle Eastern food in a gorgeous courtyard"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Parliament & the Danube",
+        "activities": [
+          "Guided tour of the Hungarian Parliament — one of Europe's most spectacular buildings",
+          "Pay respects at Shoes on the Danube Bank, the powerful Holocaust memorial",
+          "Lunch at the Great Market Hall for lángos and Hungarian paprika products",
+          "Evening Danube river cruise watching Parliament and the castle light up"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Soak in the ornate Széchenyi or Gellért thermal baths",
+      "Bar-hop through the legendary ruin bars of the Jewish Quarter",
+      "Watch the Danube light up Parliament and the Castle at night",
+      "Tour the breathtaking Hungarian Parliament building"
+    ],
+    "vibeTags": ["cultural", "nightlife", "budget", "romantic"],
+    "language": "Hungarian",
+    "englishFriendly": true,
+    "description": "Budapest is two cities in one — hilly Buda with its castle and thermal springs, and flat Pest with its ruin bars and grand boulevards — joined by the Danube and some of Europe's most beautiful bridges. Soak in a century-old thermal bath by day, crawl the ruin bars by night, and spend less than you would in almost any Western European capital.",
+    "visaNote": "US citizens get 90 days visa-free in the Schengen Area."
+  },
+  {
+    "slug": "mexico-city",
+    "name": "Mexico City",
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "continent": "north-america",
+    "coordinates": { "lat": 19.4326, "lng": -99.1332 },
+    "heroImage": "/images/destinations/mexico-city.jpg",
+    "budgetTier": 1,
+    "bestMonths": [2, 3, 4, 10, 11, 12],
+    "flightCost": "$200-450",
+    "pointsTip": "Aeromexico via SkyTeam at 25k miles round-trip. Also ultra-low-cost carriers like Volaris from US border cities.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Centro Histórico & Coyoacán",
+        "activities": [
+          "Morning at the Zócalo — visit the Metropolitan Cathedral and the Templo Mayor Aztec ruins",
+          "Walk through the Palacio de Bellas Artes for its stunning murals by Rivera and Orozco",
+          "Lunch at El Cardenal for classic Mexican breakfast/lunch since 1969",
+          "Afternoon at the Frida Kahlo Museum (Casa Azul) in Coyoacán — book tickets online"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Roma-Condesa & Markets",
+        "activities": [
+          "Brunch at Lalo! in Roma Norte for inventive Mexican breakfast",
+          "Explore the tree-lined streets and art deco architecture of Condesa",
+          "Afternoon at Mercado de San Juan for exotic meats and gourmet ingredients",
+          "Dinner at Contramar for their iconic red-and-green grilled fish tostadas"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Teotihuacán & Xochimilco",
+        "activities": [
+          "Early morning drive to climb the Pyramids of Teotihuacán — the ancient city of the gods",
+          "Walk the Avenue of the Dead and ascend the Pyramid of the Sun",
+          "Return for late lunch tacos al pastor at El Vilsito (a mechanic shop by day)",
+          "Afternoon floating the colorful trajineras of Xochimilco canals with micheladas"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Eat tacos al pastor from a trompo spinning over charcoal",
+      "Climb the Pyramid of the Sun at Teotihuacán",
+      "Visit Frida Kahlo's Casa Azul in Coyoacán",
+      "Explore the murals of Diego Rivera across the city",
+      "Float the ancient canals of Xochimilco"
+    ],
+    "vibeTags": ["foodie", "cultural", "budget"],
+    "language": "Spanish",
+    "englishFriendly": true,
+    "description": "Mexico City is a megalopolis with the soul of a village — Aztec pyramids beneath colonial cathedrals, taco stands that outperform fine dining, and a creative energy that's making it one of the world's most exciting cities right now. It's overwhelming, addictive, and criminally affordable.",
+    "visaNote": "US citizens get 180 days visa-free."
+  },
+  {
+    "slug": "tulum",
+    "name": "Tulum",
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "continent": "north-america",
+    "coordinates": { "lat": 20.2114, "lng": -87.4654 },
+    "heroImage": "/images/destinations/tulum.jpg",
+    "budgetTier": 2,
+    "bestMonths": [11, 12, 1, 2, 3, 4],
+    "flightCost": "$250-500",
+    "pointsTip": "Fly into Cancún (CUN) — Southwest Rapid Rewards often has availability at 15-20k points one-way.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Ruins & Beach",
+        "activities": [
+          "Morning visit to the Tulum Archaeological Site — Mayan ruins perched on a Caribbean cliff",
+          "Swim at the beach directly below the ruins",
+          "Lunch at Burrito Amor in Tulum Pueblo for incredible $3 burritos",
+          "Afternoon relaxing on the powdery white sand of Playa Paraíso"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Cenotes & Jungle",
+        "activities": [
+          "Swim in the crystal-clear Cenote Suytun with its beam of light hitting the water",
+          "Explore Gran Cenote for snorkeling with turtles in an underground cave",
+          "Lunch at Hartwood for wood-fired farm-to-table cuisine in an open-air jungle restaurant",
+          "Afternoon bike ride along the beach road, stopping at boutique hotels and art galleries"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Sian Ka'an Biosphere",
+        "activities": [
+          "Day trip to Sian Ka'an Biosphere Reserve — a UNESCO-protected coastal wetland",
+          "Float down the ancient Mayan canal system through mangroves",
+          "Spot dolphins, manatees, and tropical birds from a boat",
+          "Return for a farewell sunset dinner at Kin Toh treehouse restaurant"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Swim in a sunlit cenote underground cave",
+      "Visit Mayan ruins overlooking the Caribbean Sea",
+      "Float through the Sian Ka'an Biosphere Reserve",
+      "Snorkel with sea turtles at Gran Cenote"
+    ],
+    "vibeTags": ["beach", "adventure", "romantic", "nature"],
+    "language": "Spanish",
+    "englishFriendly": true,
+    "description": "Tulum is where ancient Mayan mysticism meets bohemian beach culture — clifftop ruins gazing over turquoise waters, jungle cenotes glowing like liquid sapphire, and a hotel zone that feels like a curated Instagram dream. It's the Riviera Maya at its most photogenic and wellness-obsessed.",
+    "visaNote": "US citizens get 180 days visa-free."
+  },
+  {
+    "slug": "vancouver",
+    "name": "Vancouver",
+    "country": "Canada",
+    "flag": "🇨🇦",
+    "continent": "north-america",
+    "coordinates": { "lat": 49.2827, "lng": -123.1207 },
+    "heroImage": "/images/destinations/vancouver.jpg",
+    "budgetTier": 2,
+    "bestMonths": [5, 6, 7, 8, 9],
+    "flightCost": "$200-500",
+    "pointsTip": "Alaska Mileage Plan is king for Pacific Northwest flights — 12.5k miles one-way from the West Coast.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Stanley Park & Gastown",
+        "activities": [
+          "Bike or walk the Stanley Park Seawall — a 10km loop with mountain and ocean views",
+          "Visit the Vancouver Aquarium and the totem poles at Brockton Point",
+          "Lunch in Gastown at Tacofino for West Coast tacos",
+          "Explore the cobblestone streets of Gastown and watch the Steam Clock whistle"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Granville Island & Mountains",
+        "activities": [
+          "Morning at Granville Island Public Market for smoked salmon and fresh pastries",
+          "Take the Sea-to-Sky Gondola in Squamish for jaw-dropping coastal mountain views",
+          "Afternoon at the Capilano Suspension Bridge swaying 70m above the rainforest",
+          "Dinner at Vij's for celebrated Indian-Canadian fusion cuisine"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Grouse Mountain & Neighborhoods",
+        "activities": [
+          "Morning hike up the Grouse Grind — 2,830 steps up the North Shore mountains",
+          "Explore the diverse food scene on Commercial Drive and Main Street",
+          "Lunch at Miku for aburi (flame-seared) sushi — some of the best outside Japan",
+          "Sunset at English Bay Beach watching the mountains glow pink"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Bike the Stanley Park Seawall with mountains as your backdrop",
+      "Eat world-class sushi rivaling Tokyo's best",
+      "Hike the Grouse Grind for North Shore mountain views",
+      "Browse Granville Island's artisan market"
+    ],
+    "vibeTags": ["nature", "foodie", "adventure"],
+    "language": "English",
+    "englishFriendly": true,
+    "description": "Vancouver is nature's city — snow-capped mountains plunge into the Pacific Ocean, old-growth rainforests border the downtown core, and you can ski and surf in the same day. Add one of North America's most diverse food scenes (the sushi here rivals Tokyo) and you've got a city that punches far above its weight."
+  },
+  {
+    "slug": "banff",
+    "name": "Banff",
+    "country": "Canada",
+    "flag": "🇨🇦",
+    "continent": "north-america",
+    "coordinates": { "lat": 51.1784, "lng": -115.5708 },
+    "heroImage": "/images/destinations/banff.jpg",
+    "budgetTier": 2,
+    "bestMonths": [6, 7, 8, 9, 1, 2, 3],
+    "flightCost": "$250-500",
+    "pointsTip": "Fly into Calgary (YYC) — WestJet or Air Canada from 15k Aeroplan miles one-way. Banff is 90 min drive.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Lake Louise & Moraine Lake",
+        "activities": [
+          "Early morning drive to Moraine Lake to see the iconic turquoise water before crowds (shuttle required in summer)",
+          "Hike the Lake Louise Lakeshore Trail to the Plain of Six Glaciers teahouse",
+          "Lunch at the Fairmont Chateau Lake Louise with a lakeside view",
+          "Return to Banff for dinner at Park Distillery with Rocky Mountain cuisine"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Icefields Parkway Drive",
+        "activities": [
+          "Drive the Icefields Parkway (Highway 93N) — one of the world's most scenic roads",
+          "Stop at Peyto Lake for its distinctive wolf-head-shaped turquoise waters",
+          "Walk on the Columbia Icefield glacier via the Skywalk",
+          "Photograph the weeping wall and Mistaya Canyon along the route"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Banff Town & Gondola",
+        "activities": [
+          "Ride the Banff Gondola up Sulphur Mountain for 360-degree Rocky Mountain views",
+          "Soak in the Banff Upper Hot Springs on the mountainside",
+          "Lunch at The Bison for locally sourced Alberta beef and bison",
+          "Afternoon hike to Johnston Canyon's ink pots and frozen waterfalls"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "See the impossibly turquoise water of Moraine Lake at sunrise",
+      "Drive the legendary Icefields Parkway",
+      "Hike to a backcountry teahouse at Lake Louise",
+      "Soak in hot springs with mountain views"
+    ],
+    "vibeTags": ["nature", "adventure"],
+    "language": "English",
+    "englishFriendly": true,
+    "description": "Banff is the Canadian Rockies at their most spectacular — lakes so turquoise they look photoshopped, glaciers that cascade into wildflower meadows, and elk wandering through a charming mountain town. Whether you're skiing in winter or hiking in summer, the scenery here is genuinely the most dramatic in North America."
+  },
+  {
+    "slug": "havana",
+    "name": "Havana",
+    "country": "Cuba",
+    "flag": "🇨🇺",
+    "continent": "north-america",
+    "coordinates": { "lat": 23.1136, "lng": -82.3666 },
+    "heroImage": "/images/destinations/havana.jpg",
+    "budgetTier": 1,
+    "bestMonths": [11, 12, 1, 2, 3, 4],
+    "flightCost": "$250-500",
+    "pointsTip": "JetBlue TrueBlue points from 8k one-way from Fort Lauderdale. Southwest also flies from select cities.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old Havana & the Malecón",
+        "activities": [
+          "Wander through Habana Vieja — the UNESCO-listed colonial old town",
+          "Visit Plaza de la Catedral and the ornate baroque Catedral de La Habana",
+          "Lunch at La Guarida, Cuba's most famous paladar in a crumbling mansion",
+          "Sunset stroll along the Malecón seawall with rum and live music"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Classic Cars, Cigars & Rum",
+        "activities": [
+          "Vintage car tour through Vedado in a 1957 Chevy convertible",
+          "Visit a cigar factory or the Partagás shop to watch master torcedores at work",
+          "Rum tasting at the Havana Club museum in San Francisco de Paula",
+          "Evening at Fábrica de Arte Cubano, an art gallery-concert venue-nightclub hybrid"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Revolution History & Fusterlandia",
+        "activities": [
+          "Tour the Plaza de la Revolución and the Che Guevara murals",
+          "Visit the Museo de la Revolución in the former Presidential Palace",
+          "Explore Fusterlandia — artist José Fuster's mosaic-covered neighborhood in Jaimanitas",
+          "Farewell mojito at La Bodeguita del Medio, Hemingway's favorite bar"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Ride in a colorful 1950s American vintage convertible",
+      "Sip mojitos at Hemingway's favorite bar",
+      "Photograph the crumbling-yet-beautiful colonial architecture",
+      "Experience live salsa music at an open-air venue"
+    ],
+    "vibeTags": ["cultural", "budget", "nightlife"],
+    "language": "Spanish",
+    "englishFriendly": false,
+    "description": "Havana is a time capsule wrapped in a salsa rhythm — candy-colored 1950s Chevys cruise past crumbling colonial mansions, live son music spills from every doorway, and the Malecón at sunset is one of the world's great urban scenes. It's romantic, gritty, and unlike anywhere else on Earth.",
+    "visaNote": "US citizens need a Cuban tourist card (visa) and must travel under an approved OFAC category such as 'Support for the Cuban People.'"
+  },
+  {
+    "slug": "san-juan",
+    "name": "San Juan",
+    "country": "Puerto Rico",
+    "flag": "🇵🇷",
+    "continent": "north-america",
+    "coordinates": { "lat": 18.4655, "lng": -66.1057 },
+    "heroImage": "/images/destinations/san-juan.jpg",
+    "budgetTier": 2,
+    "bestMonths": [12, 1, 2, 3, 4, 5],
+    "flightCost": "$150-350",
+    "pointsTip": "No passport needed — it's a US territory! Southwest, JetBlue, and Spirit all fly direct. 10-15k points one-way.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old San Juan",
+        "activities": [
+          "Walk the blue cobblestone streets past pastel colonial buildings",
+          "Tour Castillo San Felipe del Morro, the 16th-century Spanish fortress",
+          "Lunch at La Casita Blanca in Santurce for authentic mofongo and pernil",
+          "Afternoon exploring San Cristóbal Fort and flying kites on the fortress lawn"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Beaches & Rainforest",
+        "activities": [
+          "Morning at Condado Beach for swimming and sunbathing",
+          "Drive to El Yunque National Rainforest — the only tropical rainforest in the US system",
+          "Hike to La Mina Falls and swim in the pool beneath the cascade",
+          "Return for dinner and cocktails at La Factoría, one of the world's best bars"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Bioluminescent Bay & Culture",
+        "activities": [
+          "Morning exploring the street art of Santurce with a local guide",
+          "Lunch at Jungle Bird in Santurce for craft cocktails and small plates",
+          "Afternoon at the Museo de Arte de Puerto Rico",
+          "Evening kayak tour to a bioluminescent bay — paddle through water that glows electric blue"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Explore the colorful colonial streets of Old San Juan",
+      "Hike to waterfalls in El Yunque National Rainforest",
+      "Kayak through a bioluminescent bay at night",
+      "Tour the massive El Morro fortress"
+    ],
+    "vibeTags": ["beach", "cultural", "nightlife", "adventure"],
+    "language": "Spanish",
+    "englishFriendly": true,
+    "description": "San Juan delivers Caribbean beauty without the passport hassle — 500 years of Spanish colonial history painted in every shade of pastel, world-class cocktail bars tucked behind unmarked doors, and rainforest waterfalls just 45 minutes from the beach. It's affordable, accessible, and criminally underrated."
+  },
+  {
+    "slug": "buenos-aires",
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "flag": "🇦🇷",
+    "continent": "south-america",
+    "coordinates": { "lat": -34.6037, "lng": -58.3816 },
+    "heroImage": "/images/destinations/buenos-aires.jpg",
+    "budgetTier": 1,
+    "bestMonths": [3, 4, 5, 9, 10, 11],
+    "flightCost": "$500-900",
+    "pointsTip": "Aerolíneas Argentinas via SkyTeam partners. Also LATAM via British Airways Avios at 60k round-trip.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "San Telmo & La Boca",
+        "activities": [
+          "Morning at the San Telmo antique market on Calle Defensa",
+          "Visit the colorful Caminito street in La Boca with its painted tin houses",
+          "Lunch at El Obrero, a beloved neighborhood bodegón in La Boca since 1954",
+          "Afternoon tango lesson at a milonga in San Telmo"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Recoleta & Palermo",
+        "activities": [
+          "Morning at the Recoleta Cemetery — find Evita's tomb among the ornate mausoleums",
+          "Visit MALBA (Museum of Latin American Art) in Palermo",
+          "Lunch at Don Julio for what many call the world's best steak — arrive early",
+          "Explore Palermo Soho's boutiques, street art, and cocktail bars"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Tango, Wine & Microcentro",
+        "activities": [
+          "Walk the grand Avenida de Mayo from the Casa Rosada to Congress",
+          "Coffee at Café Tortoni, the city's oldest cafe (since 1858)",
+          "Afternoon wine tasting of Argentine Malbecs at Pain et Vin or Aldo's",
+          "Evening tango show at Café de los Angelitos or Rojo Tango"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Eat the world's best steak with a glass of Malbec",
+      "Watch (or dance) tango in a smoky San Telmo milonga",
+      "Wander the Recoleta Cemetery's ornate mausoleums",
+      "Browse San Telmo's Sunday antique market"
+    ],
+    "vibeTags": ["foodie", "cultural", "nightlife", "romantic"],
+    "language": "Spanish",
+    "englishFriendly": true,
+    "description": "Buenos Aires is the Paris of South America — wide Haussmann-style boulevards, a cafe culture that treats sitting for hours as an art form, and a passion for tango, steak, and Malbec that borders on religion. Dinner starts at 10 PM, nightclubs open at 2 AM, and the city's creative energy never sleeps.",
+    "visaNote": "US citizens get 90 days visa-free."
+  },
+  {
+    "slug": "cartagena",
+    "name": "Cartagena",
+    "country": "Colombia",
+    "flag": "🇨🇴",
+    "continent": "south-america",
+    "coordinates": { "lat": 10.391, "lng": -75.5144 },
+    "heroImage": "/images/destinations/cartagena.jpg",
+    "budgetTier": 1,
+    "bestMonths": [12, 1, 2, 3, 4],
+    "flightCost": "$300-600",
+    "pointsTip": "JetBlue TrueBlue from 15k points one-way from Fort Lauderdale. Also Spirit and Avianca have cheap cash fares.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Walled City & Getsemaní",
+        "activities": [
+          "Walk through the walled Old City — bougainvillea-draped balconies on every corner",
+          "Visit the Palacio de la Inquisición and the Plaza de Bolívar",
+          "Lunch at La Cevichería for fresh ceviche (Bourdain's favorite)",
+          "Evening in Getsemaní neighborhood for street art, salsa bars, and Café Havana"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Rosario Islands & Beach",
+        "activities": [
+          "Boat to the Rosario Islands for snorkeling in clear Caribbean waters",
+          "Beach day on Isla Barú with fresh fish lunch and coconut cocktails",
+          "Visit the Oceanario aquarium on Isla San Martín de Pajarales",
+          "Return for dinner at Carmen restaurant for modern Colombian tasting menu"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Castillo & Culture",
+        "activities": [
+          "Morning tour of Castillo San Felipe de Barajas, the largest Spanish fortress in the Americas",
+          "Explore the modern Bocagrande neighborhood and its beach",
+          "Lunch of cazuela de mariscos (seafood stew) at a local fonda",
+          "Sunset cocktails on a rooftop in the walled city watching the skyline glow"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Get lost in the candy-colored walled city streets",
+      "Dance salsa at Café Havana in Getsemaní",
+      "Boat to the Rosario Islands for Caribbean snorkeling",
+      "Explore the massive Castillo San Felipe fortress"
+    ],
+    "vibeTags": ["beach", "cultural", "nightlife", "romantic"],
+    "language": "Spanish",
+    "englishFriendly": true,
+    "description": "Cartagena is the Caribbean at its most seductive — a 16th-century walled city painted in every color of the sunset, where horse-drawn carriages clip-clop past fruit vendors balancing baskets on their heads and salsa music pulses from open doorways until dawn.",
+    "visaNote": "US citizens get 90 days visa-free."
+  },
+  {
+    "slug": "cusco",
+    "name": "Cusco",
+    "country": "Peru",
+    "flag": "🇵🇪",
+    "continent": "south-america",
+    "coordinates": { "lat": -13.532, "lng": -71.9675 },
+    "heroImage": "/images/destinations/cusco.jpg",
+    "budgetTier": 1,
+    "bestMonths": [4, 5, 6, 7, 8, 9, 10],
+    "flightCost": "$400-700",
+    "pointsTip": "LATAM via British Airways Avios at 50k round-trip to Lima. Budget carriers fly Lima to Cusco from $40.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Cusco Historic Center (acclimate!)",
+        "activities": [
+          "Take it slow on day one — you're at 3,400m (11,150ft) elevation",
+          "Walk the Plaza de Armas and visit the Qorikancha (Inca Temple of the Sun)",
+          "Drink coca tea to help with altitude and explore the San Pedro Market",
+          "Gentle evening at Limbus rooftop bar with pisco sours and city views"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Sacred Valley",
+        "activities": [
+          "Day trip to the Sacred Valley — start at Pisac's Inca ruins and artisan market",
+          "Visit the circular Inca agricultural terraces of Moray",
+          "Explore the Maras salt mines — thousands of salt ponds cascading down a hillside",
+          "Dinner at Mil, Virgilio Martínez's restaurant at 3,568m serving hyper-local Andean cuisine"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Machu Picchu",
+        "activities": [
+          "Early train from Ollantaytambo to Aguas Calientes (book PeruRail or IncaRail)",
+          "Bus up to Machu Picchu for sunrise — enter through the Sun Gate",
+          "Guided tour of the citadel, Intihuatana stone, and Temple of the Sun",
+          "Optional Huayna Picchu climb for aerial views of the ruins below"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Rainbow Mountain or Cusco Exploration",
+        "activities": [
+          "Option A: Hike to Vinicunca (Rainbow Mountain) at 5,200m — stunning striped geology",
+          "Option B: Explore Cusco's lesser-known sites — Sacsayhuamán fortress and the bohemian San Blas quarter",
+          "Lunch at Chicha by Gastón Acurio for modern Peruvian in a colonial courtyard",
+          "Farewell dinner at MAP Café inside the Pre-Columbian Art Museum"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Stand atop Machu Picchu as the clouds part at sunrise",
+      "Explore the Sacred Valley's Inca ruins and salt mines",
+      "Taste modern Andean cuisine at world-class restaurants",
+      "Hike to the surreal Rainbow Mountain"
+    ],
+    "vibeTags": ["adventure", "cultural", "nature"],
+    "language": "Spanish",
+    "englishFriendly": true,
+    "description": "Cusco was the navel of the Inca Empire, and its magic endures — cobblestone streets built atop Inca stone walls, cloud forests hiding lost citadels, and a food scene that's transforming Andean ingredients into world-class cuisine. Machu Picchu is the headline act, but the Sacred Valley and the city itself are equally unforgettable.",
+    "visaNote": "US citizens get 183 days visa-free."
+  },
+  {
+    "slug": "rio-de-janeiro",
+    "name": "Rio de Janeiro",
+    "country": "Brazil",
+    "flag": "🇧🇷",
+    "continent": "south-america",
+    "coordinates": { "lat": -22.9068, "lng": -43.1729 },
+    "heroImage": "/images/destinations/rio-de-janeiro.jpg",
+    "budgetTier": 2,
+    "bestMonths": [3, 4, 5, 9, 10, 11],
+    "flightCost": "$500-900",
+    "pointsTip": "LATAM Pass awards from 60k miles round-trip. Also check Avianca LifeMiles for Star Alliance partners.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Christ the Redeemer & Santa Teresa",
+        "activities": [
+          "Morning cog railway up Corcovado to Christ the Redeemer — arrive early for clear views",
+          "Explore the bohemian Santa Teresa neighborhood and its street art",
+          "Lunch at Bar do Mineiro for feijoada — Brazil's iconic black bean and pork stew",
+          "Walk the colorful Selarón Steps connecting Lapa to Santa Teresa"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Sugarloaf & Beaches",
+        "activities": [
+          "Cable car to the top of Sugarloaf Mountain for panoramic bay views",
+          "Spend the afternoon on Copacabana and Ipanema beaches",
+          "Fresh açaí bowl and agua de coco from a beach vendor",
+          "Sunset at Arpoador Rock watching the sun dip behind Dois Irmãos mountains"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Lapa & Local Culture",
+        "activities": [
+          "Morning at the Botanical Garden (Jardim Botânico) — 140 acres of tropical plants",
+          "Lunch at Olympe for refined Brazilian cuisine by Claude Troisgros",
+          "Afternoon exploring the Museu de Arte do Rio (MAR)",
+          "Night out in Lapa — samba clubs, caipirinhas, and live music at Rio Scenarium"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Stand at the feet of Christ the Redeemer atop Corcovado",
+      "Watch the sunset from Arpoador Rock between Copacabana and Ipanema",
+      "Dance samba in the streets of Lapa on a Friday night",
+      "Ride the cable car to the summit of Sugarloaf Mountain"
+    ],
+    "vibeTags": ["beach", "nightlife", "cultural", "adventure"],
+    "language": "Portuguese",
+    "englishFriendly": false,
+    "description": "Rio de Janeiro is nature showing off — granite peaks erupting from tropical forest, golden beaches curving between dramatic headlands, and a giant Christ statue surveying it all with open arms. The city pulses with samba, caipirinhas flow freely, and Cariocas treat every sunset like a celebration.",
+    "visaNote": "US citizens need an e-visa — apply online before departure ($80, valid for up to 5 years)."
+  },
+  {
+    "slug": "medellin",
+    "name": "Medellín",
+    "country": "Colombia",
+    "flag": "🇨🇴",
+    "continent": "south-america",
+    "coordinates": { "lat": 6.2476, "lng": -75.5658 },
+    "heroImage": "/images/destinations/medellin.jpg",
+    "budgetTier": 1,
+    "bestMonths": [1, 2, 3, 7, 8, 12],
+    "flightCost": "$300-600",
+    "pointsTip": "Spirit Airlines often has rock-bottom fares from Fort Lauderdale. Also Avianca via 30k LifeMiles round-trip.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "El Poblado & City Center",
+        "activities": [
+          "Morning at Plaza Botero to see Fernando Botero's oversized bronze sculptures",
+          "Ride the MetroCable gondola up to Santo Domingo for hillside community views",
+          "Lunch at Mondongo's for bandeja paisa — Colombia's hearty national platter",
+          "Explore the Museo de Antioquia for more Botero works and Colombian art"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Comuna 13 & Coffee",
+        "activities": [
+          "Join a graffiti tour of Comuna 13 — once the most dangerous neighborhood, now a vibrant open-air gallery",
+          "Ride the outdoor escalators that transformed the community",
+          "Afternoon Colombian coffee tasting at Pergamino Café in El Poblado",
+          "Evening food and nightlife along Parque Lleras"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Guatapé Day Trip",
+        "activities": [
+          "Day trip to Guatapé — climb the 740 steps of El Peñol rock for breathtaking reservoir views",
+          "Explore the colorful zócalos (painted base panels) on Guatapé's charming main street",
+          "Lunch of trout fresh from the reservoir at a lakeside restaurant",
+          "Return to Medellín for a farewell dinner at El Cielo for avant-garde Colombian cuisine"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Take the graffiti tour of the transformed Comuna 13",
+      "Climb the 740 steps of El Peñol rock in Guatapé",
+      "Ride the MetroCable gondola for valley views",
+      "Experience Medellín's legendary nightlife in El Poblado"
+    ],
+    "vibeTags": ["cultural", "budget", "nightlife", "adventure"],
+    "language": "Spanish",
+    "englishFriendly": true,
+    "description": "Medellín's transformation from one of the world's most dangerous cities to one of its most innovative is nothing short of extraordinary. The City of Eternal Spring sits in a lush valley with year-round 75°F weather, a thriving food and nightlife scene, and a creative energy powered by resilience and reinvention.",
+    "visaNote": "US citizens get 90 days visa-free."
+  },
+  {
+    "slug": "marrakech",
+    "name": "Marrakech",
+    "country": "Morocco",
+    "flag": "🇲🇦",
+    "continent": "africa",
+    "coordinates": { "lat": 31.6295, "lng": -7.9811 },
+    "heroImage": "/images/destinations/marrakech.jpg",
+    "budgetTier": 1,
+    "bestMonths": [3, 4, 5, 10, 11],
+    "flightCost": "$400-800",
+    "pointsTip": "Royal Air Maroc joined Oneworld — book via Alaska or British Airways from 25k Avios one-way.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Medina & Souks",
+        "activities": [
+          "Plunge into the labyrinthine souks from Jemaa el-Fnaa square",
+          "Visit the Ben Youssef Madrasa, a masterpiece of Islamic architecture",
+          "Lunch at Nomad for modern Moroccan cuisine with rooftop terrace views",
+          "Return to Jemaa el-Fnaa at dusk for the nightly spectacle of storytellers, musicians, and food stalls"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Gardens & Palaces",
+        "activities": [
+          "Morning at Jardin Majorelle — Yves Saint Laurent's cobalt blue botanical garden",
+          "Visit the adjacent YSL Museum Marrakech",
+          "Explore the Bahia Palace and its stunning zellige tilework",
+          "Afternoon hammam experience at a traditional bathhouse like Heritage Spa"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Atlas Mountains Day Trip",
+        "activities": [
+          "Drive into the High Atlas Mountains to the Ourika Valley",
+          "Hike to the Setti Fatma waterfalls with a local Berber guide",
+          "Lunch at a Berber village home — tagine cooked over coals",
+          "Return for a farewell dinner at Al Fassia, a women-run Moroccan fine dining institution"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Get lost (literally) in the medina's ancient souks",
+      "Watch Jemaa el-Fnaa come alive at sunset",
+      "Stay in a gorgeous traditional riad with a courtyard fountain",
+      "Hike the Atlas Mountains with Berber guides"
+    ],
+    "vibeTags": ["cultural", "budget", "adventure", "foodie"],
+    "language": "Arabic",
+    "englishFriendly": false,
+    "description": "Marrakech assaults the senses in the most magnificent way — the call to prayer echoing over terracotta rooftops, the smell of cumin and cedar in the souks, the kaleidoscopic tilework of ancient madrasas, and the theatrical chaos of Jemaa el-Fnaa square where North Africa puts on its nightly show.",
+    "visaNote": "US citizens get 90 days visa-free."
+  },
+  {
+    "slug": "cape-town",
+    "name": "Cape Town",
+    "country": "South Africa",
+    "flag": "🇿🇦",
+    "continent": "africa",
+    "coordinates": { "lat": -33.9249, "lng": 18.4241 },
+    "heroImage": "/images/destinations/cape-town.jpg",
+    "budgetTier": 2,
+    "bestMonths": [10, 11, 12, 1, 2, 3, 4],
+    "flightCost": "$600-1100",
+    "pointsTip": "Delta SkyMiles to CPT via Johannesburg from 60k miles round-trip. Also check United's South Africa routes.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Table Mountain & Waterfront",
+        "activities": [
+          "Morning cable car (or hike!) up Table Mountain for one of the world's great views",
+          "Explore the V&A Waterfront and the Zeitz Museum of Contemporary Art Africa",
+          "Lunch at the Neighbourgoods Market in Woodstock on Saturdays",
+          "Sunset at Signal Hill overlooking the Atlantic coastline"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Cape Peninsula Drive",
+        "activities": [
+          "Scenic drive along Chapman's Peak — one of the world's most dramatic coastal roads",
+          "Visit the penguin colony at Boulders Beach in Simon's Town",
+          "Drive to Cape Point and hike to the lighthouse at the edge of the continent",
+          "Return via Kalk Bay for fish and chips at Kalky's on the harbor"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Winelands & Bo-Kaap",
+        "activities": [
+          "Morning walk through the colorful Bo-Kaap neighborhood and its Cape Malay heritage",
+          "Day trip to Stellenbosch and Franschhoek wine valleys",
+          "Lunch at Babylonstoren wine estate with farm-to-table dining",
+          "Wine tasting at Delaire Graff for Cabernet Sauvignon with mountain views"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Summit Table Mountain for a flat-top view of two oceans",
+      "Drive the Chapman's Peak coastal road",
+      "Visit the penguins at Boulders Beach",
+      "Taste world-class wines in Stellenbosch and Franschhoek",
+      "Walk the colorful streets of Bo-Kaap"
+    ],
+    "vibeTags": ["nature", "adventure", "foodie", "cultural"],
+    "language": "English",
+    "englishFriendly": true,
+    "description": "Cape Town might be the most dramatically beautiful city on Earth — a flat-topped mountain rising from the sea, penguins waddling on white-sand beaches, vineyards climbing into the mountains, and two oceans colliding at the continent's tip. The food and wine scene rivals Europe at half the price.",
+    "visaNote": "US citizens get 90 days visa-free."
+  },
+  {
+    "slug": "zanzibar",
+    "name": "Zanzibar",
+    "country": "Tanzania",
+    "flag": "🇹🇿",
+    "continent": "africa",
+    "coordinates": { "lat": -6.1659, "lng": 39.1989 },
+    "heroImage": "/images/destinations/zanzibar.jpg",
+    "budgetTier": 1,
+    "bestMonths": [1, 2, 6, 7, 8, 9, 10],
+    "flightCost": "$600-1000",
+    "pointsTip": "Ethiopian Airlines via Addis Ababa from 60k Star Alliance miles round-trip. Great stopover option.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Stone Town Heritage",
+        "activities": [
+          "Explore the UNESCO-listed Stone Town — a maze of narrow alleys and carved wooden doors",
+          "Visit the House of Wonders and the Old Fort",
+          "Lunch at Lukmaan Restaurant for authentic Zanzibari biryani and pilau",
+          "Evening at Forodhani Gardens night market for Zanzibar pizza and grilled seafood"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Spice Tour & Beaches",
+        "activities": [
+          "Morning spice farm tour — taste clove, vanilla, cinnamon, and nutmeg fresh from the trees",
+          "Head to the east coast beaches — Nungwi or Paje for powder-white sand",
+          "Afternoon kitesurfing at Paje Beach (Zanzibar is a world-class spot)",
+          "Sunset dhow sailing cruise off the coast"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Prison Island & Snorkeling",
+        "activities": [
+          "Boat to Prison Island to meet the giant Aldabra tortoises (some over 100 years old)",
+          "Snorkeling trip to Mnemba Atoll — coral gardens with dolphins and tropical fish",
+          "Lunch at The Rock Restaurant, perched on a tiny rock in the Indian Ocean",
+          "Farewell seafood dinner at Emerson Spice rooftop with Stone Town views"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Wander the atmospheric alleyways of Stone Town",
+      "Snorkel the pristine reefs of Mnemba Atoll",
+      "Eat at The Rock Restaurant in the middle of the ocean",
+      "Take a spice farm tour and taste fresh tropical spices"
+    ],
+    "vibeTags": ["beach", "cultural", "adventure", "budget"],
+    "language": "Swahili",
+    "englishFriendly": true,
+    "description": "Zanzibar is the spice island of your daydreams — Stone Town's labyrinth of ancient coral-stone buildings opens onto beaches so white they hurt your eyes, with turquoise water stretching to the horizon. The air smells of cloves and grilled seafood, dhows dot the sunset, and the pace of life slows to an island crawl.",
+    "visaNote": "US citizens need a visa on arrival ($50) or an e-visa applied in advance."
+  },
+  {
+    "slug": "nairobi",
+    "name": "Nairobi",
+    "country": "Kenya",
+    "flag": "🇰🇪",
+    "continent": "africa",
+    "coordinates": { "lat": -1.2921, "lng": 36.8219 },
+    "heroImage": "/images/destinations/nairobi.jpg",
+    "budgetTier": 2,
+    "bestMonths": [1, 2, 6, 7, 8, 9],
+    "flightCost": "$600-1000",
+    "pointsTip": "Kenya Airways via Amsterdam on 60k Flying Blue miles round-trip. Transfer from Chase, Amex, or Citi.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Nairobi National Park & Elephants",
+        "activities": [
+          "Early morning game drive in Nairobi National Park — lions, rhinos, and giraffes with the city skyline behind them",
+          "Visit the David Sheldrick Elephant Trust during the 11AM orphan feeding",
+          "Lunch at Carnivore Restaurant for their famous game meat nyama choma",
+          "Afternoon at the Giraffe Centre in Langata to hand-feed endangered Rothschild's giraffes"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Culture & Food Scene",
+        "activities": [
+          "Morning at the Karen Blixen Museum (Out of Africa) in the leafy Karen neighborhood",
+          "Explore the vibrant Maasai Market for beadwork, carvings, and textiles",
+          "Lunch at Mama Oliech for the city's best fried tilapia and ugali",
+          "Evening at Alchemist Bar in Westlands for Nairobi's buzzing nightlife scene"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day Trip to Lake Naivasha or the Rift Valley",
+        "activities": [
+          "Drive to Lake Naivasha in the Great Rift Valley",
+          "Boat ride among hippos and fish eagles on the lake",
+          "Hike in Hell's Gate National Park — bike or walk among zebras and giraffes",
+          "Return to Nairobi for a farewell dinner at Talisman in Karen"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Hand-feed giraffes at the Giraffe Centre",
+      "See lions against the Nairobi skyline in Nairobi National Park",
+      "Adopt a baby elephant at the Sheldrick Trust",
+      "Use Nairobi as a gateway to the Masai Mara safari"
+    ],
+    "vibeTags": ["nature", "adventure", "cultural"],
+    "language": "Swahili",
+    "englishFriendly": true,
+    "description": "Nairobi is the only capital city in the world with a national park inside its borders — you can watch lions hunt with skyscrapers in the background. Beyond the safari gateway, it's a booming tech hub with a food scene that spans nyama choma joints to innovative fine dining, and the energy of an African metropolis on the rise.",
+    "visaNote": "US citizens need an e-visa — apply at least 3 days before departure ($51)."
+  },
+  {
+    "slug": "sydney",
+    "name": "Sydney",
+    "country": "Australia",
+    "flag": "🇦🇺",
+    "continent": "oceania",
+    "coordinates": { "lat": -33.8688, "lng": 151.2093 },
+    "heroImage": "/images/destinations/sydney.jpg",
+    "budgetTier": 3,
+    "bestMonths": [10, 11, 12, 1, 2, 3],
+    "flightCost": "$800-1500",
+    "pointsTip": "Qantas awards from 60k points one-way in economy. Also check ANA for 55k miles round-trip on partner carriers.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Harbour Icons",
+        "activities": [
+          "Walk across the Sydney Harbour Bridge (or do the BridgeClimb for the full experience)",
+          "Tour the Sydney Opera House — book a backstage access pass",
+          "Lunch at Quay overlooking the harbour for Peter Gilmore's acclaimed cuisine",
+          "Ferry to Manly Beach for afternoon surfing and the Corso promenade"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Bondi to Coogee & Neighborhoods",
+        "activities": [
+          "Walk the famous Bondi to Coogee coastal walk — 6km of dramatic cliffside paths",
+          "Brunch at Bills in Surry Hills for the ricotta hotcakes that made Bill Granger famous",
+          "Explore the Rocks district and its weekend artisan markets",
+          "Sunset drinks at Opera Bar with the harbour bridge and Opera House glowing above"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Blue Mountains Day Trip",
+        "activities": [
+          "Train to the Blue Mountains — 90 minutes from the city",
+          "Hike to the Three Sisters rock formation at Echo Point",
+          "Ride the world's steepest railway at Scenic World through ancient rainforest",
+          "Bushwalk through eucalyptus forests and waterfalls before returning to Sydney"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Walk (or climb) the Sydney Harbour Bridge",
+      "Surf at Bondi Beach and walk the coastal trail to Coogee",
+      "See a performance inside the Sydney Opera House",
+      "Day trip to the Blue Mountains for bushwalking",
+      "Eat world-class brunch — Sydney invented modern brunch culture"
+    ],
+    "vibeTags": ["beach", "adventure", "foodie"],
+    "language": "English",
+    "englishFriendly": true,
+    "description": "Sydney is the city that has it all — a glittering harbour framed by the world's most recognizable opera house and bridge, golden beaches minutes from the CBD, and a laid-back outdoor lifestyle that makes every other city feel like it's trying too hard. The brunch scene alone is worth the long flight.",
+    "visaNote": "US citizens need an ETA (Electronic Travel Authority) — apply online before departure ($20 AUD)."
+  },
+  {
+    "slug": "queenstown",
+    "name": "Queenstown",
+    "country": "New Zealand",
+    "flag": "🇳🇿",
+    "continent": "oceania",
+    "coordinates": { "lat": -45.0312, "lng": 168.6626 },
+    "heroImage": "/images/destinations/queenstown.jpg",
+    "budgetTier": 2,
+    "bestMonths": [12, 1, 2, 3, 6, 7, 8, 9],
+    "flightCost": "$800-1400",
+    "pointsTip": "Air New Zealand awards from 40k Aeroplan miles one-way. Also check United at 40k Saver miles via Auckland.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Lake Wakatipu & Town",
+        "activities": [
+          "Ride the Skyline Gondola for panoramic views of the Remarkables mountain range",
+          "Luge down the mountain on the Skyline track",
+          "Lunch at Fergburger — the legendary burger joint with a permanent queue",
+          "Afternoon cruise on the vintage TSS Earnslaw steamship across Lake Wakatipu"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "activities": [
+          "Morning bungee jump at the original Kawarau Bridge (or Nevis for the extreme version)",
+          "Jet boat ride through the narrow Shotover River canyons",
+          "Afternoon skydiving over the lake and mountains (or scenic helicopter flight)",
+          "Relaxing evening at Onsen Hot Pools with mountain views"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Milford Sound Day Trip",
+        "activities": [
+          "Drive or fly to Milford Sound through some of New Zealand's most dramatic scenery",
+          "Cruise the full length of the fiord past waterfalls, rainforest, and seal colonies",
+          "Watch for dolphins and Fiordland crested penguins",
+          "Return via the Mirror Lakes and Eglinton Valley"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Bungee jump at the birthplace of commercial bungee",
+      "Cruise the majestic Milford Sound fiord",
+      "Ski the Remarkables or Coronet Peak in winter",
+      "Skydive over the lake with mountain panoramas"
+    ],
+    "vibeTags": ["adventure", "nature"],
+    "language": "English",
+    "englishFriendly": true,
+    "description": "Queenstown is the adventure capital of the world, perched on the shores of a glacial lake with jagged mountains rising on every side. It's where bungee jumping was invented, jet boats were perfected, and the scenery is so dramatic that Peter Jackson chose it for Middle-earth. Come for the adrenaline, stay for the pinot noir.",
+    "visaNote": "US citizens get 90 days visa-free with an NZeTA ($12 NZD, apply before departure)."
+  },
+  {
+    "slug": "fiji",
+    "name": "Fiji",
+    "country": "Fiji",
+    "flag": "🇫🇯",
+    "continent": "oceania",
+    "coordinates": { "lat": -17.7134, "lng": 178.065 },
+    "heroImage": "/images/destinations/fiji.jpg",
+    "budgetTier": 2,
+    "bestMonths": [5, 6, 7, 8, 9, 10],
+    "flightCost": "$700-1200",
+    "pointsTip": "Fiji Airways partners with Alaska and Qantas. Use 55k Alaska miles round-trip from LAX. Also check Wyndham points for resorts.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Island Welcome",
+        "activities": [
+          "Arrive in Nadi and transfer to the Mamanuca or Yasawa Islands by boat or seaplane",
+          "Traditional kava welcome ceremony at your resort or village",
+          "Afternoon snorkel on the house reef — Fiji has some of the world's best soft coral",
+          "Sunset dinner on the beach with fresh kokoda (Fijian ceviche)"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Island Hopping & Marine Life",
+        "activities": [
+          "Island-hopping boat tour to the Mamanuca chain",
+          "Snorkel or dive the Rainbow Reef — known as the 'Soft Coral Capital of the World'",
+          "Visit Cloud 9, a floating bar and pizzeria in the middle of the ocean",
+          "Afternoon village visit to learn about Fijian culture and traditions"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Waterfalls & Relaxation",
+        "activities": [
+          "If on Viti Levu: hike to the Tavoro Waterfalls in Bouma National Heritage Park on Taveuni",
+          "Traditional Fijian lovo feast — food cooked underground in earth ovens",
+          "Afternoon kayaking through mangrove channels",
+          "Final evening beach bonfire under the Southern Cross stars"
+        ]
+      }
+    ],
+    "topThingsToDo": [
+      "Snorkel the soft coral capital of the world",
+      "Experience a traditional kava ceremony",
+      "Island-hop between the Mamanuca and Yasawa chains",
+      "Relax on beaches that define tropical paradise"
+    ],
+    "vibeTags": ["beach", "nature", "romantic", "family"],
+    "language": "English",
+    "englishFriendly": true,
+    "description": "Fiji is 333 islands of pure tropical bliss — warm turquoise waters teeming with the world's most colorful soft coral, palm-fringed beaches that look computer-generated, and a culture built on the word 'bula' and the genuine warmth behind it. Fijians are consistently ranked among the friendliest people on Earth, and five minutes here you'll understand why.",
+    "visaNote": "US citizens get 4 months visa-free on arrival."
+  }
+]

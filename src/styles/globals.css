@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  /* Golden Hour Palette */
+  --color-warm-50: #FFFBF5;
+  --color-warm-100: #FFF7ED;
+  --color-warm-200: #FEF0DB;
+
+  --color-amber-300: #FDE68A;
+  --color-amber-400: #FCD34D;
+  --color-amber-500: #F59E0B;
+  --color-amber-600: #D97706;
+
+  --color-orange-500: #F97316;
+  --color-orange-600: #EA580C;
+
+  --color-stone-100: #F5F5F4;
+  --color-stone-200: #E7E5E4;
+  --color-stone-300: #D6D3D1;
+  --color-stone-400: #A8A29E;
+  --color-stone-500: #78716C;
+  --color-stone-600: #57534E;
+  --color-stone-800: #292524;
+  --color-stone-900: #1C1917;
+
+  /* Typography */
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'Instrument Sans', system-ui, sans-serif;
+}
+
+/* Base styles */
+body {
+  background-color: #FFFBF5;
+  color: #1C1917;
+  font-family: var(--font-sans);
+}
+
+/* Paper texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.015'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Scroll progress bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(to right, #F59E0B, #EA580C);
+  z-index: 50;
+  transition: width 0.1s linear;
+}
+
+/* Card entry animation - zero JS */
+@supports (transition-behavior: allow-discrete) {
+  .destination-card {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+
+    @starting-style {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+  }
+}
+
+/* View transition defaults */
+::view-transition-group(*) {
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .destination-card {
+    transition: none !important;
+  }
+
+  ::view-transition-group(*) {
+    animation-duration: 0.01ms !important;
+  }
+}
