@@ -17,16 +17,16 @@ const sans = Instrument_Sans({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://wherenexttrip.com'),
+  metadataBase: new URL('https://whatsnext.travel'),
   title: {
-    default: 'Where Next Trip — Discover Your Next Travel Destination',
-    template: '%s | Where Next Trip',
+    default: "What's Next — Discover Your Next Travel Destination",
+    template: "%s | What's Next",
   },
   description:
     'Explore curated travel destinations worldwide. Filter by budget, vibe, weather, and more. Find your next adventure with insider guides and travel tips.',
   openGraph: {
     type: 'website',
-    siteName: 'Where Next Trip',
+    siteName: "What's Next",
     locale: 'en_US',
   },
   twitter: {

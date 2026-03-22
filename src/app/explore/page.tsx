@@ -24,7 +24,7 @@ export default function ExplorePage() {
           Explore Destinations
         </h1>
         <p className="font-sans text-sm text-stone-400 mt-1">
-          65 handpicked places to inspire your next trip
+          65+ handpicked destinations to inspire your next trip
         </p>
       </div>
 

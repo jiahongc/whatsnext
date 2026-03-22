@@ -6,8 +6,8 @@ export function DestinationJsonLd({ destination }: { destination: Destination })
     '@type': 'TouristDestination',
     name: destination.name,
     description: destination.description,
-    image: `https://wherenexttrip.com${destination.heroImage}`,
-    url: `https://wherenexttrip.com/destination/${destination.slug}`,
+    image: `https://whatsnext.travel${destination.heroImage}`,
+    url: `https://whatsnext.travel/destination/${destination.slug}`,
     geo: {
       '@type': 'GeoCoordinates',
       latitude: destination.coordinates.lat,
@@ -35,19 +35,19 @@ export function DestinationJsonLd({ destination }: { destination: Destination })
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://wherenexttrip.com',
+        item: 'https://whatsnext.travel',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Explore',
-        item: 'https://wherenexttrip.com/explore',
+        item: 'https://whatsnext.travel/explore',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: destination.name,
-        item: `https://wherenexttrip.com/destination/${destination.slug}`,
+        item: `https://whatsnext.travel/destination/${destination.slug}`,
       },
     ],
   }

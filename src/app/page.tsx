@@ -51,7 +51,7 @@ export default function HomePage() {
       {/* Content overlay */}
       <div className="relative z-10 text-center px-6 max-w-2xl">
         <h1 className="font-serif text-6xl md:text-8xl text-white mb-3 tracking-tight leading-none">
-          Where Next?
+          What&apos;s Next?
         </h1>
         <p className="font-sans text-lg md:text-xl text-stone-300/90 mb-10 max-w-md mx-auto">
           Discover your next travel destination.

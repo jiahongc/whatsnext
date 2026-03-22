@@ -89,7 +89,7 @@ export default async function Image({
             marginTop: 16,
           }}
         >
-          wherenexttrip.com
+          whatsnext.travel
         </div>
       </div>
     ),

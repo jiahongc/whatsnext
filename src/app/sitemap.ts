@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 import destinations from '@/data/destinations.json'
 
-const BASE_URL = 'https://wherenexttrip.com'
+const BASE_URL = 'https://whatsnext.travel'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const destinationEntries: MetadataRoute.Sitemap = destinations.map((d) => ({

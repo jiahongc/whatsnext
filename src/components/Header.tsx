@@ -8,7 +8,7 @@ export function Header() {
           href="/"
           className="font-serif text-xl text-stone-900 hover:text-amber-600 transition-colors"
         >
-          Where Next?
+          What&apos;s Next
         </Link>
         <nav className="flex items-center gap-6">
           <Link
