@@ -64,7 +64,7 @@ export default async function DestinationPage({
       <main className="min-h-screen bg-warm-50 relative z-10">
         {/* Back link */}
         <div className="absolute top-4 left-4 z-30">
-          <Link href="/explore" className="flex items-center gap-1.5 text-sm font-sans text-white/80 hover:text-white bg-stone-900/30 backdrop-blur-sm px-3 py-1.5 rounded transition-colors">
+          <Link href="/" className="flex items-center gap-1.5 text-sm font-sans text-white/80 hover:text-white bg-stone-900/30 backdrop-blur-sm px-3 py-1.5 rounded transition-colors">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>

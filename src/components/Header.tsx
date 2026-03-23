@@ -12,7 +12,7 @@ export function Header() {
         </Link>
         <nav className="flex items-center gap-6">
           <Link
-            href="/explore"
+            href="/"
             className="font-sans text-sm text-stone-600 hover:text-stone-900 transition-colors"
           >
             Explore
