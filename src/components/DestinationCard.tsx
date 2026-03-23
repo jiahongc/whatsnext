@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import type { Destination } from '@/data/types'
-import { PEXELS_PHOTOS } from '@/data/pexels-photos'
+import { getCardImage } from '@/data/card-images'
 import { formatBestMonths } from '@/lib/constants'
 
 export function DestinationCard({
@@ -9,8 +9,8 @@ export function DestinationCard({
 }: {
   destination: Destination
 }) {
-  const photos = PEXELS_PHOTOS[destination.slug]
-  const imageUrl = photos?.[0]?.url
+  const cardImage = getCardImage(destination.slug)
+  const imageUrl = cardImage?.url
 
   return (
     <Link
