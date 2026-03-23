@@ -6,7 +6,7 @@ import type { Destination } from '@/data/types'
 import { MICHELIN_RESTAURANTS, LOCAL_FOOD_RECS } from '@/data/michelin-restaurants'
 import { formatBestMonths } from '@/lib/constants'
 import { DestinationHero } from '@/components/destination/DestinationHero'
-import { CityDescription } from '@/components/destination/CityDescription'
+import { CityGuideSection } from '@/components/destination/CityGuideSection'
 import { ItinerarySection } from '@/components/destination/ItinerarySection'
 import { PointsSection } from '@/components/destination/PointsSection'
 import { RedditSection } from '@/components/destination/RedditSection'
@@ -78,10 +78,11 @@ export default async function DestinationPage({
         <div className="max-w-4xl mx-auto px-6 py-8 space-y-10">
 
           {/* ── ABOUT ── */}
-          <CityDescription
-            description={d.description}
+          <CityGuideSection
+            cityName={d.name}
             tagline={d.tagline}
-            extendedDescription={d.extendedDescription}
+            description={d.description}
+            guide={d.cityGuide}
             vibeTags={d.vibeTags}
           />
 

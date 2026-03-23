@@ -76,6 +76,15 @@ body::before {
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Scrollbar hiding for horizontal scrolls */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .destination-card {
@@ -84,5 +93,12 @@ body::before {
 
   ::view-transition-group(*) {
     animation-duration: 0.01ms !important;
+  }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 640px) {
+  .destination-card {
+    border-radius: 8px;
   }
 }

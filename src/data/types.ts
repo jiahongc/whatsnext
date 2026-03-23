@@ -18,7 +18,24 @@ export interface Destination {
   englishFriendly: boolean
   description: string
   tagline: string
-  extendedDescription: string
+  extendedDescription?: string
+  cityGuide: {
+    quickFacts: {
+      population: string
+      founded: string
+      knownFor: string
+      bestComparedTo: string
+      idealTripLength: string
+    }
+    overview: string
+    history: string
+    culture: string
+    neighborhoods: {
+      name: string
+      description: string
+      mustDo: string
+    }[]
+  }
   visaNote?: string
   cityInfo: CityInfo
   whereToStay: NeighborhoodRec[]
