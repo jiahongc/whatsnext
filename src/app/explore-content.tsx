@@ -8,6 +8,8 @@ import { FilterPanel } from '@/components/FilterPanel'
 import { SearchInput } from '@/components/SearchInput'
 import { SortDropdown } from '@/components/SortDropdown'
 import { DestinationGrid } from '@/components/DestinationGrid'
+import { CollectionRow } from '@/components/CollectionRow'
+import type { Collection } from '@/data/collections'
 import { DeparturePicker } from '@/components/DeparturePicker'
 
 export function ExploreContent({
@@ -16,6 +18,7 @@ export function ExploreContent({
   destinations: Destination[]
 }) {
   const [departureCity, setDepartureCity] = useState('')
+  const [activeCollection, setActiveCollection] = useState<Collection | null>(null)
 
   const [filters, setFilters] = useQueryStates(
     {
@@ -52,6 +55,25 @@ export function ExploreContent({
       ;(document as unknown as { startViewTransition: (fn: () => void) => void }).startViewTransition(cb)
     } else {
       cb()
+    }
+  }
+
+  function handleCollectionSelect(collection: Collection | null) {
+    setActiveCollection(collection)
+    if (collection) {
+      withViewTransition(() => {
+        setFilters({
+          continent: collection.filter.continents || [],
+          budget: collection.filter.budgetTiers?.map(String) || [],
+          vibe: collection.filter.vibes || [],
+          english: collection.filter.englishFriendly || false,
+          month: [],
+        })
+      })
+    } else {
+      withViewTransition(() => {
+        setFilters({ continent: [], budget: [], vibe: [], month: [], english: false })
+      })
     }
   }
 
@@ -130,8 +152,33 @@ export function ExploreContent({
         }
       />
 
+      {/* Collections */}
+      <div className="max-w-7xl mx-auto px-6 pt-6 pb-2">
+        <CollectionRow
+          onSelect={handleCollectionSelect}
+          activeSlug={activeCollection?.slug || null}
+        />
+      </div>
+
+      {/* Active collection banner */}
+      {activeCollection && (
+        <div className="max-w-7xl mx-auto px-6 pb-2">
+          <div className="flex items-center gap-2 text-sm font-sans">
+            <span>{activeCollection.emoji}</span>
+            <span className="font-medium text-stone-900">{activeCollection.title}</span>
+            <span className="text-stone-400">— {activeCollection.subtitle}</span>
+            <button
+              onClick={() => handleCollectionSelect(null)}
+              className="ml-2 text-amber-600 hover:text-amber-700 cursor-pointer bg-transparent text-xs"
+            >
+              Clear
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Grid */}
-      <div className="max-w-7xl mx-auto px-6 py-8">
+      <div className="max-w-7xl mx-auto px-6 py-6">
         <DestinationGrid destinations={filtered} totalCount={destinations.length} />
       </div>
     </>
