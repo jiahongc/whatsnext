@@ -68,12 +68,14 @@ export function DeparturePicker({
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
         <span className="text-sm font-sans">
-          <span className="text-stone-400">Flying from </span>
           {value ? (
-            <span className="text-stone-900 font-medium">{value}</span>
+            <>
+              <span className="text-stone-500">Flying from </span>
+              <span className="text-stone-900 font-medium">{value}</span>
+            </>
           ) : (
-            <span className="text-amber-600 group-hover:text-amber-700 underline underline-offset-2 decoration-amber-300">
-              choose city
+            <span className="text-stone-500 group-hover:text-stone-700">
+              Where are you flying from?
             </span>
           )}
         </span>

@@ -16,8 +16,10 @@ import { MichelinSection } from '@/components/destination/MichelinSection'
 import { WhereToStaySection } from '@/components/destination/WhereToStaySection'
 import { CityFitSection } from '@/components/destination/CityFitSection'
 import { DestinationJsonLd } from '@/components/DestinationJsonLd'
+import { TripSummary } from '@/components/destination/TripSummary'
 import { MapLoader } from '@/components/destination/MapLoader'
 import { TravelFromBanner } from './travel-from-banner'
+import { GoogleFlightsLink } from './google-flights-link'
 
 const destinations = rawDestinations as Destination[]
 
@@ -56,8 +58,6 @@ export default async function DestinationPage({
 
   const michelinRestaurants = MICHELIN_RESTAURANTS[d.slug] || []
   const localFood = LOCAL_FOOD_RECS[d.slug] || []
-  const googleFlightsUrl = `https://www.google.com/travel/flights?q=flights+to+${encodeURIComponent(d.name)}+${encodeURIComponent(d.country)}`
-
   return (
     <>
       <DestinationJsonLd destination={d} />
@@ -76,6 +76,9 @@ export default async function DestinationPage({
         <DestinationHero destination={d} />
 
         <div className="max-w-4xl mx-auto px-6 py-8 space-y-10">
+
+          {/* ── TRIP SUMMARY (above the fold) ── */}
+          <TripSummary destination={d} />
 
           {/* ── ABOUT ── */}
           <CityGuideSection
@@ -100,7 +103,7 @@ export default async function DestinationPage({
           {/* ── PLAN YOUR TRIP (Google Flights + Points) ── */}
           <section className="space-y-4">
             <h2 className="font-serif text-2xl text-stone-900">Plan Your Trip</h2>
-            <GoogleFlightsLink destinationName={d.name} url={googleFlightsUrl} />
+            <GoogleFlightsLink destinationName={d.name} destinationCountry={d.country} />
             <PointsSection points={d.pointsAndMiles} />
           </section>
 
@@ -181,32 +184,6 @@ function FactItem({ label, value, sub }: { label: string; value: string; sub?: s
       <p className="text-stone-800 font-medium text-sm leading-tight">{value}</p>
       {sub && <p className="text-stone-400 text-[11px] mt-0.5">{sub}</p>}
     </div>
-  )
-}
-
-function GoogleFlightsLink({ destinationName, url }: { destinationName: string; url: string }) {
-  return (
-    <a
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center gap-3 bg-white border border-stone-200/80 rounded-lg px-4 py-3 hover:border-blue-300 hover:bg-blue-50/20 transition-colors group"
-    >
-      <div className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0">
-        <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-        </svg>
-      </div>
-      <div className="flex-1">
-        <p className="font-sans text-sm font-medium text-stone-900 group-hover:text-blue-600 transition-colors">
-          Search flights to {destinationName}
-        </p>
-        <p className="font-sans text-xs text-stone-400">Google Flights</p>
-      </div>
-      <svg className="w-4 h-4 text-stone-300 group-hover:text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-      </svg>
-    </a>
   )
 }
 
